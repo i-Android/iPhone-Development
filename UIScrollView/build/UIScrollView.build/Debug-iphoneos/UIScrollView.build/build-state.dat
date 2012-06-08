@@ -1,0 +1,335 @@
+TUIScrollView
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/Info.plist UIScrollView/UIScrollView-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/UIScrollView.app/ResourceRules.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch.pth UIScrollView/UIScrollView-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollView normal armv7
+cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app.dSYM /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollView
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPhone.storyboard
+cCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/en.lproj/InfoPlist.strings UIScrollView/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPad.storyboard
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView.xcent
+cCodeSign /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004FCED44600000000000001A7
+t1338954822
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004FCED44600000000000001E5
+t1338954822
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FCED44800000000003AE430
+t1338954824
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FCED448000000000052C940
+t1338954824
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FCED4490000000000798EA0
+t1338954825
+s7966368
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/AppDelegate.h
+c000000004FD27A560000000000000121
+t1339193942
+s289
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/AppDelegate.m
+c000000004FD27A560000000000000802
+t1339193942
+s2050
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/UIScrollView-Prefix.pch
+c000000004FD27A560000000000000147
+t1339193942
+s327
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/ViewController.h
+c000000004FD27CE80000000000000111
+t1339194600
+s273
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/ViewController.m
+c000000004FD27EC50000000000000375
+t1339195077
+s885
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/InfoPlist.strings
+c000000004FD27A56000000000000002D
+t1339193942
+s45
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPad.storyboard
+c000000004FD27A560000000000000645
+t1339193942
+s1605
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004FD27EEE000000000000194C
+t1339195118
+s6476
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/main.m
+c000000004FD27A56000000000000015C
+t1339193942
+s348
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app
+t1339195029
+s306
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app.dSYM
+t1339194967
+s102
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/Info.plist
+t1339194939
+s1291
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/PkgInfo
+t1339194939
+s8
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/ResourceRules.plist
+t1339194939
+s485
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollView
+t1339195029
+s23792
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/embedded.mobileprovision
+t1339194941
+s31163
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/en.lproj/InfoPlist.strings
+t1339194940
+s42
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1339194941
+s170
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1339195029
+s170
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/AppDelegate.o
+t1339194939
+s58820
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/UIScrollView.LinkFileList
+c000000004FD27E3B00000000000001D0
+t1339194939
+s464
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/ViewController.o
+t1339194939
+s47108
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/main.o
+t1339194939
+s3348
+
+N/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView.xcent
+t1339194941
+s404
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+c000000004FCE820400000000000079BB
+t1338933764
+s31163
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch.pth
+t1339194939
+s3969844
+
+NUIScrollView/UIScrollView-Info.plist
+c000000004FD27A56000000000000063E
+t1339193942
+s1598
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/AppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/ViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies42221171b682b541^a2611171b682b541^---0#1#0#--18"Check dependencies36"62465BF6-8FB0-4C58-86D6-11C9FE6DE6BC-
+
+CCodeSign /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app
+s360887921.360132
+e360887921.518685
+r1
+xCodeSign
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Debug-iphoneos/UIScrollView.appb7425c71b682b541^00c98471b682b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/0000000000000000^910"CodeSign build/Debug-iphoneos/UIScrollView.app    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 7344011f784bbee72fe0ecf6fab7216b10ae2b89 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView.xcent /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app36"ED6EA3E6-7F8B-4F8C-A27F-01DB2DEC4EDC-
+
+CCompileC build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360887739.668538
+e360887739.757169
+r1
+xCompileC
+xbuild/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/AppDelegate.m4279abbbb582b541^17d6c1bbb582b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/AppDelegate.m0000000000000000^3474"CompileC build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/AppDelegate.o UIScrollView/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/AppDelegate.o36"2D45E337-907E-48CA-B01D-B01FC743EC71-
+
+CCompileC build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360887921.088580
+e360887921.170428
+r1
+xCompileC
+xbuild/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/ViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/ViewController.mcec61671b682b541^f9a02b71b682b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/ViewController.m0000000000000000^3492"CompileC build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/ViewController.o UIScrollView/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/ViewController.o36"54C0E08A-A0C4-40C6-BF17-3BEA8CA367B6-
+
+CCompileC build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360887739.668512
+e360887739.746453
+r1
+xCompileC
+xbuild/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/main.m3e7aabbbb582b541^6a17bfbbb582b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/main.m0000000000000000^3432"CompileC build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/main.o UIScrollView/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/main.m -o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/main.o36"6D294404-99DC-429D-B433-BE9483DFC2E2-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPad.storyboard
+s360887740.977269
+e360887741.760564
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CompileStoryboard UIScrollView/en.lproj/MainStoryboard_iPad.storyboard0a4dfabcb582b541^77bfc2bdb582b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^970"CompileStoryboard UIScrollView/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"CF629E3D-9399-41A0-844A-DFA496F5155A-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPhone.storyboard
+s360887921.243629
+e360887921.308320
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"CompileStoryboard UIScrollView/en.lproj/MainStoryboard_iPhone.storyboardf4703e71b682b541^b7ee4e71b682b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^976"CompileStoryboard UIScrollView/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"ECD93E8A-E365-4B93-A589-1A52C917B6A6-
+
+CCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/en.lproj/InfoPlist.strings UIScrollView/en.lproj/InfoPlist.strings
+s360887740.977293
+e360887740.983675
+r1
+xCopyStringsFile
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/en.lproj/InfoPlist.strings
+xUIScrollView/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy UIScrollView/en.lproj/InfoPlist.stringse04afabcb582b541^5ddffbbcb582b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/en.lproj/InfoPlist.strings0000000000000000^620"CopyStringsFile build/Debug-iphoneos/UIScrollView.app/en.lproj/InfoPlist.strings UIScrollView/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/en.lproj -- UIScrollView/en.lproj/InfoPlist.strings36"D9A80B15-E50C-45E1-9B92-7C25D691CA1A-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/UIScrollView.app/ResourceRules.plist
+s360887739.291873
+e360887739.296165
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/UIScrollView.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/UIScrollView.app/ResourceRules.plist64cb4abbb582b541^fed14bbbb582b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/ResourceRules.plist000000000080d041^887"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/UIScrollView.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app36"FAF80DEF-DD9C-4E4B-B3FE-27914DA2A890-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app.dSYM /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollView
+s360887921.214818
+e360887921.235620
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app.dSYM
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollView
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Generating /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app.dSYMe50e3771b682b541^fc513c71b682b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app.dSYM/0000000000000000^653"GenerateDSYMFile build/Debug-iphoneos/UIScrollView.app.dSYM build/Debug-iphoneos/UIScrollView.app/UIScrollView    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollView -o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app.dSYM36"EB436070-E78F-4A3C-842B-86794050BFA9-
+
+CLd /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollView normal armv7
+s360887921.178272
+e360887921.207201
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollView
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollViewe9b52d71b682b541^4e0c3571b682b541^---0#0#0#--1164"Ld build/Debug-iphoneos/UIScrollView.app/UIScrollView normal armv7    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/Objects-normal/armv7/UIScrollView.LinkFileList -dead_strip -fobjc-arc -miphoneos-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/UIScrollView36"3FD95B0F-A6AE-4C1C-8F0C-B9E40130EC9E-
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/Info.plist UIScrollView/UIScrollView-Info.plist
+s360887739.291864
+e360887739.296289
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/Info.plist
+xUIScrollView/UIScrollView-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process UIScrollView/UIScrollView-Info.plist93c84abbb582b541^a9d94bbbb582b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/UIScrollView-Info.plist0000000000000000^858"ProcessInfoPlistFile build/Debug-iphoneos/UIScrollView.app/Info.plist UIScrollView/UIScrollView-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UIScrollView/UIScrollView-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/Info.plist36"8E3A5417-2005-4AA1-967D-7E5244826861-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/UIScrollView-amwykjctiisqbrdwjvekgsshjqaf/Index/PrecompiledHeaders/UIScrollView-Prefix-dtapthtybtoyfvdyufgnydczesla_ast/UIScrollView-Prefix.pch.pth UIScrollView/UIScrollView-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch.pth UIScrollView/UIScrollView-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360887739.304360
+e360887739.661690
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch.pth
+xUIScrollView/UIScrollView-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile UIScrollView/UIScrollView-Prefix.pchbf104ebbb582b541^5e65a9bbb582b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/UIScrollView-Prefix.pch0000000000000000^3445"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch.pth UIScrollView/UIScrollView-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/UIScrollView/UIScrollView/UIScrollView-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/UIScrollView-Prefix-dpuibgwxwwuvoabzkzmjgxhvwjsv/UIScrollView-Prefix.pch.d36"B911A640-B17F-4244-A1CC-5548B1F4D1EF-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/embedded.mobileprovision
+s360887741.787834
+e360887741.791143
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection204"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/UIScrollView.app/embedded.mobileprovisiona0c2c9bdb582b541^3598cabdb582b541^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/embedded.mobileprovision0000000000000000^744"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/UIScrollView.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" -o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app/embedded.mobileprovision36"DD04CDDC-8A67-43BD-90AF-1BA6A04AF173-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView.xcent
+s360887741.819148
+e360887741.822427
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection222"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView.xcentb4c9d1bdb582b541^4694d2bdb582b541^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView.xcent000000000080d041^806"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView.xcent    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/UIScrollView.build/Debug-iphoneos/UIScrollView.build/UIScrollView.xcent36"CDDEB487-0E57-4FC3-A8F0-72EF5BA9E131-
+
+CTouch /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app
+s360887921.332470
+e360887921.343986
+r1
+xTouch
+x/Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Touch /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app1b2b5571b682b541^dc0f5871b682b541^---0#0#0#--423"Touch build/Debug-iphoneos/UIScrollView.app    cd /Users/roberttilton/Documents/iPhone-Development/UIScrollView    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/UIScrollView/build/Debug-iphoneos/UIScrollView.app36"B1B3AAB4-919A-4D11-B217-7BDA5BB0F2DD-
+
