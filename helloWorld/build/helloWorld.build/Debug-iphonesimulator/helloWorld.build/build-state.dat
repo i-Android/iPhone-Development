@@ -1,0 +1,268 @@
+ThelloWorld
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/Info.plist helloWorld/helloWorld-Info.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch.pth helloWorld/helloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/main.o /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/AppDelegate.o /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/ViewController.o /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorld normal i386
+cGenerateDSYMFile /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app.dSYM /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorld
+cCopyStringsFile /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/en.lproj/InfoPlist.strings helloWorld/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPad.storyboard
+cCompileStoryboard /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPhone.storyboard
+cTouch /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004F219D5E0000000000000110
+t1327603038
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app
+t1338929002
+s204
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app.dSYM
+t1338912146
+s102
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/Info.plist
+t1338929002
+s1021
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/PkgInfo
+t1338929002
+s8
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/en.lproj/InfoPlist.strings
+t1338912146
+s42
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1338912146
+s170
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1338926034
+s170
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorld
+t1338912146
+s18544
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/AppDelegate.o
+t1338912145
+s49496
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/ViewController.o
+t1338912145
+s43512
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/helloWorld.LinkFileList
+c000000004FCE2D9000000000000001AC
+t1338912144
+s428
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/main.o
+t1338912145
+s2752
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/AppDelegate.h
+c000000004FCE23B2000000000000011F
+t1338909618
+s287
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/AppDelegate.m
+c000000004FCE23B20000000000000847
+t1338909618
+s2119
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/ViewController.h
+c000000004FCE2D8F0000000000000160
+t1338912143
+s352
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/ViewController.m
+c000000004FCE2D8F0000000000000592
+t1338912143
+s1426
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/InfoPlist.strings
+c000000004FCE23B2000000000000002D
+t1338909618
+s45
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPad.storyboard
+c000000004FCE23B20000000000000645
+t1338909618
+s1605
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004FCE2DFE00000000000010F4
+t1338912254
+s4340
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/helloWorld-Prefix.pch
+c000000004FCE23B20000000000000143
+t1338909618
+s323
+
+N/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/main.m
+c000000004FCE23B2000000000000015A
+t1338909618
+s346
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch.pth
+t1338912145
+s3914920
+
+NhelloWorld/helloWorld-Info.plist
+c000000004FCE682B0000000000000644
+t1338927147
+s1604
+
+CBuild AST from /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/AppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/ViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies265305f5a67eb541^78431af5a67eb541^---0#1#0#--18"Check dependencies36"6F096195-3AF1-43FE-9403-5FDEE17027A1-
+
+CCompileC build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/AppDelegate.o /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360604945.699418
+e360604945.797502
+r1
+xCompileC
+xbuild/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/AppDelegate.md924b311657eb541^be31cc11657eb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/AppDelegate.m0000000000000000^2844"CompileC build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/AppDelegate.o helloWorld/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/AppDelegate.d -c /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/AppDelegate.m -o /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/AppDelegate.o36"E522BF8A-EF82-41C3-9BF8-25A2BE99A3AA-
+
+CCompileC build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/ViewController.o /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360604945.699439
+e360604945.797470
+r1
+xCompileC
+xbuild/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/ViewController.o
+x/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/ViewController.mc329b311657eb541^af25cc11657eb541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/ViewController.m0000000000000000^2859"CompileC build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/ViewController.o helloWorld/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/ViewController.d -c /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/ViewController.m -o /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/ViewController.o36"B243462D-C166-4747-845F-7F3F296CB16C-
+
+CCompileC build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/main.o /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360604945.699352
+e360604945.765660
+r1
+xCompileC
+xbuild/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/main.o
+x/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/main.mbb27b311657eb541^d82bc411657eb541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/main.m0000000000000000^2809"CompileC build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/main.o helloWorld/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/main.d -c /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/main.m -o /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/main.o36"9F1CAC1F-DA27-40B0-BDBD-466A66A25929-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPad.storyboard
+s360604946.321502
+e360604946.619233
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPad.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard helloWorld/en.lproj/MainStoryboard_iPad.storyboard9d655212657eb541^16889e12657eb541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^790"CompileStoryboard helloWorld/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPad.storyboard --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"3E21BC40-954D-49C7-9BD5-8F358F313F8D-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPhone.storyboard
+s360618833.926252
+e360618834.645297
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CompileStoryboard helloWorld/en.lproj/MainStoryboard_iPhone.storyboardc559ed519b7eb541^ca31a5529b7eb541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^796"CompileStoryboard helloWorld/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"A4D41E43-74B7-40D0-9408-40ECAAC359F3-
+
+CCopyStringsFile /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/en.lproj/InfoPlist.strings helloWorld/en.lproj/InfoPlist.strings
+s360604946.321492
+e360604946.325873
+r1
+xCopyStringsFile
+x/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/en.lproj/InfoPlist.strings
+xhelloWorld/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy helloWorld/en.lproj/InfoPlist.strings84635212657eb541^7a6c5312657eb541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/en.lproj/InfoPlist.strings0000000000000000^541"CopyStringsFile build/Debug-iphonesimulator/helloWorld.app/en.lproj/InfoPlist.strings helloWorld/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/en.lproj -- helloWorld/en.lproj/InfoPlist.strings36"58F4942C-22CF-4305-88CD-6F66FBE4BAC9-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app.dSYM /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorld
+s360604946.273178
+e360604946.312652
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app.dSYM
+x/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorld
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Generating /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app.dSYM76fe4512657eb541^6c0a5012657eb541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app.dSYM00f40043dfffdf42^538"GenerateDSYMFile build/Debug-iphonesimulator/helloWorld.app.dSYM build/Debug-iphonesimulator/helloWorld.app/helloWorld    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorld -o /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app.dSYM36"5B5F1398-07D3-4168-B594-6670DA9C1976-
+
+CLd /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorld normal i386
+s360604945.804468
+e360604946.266199
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorld
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorldfb05cf11657eb541^d4284412657eb541^---0#0#0#--1108"Ld build/Debug-iphonesimulator/helloWorld.app/helloWorld normal i386    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator -F/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator -filelist /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/Objects-normal/i386/helloWorld.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/helloWorld36"7053AE72-C117-4464-8E43-DF9B95A77B72-
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/Info.plist helloWorld/helloWorld-Info.plist
+s360621802.363602
+e360621802.367322
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/Info.plist
+xhelloWorld/helloWorld-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process helloWorld/helloWorld-Info.plist4a285deaa67eb541^d5075eeaa67eb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/helloWorld-Info.plist0000000000000000^634"ProcessInfoPlistFile build/Debug-iphonesimulator/helloWorld.app/Info.plist helloWorld/helloWorld-Info.plist    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility helloWorld/helloWorld-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app/Info.plist36"4E8770CA-6B08-4E9C-9A70-843D390DBC91-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/helloWorld-bigwiupjkahjqrdhhvwmqpluejox/Index/PrecompiledHeaders/helloWorld-Prefix-dqcclwpnwbgwrggnwipeodpdwcfn_ast/helloWorld-Prefix.pch.pth helloWorld/helloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch.pth helloWorld/helloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360604944.100926
+e360604945.691776
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch.pth
+xhelloWorld/helloWorld-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile helloWorld/helloWorld-Prefix.pch2bfc1910657eb541^c617b111657eb541^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/helloWorld-Prefix.pch0000000000000000^2812"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch.pth helloWorld/helloWorld-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/helloWorld-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone/helloWorld/build/helloWorld.build/Debug-iphonesimulator/helloWorld.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator -c /Users/roberttilton/Documents/iPhone/helloWorld/helloWorld/helloWorld-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/helloWorld-Prefix-bytngauvbizmtwbrxijdoxiuvkld/helloWorld-Prefix.pch.d36"124B3FFA-3038-4B23-9CF1-ED3C459B9AC2-
+
+CTouch /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app
+s360621802.416427
+e360621802.451567
+r1
+xTouch
+x/Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.appb9a86aeaa67eb541^aa9b73eaa67eb541^---0#0#0#--348"Touch build/Debug-iphonesimulator/helloWorld.app    cd /Users/roberttilton/Documents/iPhone/helloWorld    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone/helloWorld/build/Debug-iphonesimulator/helloWorld.app36"3437EEA5-5B95-4F16-A7B8-F3F68415616F-
+

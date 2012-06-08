@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B29DC7981582323C003F475A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29DC7971582323C003F475A /* UIKit.framework */; };
+		B29DC79A1582323C003F475A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29DC7991582323C003F475A /* Foundation.framework */; };
+		B29DC79C1582323C003F475A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29DC79B1582323C003F475A /* CoreGraphics.framework */; };
+		B29DC7A21582323C003F475A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29DC7A01582323C003F475A /* InfoPlist.strings */; };
+		B29DC7A41582323C003F475A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DC7A31582323C003F475A /* main.m */; };
+		B29DC7A81582323C003F475A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DC7A71582323C003F475A /* AppDelegate.m */; };
+		B29DC7AB1582323C003F475A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29DC7A91582323C003F475A /* MainStoryboard_iPhone.storyboard */; };
+		B29DC7AE1582323C003F475A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29DC7AC1582323C003F475A /* MainStoryboard_iPad.storyboard */; };
+		B29DC7B11582323C003F475A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DC7B01582323C003F475A /* ViewController.m */; };
+		B29DC7B91582323C003F475A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29DC7B81582323C003F475A /* SenTestingKit.framework */; };
+		B29DC7BA1582323C003F475A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29DC7971582323C003F475A /* UIKit.framework */; };
+		B29DC7BB1582323C003F475A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29DC7991582323C003F475A /* Foundation.framework */; };
+		B29DC7C31582323C003F475A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29DC7C11582323C003F475A /* InfoPlist.strings */; };
+		B29DC7C61582323C003F475A /* pinup_image_maskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DC7C51582323C003F475A /* pinup_image_maskTests.m */; };
+		B29DC7D415823376003F475A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B29DC7D015823376003F475A /* bg.png */; };
+		B29DC7D515823376003F475A /* dress.png in Resources */ = {isa = PBXBuildFile; fileRef = B29DC7D115823376003F475A /* dress.png */; };
+		B29DC7D615823376003F475A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B29DC7D215823376003F475A /* icon.png */; };
+		B29DC7D715823376003F475A /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = B29DC7D315823376003F475A /* picture.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B29DC7BC1582323C003F475A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B29DC78A1582323C003F475A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B29DC7921582323C003F475A;
+			remoteInfo = "pinup-image-mask";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B29DC7931582323C003F475A /* pinup-image-mask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pinup-image-mask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29DC7971582323C003F475A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B29DC7991582323C003F475A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B29DC79B1582323C003F475A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B29DC79F1582323C003F475A /* pinup-image-mask-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pinup-image-mask-Info.plist"; sourceTree = "<group>"; };
+		B29DC7A11582323C003F475A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B29DC7A31582323C003F475A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B29DC7A51582323C003F475A /* pinup-image-mask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pinup-image-mask-Prefix.pch"; sourceTree = "<group>"; };
+		B29DC7A61582323C003F475A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B29DC7A71582323C003F475A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B29DC7AA1582323C003F475A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B29DC7AD1582323C003F475A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B29DC7AF1582323C003F475A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B29DC7B01582323C003F475A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B29DC7B71582323C003F475A /* pinup-image-maskTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pinup-image-maskTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29DC7B81582323C003F475A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B29DC7C01582323C003F475A /* pinup-image-maskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pinup-image-maskTests-Info.plist"; sourceTree = "<group>"; };
+		B29DC7C21582323C003F475A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B29DC7C41582323C003F475A /* pinup_image_maskTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pinup_image_maskTests.h; sourceTree = "<group>"; };
+		B29DC7C51582323C003F475A /* pinup_image_maskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pinup_image_maskTests.m; sourceTree = "<group>"; };
+		B29DC7D015823376003F475A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		B29DC7D115823376003F475A /* dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress.png; sourceTree = "<group>"; };
+		B29DC7D215823376003F475A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B29DC7D315823376003F475A /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B29DC7901582323C003F475A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29DC7981582323C003F475A /* UIKit.framework in Frameworks */,
+				B29DC79A1582323C003F475A /* Foundation.framework in Frameworks */,
+				B29DC79C1582323C003F475A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29DC7B31582323C003F475A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29DC7B91582323C003F475A /* SenTestingKit.framework in Frameworks */,
+				B29DC7BA1582323C003F475A /* UIKit.framework in Frameworks */,
+				B29DC7BB1582323C003F475A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B29DC7881582323C003F475A = {
+			isa = PBXGroup;
+			children = (
+				B29DC79D1582323C003F475A /* pinup-image-mask */,
+				B29DC7BE1582323C003F475A /* pinup-image-maskTests */,
+				B29DC7961582323C003F475A /* Frameworks */,
+				B29DC7941582323C003F475A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B29DC7941582323C003F475A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B29DC7931582323C003F475A /* pinup-image-mask.app */,
+				B29DC7B71582323C003F475A /* pinup-image-maskTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29DC7961582323C003F475A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B29DC7971582323C003F475A /* UIKit.framework */,
+				B29DC7991582323C003F475A /* Foundation.framework */,
+				B29DC79B1582323C003F475A /* CoreGraphics.framework */,
+				B29DC7B81582323C003F475A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B29DC79D1582323C003F475A /* pinup-image-mask */ = {
+			isa = PBXGroup;
+			children = (
+				B29DC7A61582323C003F475A /* AppDelegate.h */,
+				B29DC7A71582323C003F475A /* AppDelegate.m */,
+				B29DC7A91582323C003F475A /* MainStoryboard_iPhone.storyboard */,
+				B29DC7AC1582323C003F475A /* MainStoryboard_iPad.storyboard */,
+				B29DC7AF1582323C003F475A /* ViewController.h */,
+				B29DC7B01582323C003F475A /* ViewController.m */,
+				B29DC7CF15823376003F475A /* Resources */,
+				B29DC79E1582323C003F475A /* Supporting Files */,
+			);
+			path = "pinup-image-mask";
+			sourceTree = "<group>";
+		};
+		B29DC79E1582323C003F475A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B29DC79F1582323C003F475A /* pinup-image-mask-Info.plist */,
+				B29DC7A01582323C003F475A /* InfoPlist.strings */,
+				B29DC7A31582323C003F475A /* main.m */,
+				B29DC7A51582323C003F475A /* pinup-image-mask-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B29DC7BE1582323C003F475A /* pinup-image-maskTests */ = {
+			isa = PBXGroup;
+			children = (
+				B29DC7C41582323C003F475A /* pinup_image_maskTests.h */,
+				B29DC7C51582323C003F475A /* pinup_image_maskTests.m */,
+				B29DC7BF1582323C003F475A /* Supporting Files */,
+			);
+			path = "pinup-image-maskTests";
+			sourceTree = "<group>";
+		};
+		B29DC7BF1582323C003F475A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B29DC7C01582323C003F475A /* pinup-image-maskTests-Info.plist */,
+				B29DC7C11582323C003F475A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B29DC7CF15823376003F475A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B29DC7D015823376003F475A /* bg.png */,
+				B29DC7D115823376003F475A /* dress.png */,
+				B29DC7D215823376003F475A /* icon.png */,
+				B29DC7D315823376003F475A /* picture.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B29DC7921582323C003F475A /* pinup-image-mask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29DC7C91582323C003F475A /* Build configuration list for PBXNativeTarget "pinup-image-mask" */;
+			buildPhases = (
+				B29DC78F1582323C003F475A /* Sources */,
+				B29DC7901582323C003F475A /* Frameworks */,
+				B29DC7911582323C003F475A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pinup-image-mask";
+			productName = "pinup-image-mask";
+			productReference = B29DC7931582323C003F475A /* pinup-image-mask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B29DC7B61582323C003F475A /* pinup-image-maskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29DC7CC1582323C003F475A /* Build configuration list for PBXNativeTarget "pinup-image-maskTests" */;
+			buildPhases = (
+				B29DC7B21582323C003F475A /* Sources */,
+				B29DC7B31582323C003F475A /* Frameworks */,
+				B29DC7B41582323C003F475A /* Resources */,
+				B29DC7B51582323C003F475A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B29DC7BD1582323C003F475A /* PBXTargetDependency */,
+			);
+			name = "pinup-image-maskTests";
+			productName = "pinup-image-maskTests";
+			productReference = B29DC7B71582323C003F475A /* pinup-image-maskTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B29DC78A1582323C003F475A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B29DC78D1582323C003F475A /* Build configuration list for PBXProject "pinup-image-mask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B29DC7881582323C003F475A;
+			productRefGroup = B29DC7941582323C003F475A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B29DC7921582323C003F475A /* pinup-image-mask */,
+				B29DC7B61582323C003F475A /* pinup-image-maskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B29DC7911582323C003F475A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29DC7A21582323C003F475A /* InfoPlist.strings in Resources */,
+				B29DC7AB1582323C003F475A /* MainStoryboard_iPhone.storyboard in Resources */,
+				B29DC7AE1582323C003F475A /* MainStoryboard_iPad.storyboard in Resources */,
+				B29DC7D415823376003F475A /* bg.png in Resources */,
+				B29DC7D515823376003F475A /* dress.png in Resources */,
+				B29DC7D615823376003F475A /* icon.png in Resources */,
+				B29DC7D715823376003F475A /* picture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29DC7B41582323C003F475A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29DC7C31582323C003F475A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B29DC7B51582323C003F475A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B29DC78F1582323C003F475A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29DC7A41582323C003F475A /* main.m in Sources */,
+				B29DC7A81582323C003F475A /* AppDelegate.m in Sources */,
+				B29DC7B11582323C003F475A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29DC7B21582323C003F475A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29DC7C61582323C003F475A /* pinup_image_maskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B29DC7BD1582323C003F475A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B29DC7921582323C003F475A /* pinup-image-mask */;
+			targetProxy = B29DC7BC1582323C003F475A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B29DC7A01582323C003F475A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29DC7A11582323C003F475A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B29DC7A91582323C003F475A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29DC7AA1582323C003F475A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B29DC7AC1582323C003F475A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29DC7AD1582323C003F475A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B29DC7C11582323C003F475A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29DC7C21582323C003F475A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B29DC7C71582323C003F475A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B29DC7C81582323C003F475A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B29DC7CA1582323C003F475A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinup-image-mask/pinup-image-mask-Prefix.pch";
+				INFOPLIST_FILE = "pinup-image-mask/pinup-image-mask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B29DC7CB1582323C003F475A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinup-image-mask/pinup-image-mask-Prefix.pch";
+				INFOPLIST_FILE = "pinup-image-mask/pinup-image-mask-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B29DC7CD1582323C003F475A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pinup-image-mask.app/pinup-image-mask";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinup-image-mask/pinup-image-mask-Prefix.pch";
+				INFOPLIST_FILE = "pinup-image-maskTests/pinup-image-maskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B29DC7CE1582323C003F475A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pinup-image-mask.app/pinup-image-mask";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pinup-image-mask/pinup-image-mask-Prefix.pch";
+				INFOPLIST_FILE = "pinup-image-maskTests/pinup-image-maskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B29DC78D1582323C003F475A /* Build configuration list for PBXProject "pinup-image-mask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29DC7C71582323C003F475A /* Debug */,
+				B29DC7C81582323C003F475A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29DC7C91582323C003F475A /* Build configuration list for PBXNativeTarget "pinup-image-mask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29DC7CA1582323C003F475A /* Debug */,
+				B29DC7CB1582323C003F475A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B29DC7CC1582323C003F475A /* Build configuration list for PBXNativeTarget "pinup-image-maskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29DC7CD1582323C003F475A /* Debug */,
+				B29DC7CE1582323C003F475A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B29DC78A1582323C003F475A /* Project object */;
+}

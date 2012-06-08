@@ -1,0 +1,412 @@
+Taccelerometer_image
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/Info.plist accelerometer_image/accelerometer_image-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/accelerometer_image.app/ResourceRules.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch.pth accelerometer_image/accelerometer_image-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image normal armv7
+cGenerateDSYMFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app.dSYM /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image
+cCopyStringsFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/en.lproj/InfoPlist.strings accelerometer_image/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPad.storyboard
+cCompileStoryboard /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPhone.storyboard
+cCopyPNGFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/icon.png accelerometer_image/Resources/icon.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/image.png accelerometer_image/Resources/image.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/bg.png accelerometer_image/Resources/bg.png
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image.xcent
+cCodeSign /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004FCED44600000000000001A7
+t1338954822
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004FCED44600000000000001E5
+t1338954822
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FCED44800000000003AE430
+t1338954824
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FCED448000000000052C940
+t1338954824
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FCED4490000000000798EA0
+t1338954825
+s7966368
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/AppDelegate.h
+c000000004FCFCA780000000000000128
+t1339017848
+s296
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/AppDelegate.m
+c000000004FCFCA780000000000000809
+t1339017848
+s2057
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/Resources/bg.png
+c000000004FD020BD000000000001F97F
+t1339039933
+s129407
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/Resources/icon.png
+c000000004FD02115000000000000194D
+t1339040021
+s6477
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/Resources/image.png
+c000000004FCFCA9300000000000057A3
+t1339017875
+s22435
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/ViewController.h
+c000000004FD0239D00000000000001E4
+t1339040669
+s484
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/ViewController.m
+c000000004FD027F500000000000005E7
+t1339041781
+s1511
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/accelerometer_image-Prefix.pch
+c000000004FCFCA780000000000000155
+t1339017848
+s341
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/InfoPlist.strings
+c000000004FCFCA78000000000000002D
+t1339017848
+s45
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPad.storyboard
+c000000004FCFCA780000000000000645
+t1339017848
+s1605
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004FD020F60000000000000C18
+t1339039990
+s3096
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/main.m
+c000000004FCFCA780000000000000163
+t1339017848
+s355
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app
+t1339041761
+s408
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app.dSYM
+t1339041760
+s102
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/Info.plist
+t1339017921
+s1325
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/PkgInfo
+t1339017921
+s8
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/ResourceRules.plist
+t1339017921
+s485
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image
+t1339041761
+s28816
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/bg.png
+t1339039994
+s143913
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/embedded.mobileprovision
+t1339018007
+s31163
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/en.lproj/InfoPlist.strings
+t1339018006
+s42
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1339018007
+s170
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1339039994
+s170
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/icon.png
+t1339040026
+s7885
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/image.png
+t1339018040
+s20858
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/AppDelegate.o
+t1339018006
+s58168
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/ViewController.o
+t1339041760
+s55336
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/accelerometer_image.LinkFileList
+c000000004FCFCAC100000000000001EB
+t1339017921
+s491
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/main.o
+t1339018006
+s3240
+
+N/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image.xcent
+t1339018007
+s418
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+c000000004FCE820400000000000079BB
+t1338933764
+s31163
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch.pth
+t1339018006
+s3962328
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-eekinkfqfxkivsenagaomuuxvusd/accelerometer_image-Prefix.pch.pth
+t1339017921
+s3969960
+
+Naccelerometer_image/accelerometer_image-Info.plist
+c000000004FCFCA78000000000000063E
+t1339017848
+s1598
+
+CBuild AST from /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/AppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/ViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4b7658755f80b541^3acf58755f80b541^---0#1#0#--18"Check dependencies36"CACCC998-7EB5-4EF7-BF76-58EAFC63158E-
+
+CCodeSign /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app
+s360734581.580897
+e360734581.715017
+r1
+xCodeSign
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"CodeSign build/Debug-iphoneos/accelerometer_image.appa0c394755f80b541^9e0bb7755f80b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/0000000000000000^932"CodeSign build/Debug-iphoneos/accelerometer_image.app    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 7344011f784bbee72fe0ecf6fab7216b10ae2b89 --resource-rules=/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image.xcent /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app36"EEEDE1C2-0D3B-4712-8CA1-8DD9E44F2B5F-
+
+CCompileC build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360710806.739181
+e360710806.828719
+r1
+xCompileC
+xbuild/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/AppDelegate.m7573bd960280b541^bb26d4960280b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/AppDelegate.m0000000000000000^3594"CompileC build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/AppDelegate.o accelerometer_image/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/AppDelegate.m -o /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/AppDelegate.o36"19FF524F-1A7C-4949-A189-499A5C543C24-
+
+CCompileC build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360734581.367828
+e360734581.440644
+r1
+xCompileC
+xbuild/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/ViewController.o
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/ViewController.m29425e755f80b541^b8cd70755f80b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/ViewController.m0000000000000000^3612"CompileC build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/ViewController.o accelerometer_image/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/ViewController.dia -c /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/ViewController.m -o /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/ViewController.o36"8BD6B212-4B32-4698-B6FB-DB2711C373A0-
+
+CCompileC build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360710806.738955
+e360710806.797519
+r1
+xCompileC
+xbuild/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/main.m6b66bd960280b541^782acc960280b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/main.m0000000000000000^3552"CompileC build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/main.o accelerometer_image/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/main.m -o /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/main.o36"C0FF83EA-CB2A-4694-B243-BD18FDE68D2B-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPad.storyboard
+s360710806.917776
+e360710807.611457
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"CompileStoryboard accelerometer_image/en.lproj/MainStoryboard_iPad.storyboard1408eb960280b541^a4889c970280b541^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^976"CompileStoryboard accelerometer_image/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"9DEB7156-634D-4717-9ED5-4CD9C726BFB2-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPhone.storyboard
+s360732793.859108
+e360732794.160258
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"CompileStoryboard accelerometer_image/en.lproj/MainStoryboard_iPhone.storyboardb804dc795880b541^7217297a5880b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^982"CompileStoryboard accelerometer_image/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"378CAD4D-68A7-4AAF-8808-3AF2E6003F35-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/bg.png accelerometer_image/Resources/bg.png
+s360732793.860508
+e360732794.556617
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/bg.png
+xaccelerometer_image/Resources/bg.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile build/Debug-iphoneos/accelerometer_image.app/bg.png accelerometer_image/Resources/bg.pngd55adc795880b541^6b808e7a5880b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/Resources/bg.png0000000000000000^751"CopyPNGFile build/Debug-iphoneos/accelerometer_image.app/bg.png accelerometer_image/Resources/bg.png    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/Resources/bg.png /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/bg.png36"30519504-DC73-4A77-AEBF-19549236EC1F-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/icon.png accelerometer_image/Resources/icon.png
+s360732826.140514
+e360732826.202418
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/icon.png
+xaccelerometer_image/Resources/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile build/Debug-iphoneos/accelerometer_image.app/icon.png accelerometer_image/Resources/icon.png180a249a5880b541^20d2339a5880b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/Resources/icon.png0000000000000000^759"CopyPNGFile build/Debug-iphoneos/accelerometer_image.app/icon.png accelerometer_image/Resources/icon.png    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/Resources/icon.png /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/icon.png36"244C7EF2-5D09-4E24-AFCF-4FCE919BED04-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/image.png accelerometer_image/Resources/image.png
+s360710839.976658
+e360710840.139109
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/image.png
+xaccelerometer_image/Resources/image.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile build/Debug-iphoneos/accelerometer_image.app/image.png accelerometer_image/Resources/image.png2311fab70280b541^739c23b80280b541^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/Resources/image.png0000000000000000^763"CopyPNGFile build/Debug-iphoneos/accelerometer_image.app/image.png accelerometer_image/Resources/image.png    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/Resources/image.png /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/image.png36"B8F51D9B-CBE7-4F0C-817B-8469DF2547CC-
+
+CCopyStringsFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/en.lproj/InfoPlist.strings accelerometer_image/en.lproj/InfoPlist.strings
+s360710806.917579
+e360710806.921401
+r1
+xCopyStringsFile
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/en.lproj/InfoPlist.strings
+xaccelerometer_image/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy accelerometer_image/en.lproj/InfoPlist.stringscefcea960280b541^cae1eb960280b541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/en.lproj/InfoPlist.strings0000000000000000^638"CopyStringsFile build/Debug-iphoneos/accelerometer_image.app/en.lproj/InfoPlist.strings accelerometer_image/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/en.lproj -- accelerometer_image/en.lproj/InfoPlist.strings36"FEC64D31-FC46-4D4D-8793-16489522F0B5-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/accelerometer_image.app/ResourceRules.plist
+s360710721.609018
+e360710721.611895
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/accelerometer_image.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphoneos/accelerometer_image.app/ResourceRules.plist2ff99b410280b541^74d19c410280b541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/ResourceRules.plist000000000080d041^891"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/accelerometer_image.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app36"E76C1614-F118-4A46-BC09-B75CE9508E37-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app.dSYM /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image
+s360734581.483639
+e360734581.511035
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app.dSYM
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Generating /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app.dSYM46ec7b755f80b541^fed282755f80b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app.dSYM/0000000000000000^680"GenerateDSYMFile build/Debug-iphoneos/accelerometer_image.app.dSYM build/Debug-iphoneos/accelerometer_image.app/accelerometer_image    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image -o /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app.dSYM36"C5370CAC-792E-4F19-A5F2-283732C9501E-
+
+CLd /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image normal armv7
+s360734581.446816
+e360734581.476644
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"Link /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image1d7372755f80b541^25057a755f80b541^---0#0#0#--1177"Ld build/Debug-iphoneos/accelerometer_image.app/accelerometer_image normal armv7    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/Objects-normal/armv7/accelerometer_image.LinkFileList -dead_strip -miphoneos-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/accelerometer_image36"37F27158-53CB-48B4-B4AE-BC92B1856281-
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/Info.plist accelerometer_image/accelerometer_image-Info.plist
+s360710721.609604
+e360710721.614656
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/Info.plist
+xaccelerometer_image/accelerometer_image-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Process accelerometer_image/accelerometer_image-Info.plist931c9c410280b541^4b5a9d410280b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/accelerometer_image-Info.plist0000000000000000^894"ProcessInfoPlistFile build/Debug-iphoneos/accelerometer_image.app/Info.plist accelerometer_image/accelerometer_image-Info.plist    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility accelerometer_image/accelerometer_image-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/Info.plist36"625FE482-DD1F-4355-84F3-BE368CFD8456-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/accelerometer_image-glnfxxdiplhmwlftntsfohasiwgh/Index/PrecompiledHeaders/accelerometer_image-Prefix-bskdlefabifflidexpykmthaiwfj_ast/accelerometer_image-Prefix.pch.pth accelerometer_image/accelerometer_image-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/accelerometer_image-glnfxxdiplhmwlftntsfohasiwgh/Index/PrecompiledHeaders/accelerometer_image-Prefix-cdiufiouyosknegxyzzgjloyvlll_ast/accelerometer_image-Prefix.pch.pth accelerometer_image/accelerometer_image-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch.pth accelerometer_image/accelerometer_image-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360710806.449756
+e360710806.731134
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch.pth
+xaccelerometer_image/accelerometer_image-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile accelerometer_image/accelerometer_image-Prefix.pchd54073960280b541^5a2abb960280b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/accelerometer_image-Prefix.pch0000000000000000^3580"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch.pth accelerometer_image/accelerometer_image-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/accelerometer_image-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-dvtlhoocwufncrdkyguklnokzpjd/accelerometer_image-Prefix.pch.d36"EFBCDEC8-DED3-42B9-9739-F7EC40D7BFDA-
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-eekinkfqfxkivsenagaomuuxvusd/accelerometer_image-Prefix.pch.pth accelerometer_image/accelerometer_image-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360710721.627198
+e360710721.890379
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-eekinkfqfxkivsenagaomuuxvusd/accelerometer_image-Prefix.pch.pth
+xaccelerometer_image/accelerometer_image-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile accelerometer_image/accelerometer_image-Prefix.pch4bcba0410280b541^7cefe3410280b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/accelerometer_image-Prefix.pch0000000000000000^3591"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-eekinkfqfxkivsenagaomuuxvusd/accelerometer_image-Prefix.pch.pth accelerometer_image/accelerometer_image-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-eekinkfqfxkivsenagaomuuxvusd/accelerometer_image-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone/accelerometer_image/accelerometer_image/accelerometer_image-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-eekinkfqfxkivsenagaomuuxvusd/accelerometer_image-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/accelerometer_image-Prefix-eekinkfqfxkivsenagaomuuxvusd/accelerometer_image-Prefix.pch.d36"D2BCA15C-8510-40E3-B761-A8161B83AE78-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/embedded.mobileprovision
+s360710807.630615
+e360710807.633883
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection211"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/accelerometer_image.app/embedded.mobileprovision9d85a1970280b541^b345a2970280b541^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/embedded.mobileprovision0000000000000000^748"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/accelerometer_image.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" -o /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app/embedded.mobileprovision36"2C3CA595-1876-4086-9F83-BD413319B89E-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image.xcent
+s360710807.674389
+e360710807.677791
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection243"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image.xcenta6baac970280b541^8483ad970280b541^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image.xcent000000000080d041^838"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image.xcent    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone/accelerometer_image/build/accelerometer_image.build/Debug-iphoneos/accelerometer_image.build/accelerometer_image.xcent36"18D3B2A7-408F-4B85-820B-A95BD103F6BA-
+
+CTouch /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app
+s360734581.549325
+e360734581.563079
+r1
+xTouch
+x/Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app8eb08c755f80b541^782690755f80b541^---0#0#0#--427"Touch build/Debug-iphoneos/accelerometer_image.app    cd /Users/roberttilton/Documents/iPhone/accelerometer_image    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone/accelerometer_image/build/Debug-iphoneos/accelerometer_image.app36"5D146267-4614-451B-ADA9-DFF1714E1089-
+

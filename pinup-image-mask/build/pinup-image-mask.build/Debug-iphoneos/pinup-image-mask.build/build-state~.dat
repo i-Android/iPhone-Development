@@ -1,0 +1,326 @@
+Tpinup-image-mask
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/pinup-image-mask.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/Info.plist pinup-image-mask/pinup-image-mask-Info.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch.pth pinup-image-mask/pinup-image-mask-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004FCED44600000000000001A7
+t1338954822
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004FCED44600000000000001E5
+t1338954822
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FCED44800000000003AE430
+t1338954824
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FCED448000000000052C940
+t1338954824
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FCED4490000000000798EA0
+t1338954825
+s7966368
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app.dSYM
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/Info.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/PkgInfo
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/ResourceRules.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/bg.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/dress.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/icon.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/picture.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/pinup-image-mask
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/pinup-image-mask.LinkFileList
+c000000004FD1FD9100000000000001D0
+t1339162001
+s464
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask.xcent
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/AppDelegate.m
+c000000004FD1FABC0000000000000806
+t1339161276
+s2054
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/Resources/bg.png
+c000000004FD1FB230000000000002A10
+t1339161379
+s10768
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/Resources/dress.png
+c000000004FD1FB4D00000000000005FA
+t1339161421
+s1530
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/Resources/icon.png
+c000000004FD1FB8F0000000000001DA2
+t1339161487
+s7586
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/Resources/picture.png
+c000000004FD1FB65000000000003643B
+t1339161445
+s222267
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m
+c000000004FD1FD90000000000000031A
+t1339162000
+s794
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/en.lproj/InfoPlist.strings
+c000000004FD1FABC000000000000002D
+t1339161276
+s45
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/en.lproj/MainStoryboard_iPad.storyboard
+c000000004FD1FABC0000000000000645
+t1339161276
+s1605
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004FD1FC700000000000000C97
+t1339161712
+s3223
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/main.m
+c000000004FD1FABC0000000000000160
+t1339161276
+s352
+
+N/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/pinup-image-mask-Prefix.pch
+c000000004FD1FABC000000000000014F
+t1339161276
+s335
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+c000000004FCE820400000000000079BB
+t1338933764
+s31163
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-eoemcnjgernuecafjdndfkmdwkin/pinup-image-mask-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch.pth
+t2
+s0
+
+Npinup-image-mask/pinup-image-mask-Info.plist
+c000000004FD1FABC000000000000063E
+t1339161276
+s1598
+
+CBuild AST from /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/AppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies969536113582b541^66bc45113582b541^---0#1#0#--18"Check dependencies36"7AFDF491-06D9-4CE7-BBE2-3E9EF778E103-
+
+CCodeSign /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app
+r0
+
+CCompileC build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360854801.661819
+e360854801.972976
+r1
+xCompileC
+xbuild/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/AppDelegate.mbfbba9113582b541^8716f9113582b541^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/AppDelegate.m0000000000000000^3471"CompileC build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/AppDelegate.o pinup-image-mask/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/pinup-image-mask    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/AppDelegate.m -o /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/AppDelegate.o36"A71BA09B-3003-4B08-84C4-5801F0AC0983-
+
+CCompileC build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360854801.662779
+e360854801.770864
+r0
+xCompileC
+xbuild/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/ViewController.o
+x/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m:24:28: error: expression is not assignable
+o    ball.frame.size.height = 100;   
+o    ~~~~~~~~~~~~~~~~~~~~~~ ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m9eeda9113582b541^ff3cc5113582b541^-216"/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m:24:28: error: expression is not assignable    ball.frame.size.height = 100;       ~~~~~~~~~~~~~~~~~~~~~~ ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"Expression is not assignable-360854801#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@103"file://localhost/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m0000000000000000^23#27#23#27#728#0#14"Semantic Issue1(3@103"file://localhost/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m0000000000000000^23#4#23#26#705#16#-0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m0000000000000000^3489"CompileC build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/ViewController.o pinup-image-mask/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/pinup-image-mask    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/ViewController.dia -c /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/ViewController.m -o /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/ViewController.o36"674ED8A5-29A2-4F9A-8CC8-86983D10E2E7-
+
+CCompileC build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360854801.661394
+e360854801.972988
+r1
+xCompileC
+xbuild/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/main.mea92a9113582b541^0820f9113582b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/main.m0000000000000000^3429"CompileC build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/main.o pinup-image-mask/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/pinup-image-mask    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/main.m -o /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/Objects-normal/armv7/main.o36"8CDE142E-D3C6-42BD-9605-2CE5BC7456F0-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/en.lproj/MainStoryboard_iPad.storyboard
+r0
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/en.lproj/MainStoryboard_iPhone.storyboard
+r0
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/bg.png pinup-image-mask/Resources/bg.png
+r0
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/dress.png pinup-image-mask/Resources/dress.png
+r0
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/icon.png pinup-image-mask/Resources/icon.png
+r0
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/picture.png pinup-image-mask/Resources/picture.png
+r0
+
+CCopyStringsFile /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/en.lproj/InfoPlist.strings pinup-image-mask/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/pinup-image-mask.app/ResourceRules.plist
+s360854801.282157
+e360854801.285196
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/pinup-image-mask.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphoneos/pinup-image-mask.app/ResourceRules.plistb35e48113582b541^e12849113582b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/ResourceRules.plist000000000080d041^879"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/pinup-image-mask.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone/pinup-image-mask    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app36"41AA409C-E688-40C3-9159-8605E87EC4B0-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app.dSYM /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/pinup-image-mask
+r0
+
+CLd /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/pinup-image-mask normal armv7
+r0
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/Info.plist pinup-image-mask/pinup-image-mask-Info.plist
+s360854801.282162
+e360854801.287723
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/Info.plist
+xpinup-image-mask/pinup-image-mask-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Process pinup-image-mask/pinup-image-mask-Info.plist4a5f48113582b541^69a849113582b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/pinup-image-mask-Info.plist0000000000000000^858"ProcessInfoPlistFile build/Debug-iphoneos/pinup-image-mask.app/Info.plist pinup-image-mask/pinup-image-mask-Info.plist    cd /Users/roberttilton/Documents/iPhone/pinup-image-mask    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility pinup-image-mask/pinup-image-mask-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/Info.plist36"A20EF06C-1A6B-4C65-B0E9-2D154F2F41E2-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/pinup-image-mask-axozhtjzxbroenbnbkgwrrhdjdgt/Index/PrecompiledHeaders/pinup-image-mask-Prefix-drrflfofqnltfpagrcubydmeqiqc_ast/pinup-image-mask-Prefix.pch.pth pinup-image-mask/pinup-image-mask-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/pinup-image-mask-axozhtjzxbroenbnbkgwrrhdjdgt/Index/PrecompiledHeaders/pinup-image-mask-Prefix-fkooudpaqefgezblljpkhkyzrgrk_ast/pinup-image-mask-Prefix.pch.pth pinup-image-mask/pinup-image-mask-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-eoemcnjgernuecafjdndfkmdwkin/pinup-image-mask-Prefix.pch.pth pinup-image-mask/pinup-image-mask-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch.pth pinup-image-mask/pinup-image-mask-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360854801.295313
+e360854801.654260
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch.pth
+xpinup-image-mask/pinup-image-mask-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Precompile pinup-image-mask/pinup-image-mask-Prefix.pch32c64b113582b541^177fa7113582b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/pinup-image-mask-Prefix.pch0000000000000000^3466"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch.pth pinup-image-mask/pinup-image-mask-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone/pinup-image-mask    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-generated-files.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask-project-headers.hmap -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/DerivedSources -F/Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone/pinup-image-mask/pinup-image-mask/pinup-image-mask-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/pinup-image-mask-Prefix-fwsobjkeznnpvuhhesxaijygbevy/pinup-image-mask-Prefix.pch.d36"AEE08C14-5F7E-45B9-958B-EFE31DE8DF09-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/pinup-image-mask.build/Debug-iphoneos/pinup-image-mask.build/pinup-image-mask.xcent
+r0
+
+CTouch /Users/roberttilton/Documents/iPhone/pinup-image-mask/build/Debug-iphoneos/pinup-image-mask.app
+r0
+
