@@ -1,0 +1,325 @@
+TPageConrol-UIPaging
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/PageConrol-UIPaging.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/Info.plist PageConrol-UIPaging/PageConrol-UIPaging-Info.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch.pth PageConrol-UIPaging/PageConrol-UIPaging-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging normal armv7
+cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app.dSYM /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging
+cCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj/InfoPlist.strings PageConrol-UIPaging/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPad.storyboard
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging.xcent
+cCodeSign /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004FCED44600000000000001A7
+t1338954822
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004FCED44600000000000001E5
+t1338954822
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FCED44800000000003AE430
+t1338954824
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FCED448000000000052C940
+t1338954824
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FCED4490000000000798EA0
+t1338954825
+s7966368
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/AppDelegate.m
+c000000004FD291910000000000000809
+t1339199889
+s2057
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/PageConrol-UIPaging-Prefix.pch
+c000000004FD291910000000000000155
+t1339199889
+s341
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/ViewController.m
+c000000004FD2940D00000000000004AD
+t1339200525
+s1197
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/InfoPlist.strings
+c000000004FD29191000000000000002D
+t1339199889
+s45
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPad.storyboard
+c000000004FD291910000000000000645
+t1339199889
+s1605
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004FD2941200000000000008AB
+t1339200530
+s2219
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/main.m
+c000000004FD291910000000000000163
+t1339199889
+s355
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app.dSYM
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/Info.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PkgInfo
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/ResourceRules.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/PageConrol-UIPaging.LinkFileList
+c000000004FD2CA84000000000000020F
+t1339214468
+s527
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging.xcent
+t2
+s0
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+c000000004FCE820400000000000079BB
+t1338933764
+s31163
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch.pth
+t2
+s0
+
+NPageConrol-UIPaging/PageConrol-UIPaging-Info.plist
+c000000004FD29191000000000000063E
+t1339199889
+s1598
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/AppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/ViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies711ef6030283b541^414505040283b541^---0#1#0#--18"Check dependencies36"1C7483E1-C8BD-440E-B4FF-A3AC16AAA5E4-
+
+CCodeSign /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app
+s360907270.054594
+e360907270.312441
+r1
+xCodeSign
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"CodeSign build/Debug-iphoneos/PageConrol-UIPaging.app7a1c0e060283b541^54fc4f060283b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/0000000000000000^980"CodeSign build/Debug-iphoneos/PageConrol-UIPaging.app    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 7344011f784bbee72fe0ecf6fab7216b10ae2b89 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging.xcent /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app36"8C504EE1-5561-4FA2-9FE1-AE6381E2F11B-
+
+CCompileC build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360907268.437577
+e360907268.521685
+r1
+xCompileC
+xbuild/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/AppDelegate.m443670040283b541^b08c85040283b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/AppDelegate.m0000000000000000^3750"CompileC build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/AppDelegate.o PageConrol-UIPaging/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/AppDelegate.o36"0A7708DA-7DA3-4E76-B254-4736E94AA596-
+
+CCompileC build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360907268.438162
+e360907268.524058
+r1
+xCompileC
+xbuild/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/ViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/ViewController.m225170040283b541^412986040283b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/ViewController.m0000000000000000^3768"CompileC build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/ViewController.o PageConrol-UIPaging/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/ViewController.o36"33D0A64A-4E06-4463-9C0F-6F761CA6D5FC-
+
+CCompileC build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360907268.437563
+e360907268.514762
+r1
+xCompileC
+xbuild/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/main.mc82770040283b541^2cd383040283b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/main.m0000000000000000^3708"CompileC build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/main.o PageConrol-UIPaging/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/main.m -o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/main.o36"F0F627C6-02CB-4B1D-86BE-7C43A00B12F4-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPad.storyboard
+s360907268.685065
+e360907269.953150
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"CompileStoryboard PageConrol-UIPaging/en.lproj/MainStoryboard_iPad.storyboard9775af040283b541^a301f4050283b541^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^1012"CompileStoryboard PageConrol-UIPaging/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"FFF34A00-7C35-4147-B684-EE2D33137836-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPhone.storyboard
+s360907268.685050
+e360907269.957164
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"CompileStoryboard PageConrol-UIPaging/en.lproj/MainStoryboard_iPhone.storyboard4375af040283b541^d410f5050283b541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^1018"CompileStoryboard PageConrol-UIPaging/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"151D2187-F3D3-4E98-BE68-B3EE21E1027B-
+
+CCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj/InfoPlist.strings PageConrol-UIPaging/en.lproj/InfoPlist.strings
+s360907268.685046
+e360907268.709507
+r1
+xCopyStringsFile
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj/InfoPlist.strings
+xPageConrol-UIPaging/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy PageConrol-UIPaging/en.lproj/InfoPlist.stringsc975af040283b541^2eaeb5040283b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/en.lproj/InfoPlist.strings0000000000000000^662"CopyStringsFile build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj/InfoPlist.strings PageConrol-UIPaging/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/en.lproj -- PageConrol-UIPaging/en.lproj/InfoPlist.strings36"828DC4E1-4840-4B76-ADCD-1730F4D19BC1-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/PageConrol-UIPaging.app/ResourceRules.plist
+s360907268.025709
+e360907268.030166
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/PageConrol-UIPaging.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphoneos/PageConrol-UIPaging.app/ResourceRules.plist0cad06040283b541^5ab907040283b541^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/ResourceRules.plist000000000080d041^915"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/PageConrol-UIPaging.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app36"FBBD7D8A-CD55-45EB-9302-7242BFF0C57E-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app.dSYM /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging
+s360907268.656570
+e360907268.677280
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app.dSYM
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Generating /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app.dSYM9e25a8040283b541^e162ad040283b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app.dSYM000000000080d041^716"GenerateDSYMFile build/Debug-iphoneos/PageConrol-UIPaging.app.dSYM build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging -o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app.dSYM36"E31F7188-449B-4B34-858D-8BE72976DF55-
+
+CLd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging normal armv7
+s360907268.532699
+e360907268.649615
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging617188040283b541^3c4da6040283b541^---0#0#0#--1237"Ld build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging normal armv7    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/Objects-normal/armv7/PageConrol-UIPaging.LinkFileList -dead_strip -miphoneos-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PageConrol-UIPaging36"080E2FEE-5ED2-4F2D-AF55-4B7222F0BE9A-
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/Info.plist PageConrol-UIPaging/PageConrol-UIPaging-Info.plist
+s360907268.025724
+e360907268.029838
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/Info.plist
+xPageConrol-UIPaging/PageConrol-UIPaging-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Process PageConrol-UIPaging/PageConrol-UIPaging-Info.plist0cad06040283b541^caa307040283b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/PageConrol-UIPaging-Info.plist0000000000000000^942"ProcessInfoPlistFile build/Debug-iphoneos/PageConrol-UIPaging.app/Info.plist PageConrol-UIPaging/PageConrol-UIPaging-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PageConrol-UIPaging/PageConrol-UIPaging-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/Info.plist36"769DBEB7-D44D-4117-93FF-ECA7818DE44A-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/PageConrol-UIPaging-bfsuijjjzikqaterwkmwskaldlxc/Index/PrecompiledHeaders/PageConrol-UIPaging-Prefix-doylqwmgrkvlvphagiaziyowpxbi_ast/PageConrol-UIPaging-Prefix.pch.pth PageConrol-UIPaging/PageConrol-UIPaging-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch.pth PageConrol-UIPaging/PageConrol-UIPaging-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360907268.037623
+e360907268.430775
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch.pth
+xPageConrol-UIPaging/PageConrol-UIPaging-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Precompile PageConrol-UIPaging/PageConrol-UIPaging-Prefix.pch8d7b0b040283b541^145a6e040283b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/PageConrol-UIPaging-Prefix.pch0000000000000000^3700"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch.pth PageConrol-UIPaging/PageConrol-UIPaging-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/PageConrol-UIPaging/PageConrol-UIPaging-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageConrol-UIPaging-Prefix-bthonkkamqjkbldkpiouncoajcqa/PageConrol-UIPaging-Prefix.pch.d36"77F0930D-C238-454F-BD47-D4CAC740E6ED-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/embedded.mobileprovision
+s360907270.001384
+e360907270.007302
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection211"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/PageConrol-UIPaging.app/embedded.mobileprovisionf87100060283b541^68ea01060283b541^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/embedded.mobileprovision0000000000000000^772"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/PageConrol-UIPaging.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" -o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app/embedded.mobileprovision36"A2093AF5-A6B4-4EB3-9421-B3C4117D51C7-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging.xcent
+s360907270.042606
+e360907270.046064
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection243"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging.xcent66f90a060283b541^86ca0b060283b541^---0#0#0#-19%DVTDocumentLocation2@183"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging.xcent000000000080d041^862"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging.xcent    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/PageConrol-UIPaging.build/Debug-iphoneos/PageConrol-UIPaging.build/PageConrol-UIPaging.xcent36"72D2DA74-7235-4BD0-BD6A-ECE458E86AAF-
+
+CTouch /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app
+s360907270.015855
+e360907270.034414
+r1
+xTouch
+x/Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Touch /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.appf32104060283b541^49db08060283b541^---0#0#0#--451"Touch build/Debug-iphoneos/PageConrol-UIPaging.app    cd /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/PageConrol-UIPaging/build/Debug-iphoneos/PageConrol-UIPaging.app36"5FC11D5B-ADD6-4C38-9DA3-F14B3AF28A3E-
+

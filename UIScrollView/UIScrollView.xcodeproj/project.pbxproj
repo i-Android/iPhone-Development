@@ -21,6 +21,7 @@
 		B29DC8671582B1D6003F475A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29DC8451582B1D6003F475A /* Foundation.framework */; };
 		B29DC86F1582B1D6003F475A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29DC86D1582B1D6003F475A /* InfoPlist.strings */; };
 		B29DC8721582B1D6003F475A /* UIScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B29DC8711582B1D6003F475A /* UIScrollViewTests.m */; };
+		B29DC8EF15839C30003F475A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B29DC8EE15839C30003F475A /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		B29DC86E1582B1D6003F475A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B29DC8701582B1D6003F475A /* UIScrollViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollViewTests.h; sourceTree = "<group>"; };
 		B29DC8711582B1D6003F475A /* UIScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollViewTests.m; sourceTree = "<group>"; };
+		B29DC8EE15839C30003F475A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				B29DC8581582B1D6003F475A /* MainStoryboard_iPad.storyboard */,
 				B29DC85B1582B1D6003F475A /* ViewController.h */,
 				B29DC85C1582B1D6003F475A /* ViewController.m */,
+				B29DC8ED15839C30003F475A /* Resources */,
 				B29DC84A1582B1D6003F475A /* Supporting Files */,
 			);
 			path = UIScrollView;
@@ -152,6 +155,14 @@
 				B29DC86D1582B1D6003F475A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B29DC8ED15839C30003F475A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B29DC8EE15839C30003F475A /* icon.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 				B29DC84E1582B1D6003F475A /* InfoPlist.strings in Resources */,
 				B29DC8571582B1D6003F475A /* MainStoryboard_iPhone.storyboard in Resources */,
 				B29DC85A1582B1D6003F475A /* MainStoryboard_iPad.storyboard in Resources */,
+				B29DC8EF15839C30003F475A /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +455,7 @@
 				B29DC8771582B1D6003F475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B29DC8781582B1D6003F475A /* Build configuration list for PBXNativeTarget "UIScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +464,7 @@
 				B29DC87A1582B1D6003F475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
