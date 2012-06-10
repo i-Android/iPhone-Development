@@ -1,0 +1,440 @@
+Tketchup
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/Info.plist ketchup/ketchup-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/ketchup.app/ResourceRules.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch.pth ketchup/ketchup-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup normal armv7
+cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app.dSYM /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup
+cCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/en.lproj/InfoPlist.strings ketchup/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPad.storyboard
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bg.png ketchup/Resources/bg.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bottle.png ketchup/Resources/bottle.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup.png ketchup/Resources/ketchup.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/icon.png ketchup/Resources/icon.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/shadow.png ketchup/Resources/shadow.png
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup.xcent
+cCodeSign /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004FCED44600000000000001A7
+t1338954822
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004FCED44600000000000001E5
+t1338954822
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FCED44800000000003AE430
+t1338954824
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FCED448000000000052C940
+t1338954824
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FCED4490000000000798EA0
+t1338954825
+s7966368
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app
+t1339298297
+s442
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app.dSYM
+t1339298296
+s102
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/Info.plist
+t1339295229
+s1267
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/PkgInfo
+t1339295229
+s8
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ResourceRules.plist
+t1339294473
+s485
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bg.png
+t1339294475
+s32175
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bottle.png
+t1339294474
+s91568
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/embedded.mobileprovision
+t1339294477
+s31163
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/en.lproj/InfoPlist.strings
+t1339294474
+s42
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/en.lproj/MainStoryboard_iPad.storyboardc
+t1339294477
+s170
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t1339295538
+s170
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/icon.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup
+t1339298297
+s31584
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup.png
+t1339298068
+s26487
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/shadow.png
+t1339295083
+s3422
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/AppDelegate.o
+t1339294474
+s58144
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ViewController.o
+t1339298296
+s65872
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ketchup.LinkFileList
+c000000004FD4030900000000000001A3
+t1339294473
+s419
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/main.o
+t1339294474
+s3216
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup.xcent
+t1339295229
+s394
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/AppDelegate.h
+c000000004FD40175000000000000011C
+t1339294069
+s284
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/AppDelegate.m
+c000000004FD4017500000000000007FD
+t1339294069
+s2045
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/bg.png
+c000000004FD401BE000000000000794B
+t1339294142
+s31051
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/bottle.png
+c000000004FD401B10000000000014951
+t1339294129
+s84305
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/icon.png
+c000000004FD412990000000000000C0E
+t1339298457
+s3086
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/ketchup.png
+c000000004FD410DA00000000000049F8
+t1339298010
+s18936
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/shadow.png
+c000000004FD405350000000000000E8D
+t1339295029
+s3725
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ViewController.h
+c000000004FD40E9700000000000002D1
+t1339297431
+s721
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ViewController.m
+c000000004FD412A90000000000000D6B
+t1339298473
+s3435
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/InfoPlist.strings
+c000000004FD40174000000000000002D
+t1339294068
+s45
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPad.storyboard
+c000000004FD401750000000000000645
+t1339294069
+s1605
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004FD4070C0000000000000912
+t1339295500
+s2322
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ketchup-Prefix.pch
+c000000004FD40174000000000000013D
+t1339294068
+s317
+
+N/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/main.m
+c000000004FD401740000000000000157
+t1339294068
+s343
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+c000000004FCE820400000000000079BB
+t1338933764
+s31163
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch.pth
+t1339294474
+s3962064
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-eaeuxcndxtxvsaalmpwtnbxohebe/ketchup-Prefix.pch.pth
+t2
+s0
+
+Nketchup/ketchup-Info.plist
+c000000004FD412BC00000000000005F6
+t1339298492
+s1526
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/AppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf83655404a84b541^b4046d404a84b541^---0#1#0#--18"Check dependencies36"263C82BC-D332-4836-8E79-8ACE445D7F68-
+
+CCodeSign /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app
+s360991296.726236
+e360991296.867986
+r1
+xCodeSign
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"CodeSign build/Debug-iphoneos/ketchup.app2601ba404a84b541^a834de404a84b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/0000000000000000^860"CodeSign build/Debug-iphoneos/ketchup.app    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 7344011f784bbee72fe0ecf6fab7216b10ae2b89 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup.xcent /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app36"57F536FC-19DF-4931-81C5-2262B5AF8AFA-
+
+CCompileC build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360987274.201799
+e360987274.296676
+r1
+xCompileC
+xbuild/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/AppDelegate.mcbf8338a3a84b541^e0f34b8a3a84b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/AppDelegate.m0000000000000000^3258"CompileC build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/AppDelegate.o ketchup/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/AppDelegate.o36"E9BA8BFE-E08C-4325-9C0E-7EE52175F551-
+
+CCompileC build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360991296.448244
+e360991296.532038
+r1
+xCompileC
+xbuild/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ViewController.mebe272404a84b541^3b3488404a84b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ViewController.m0000000000000000^3276"CompileC build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ViewController.o ketchup/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ViewController.o36"15395E8A-A62A-4E19-A627-B84B34BA63EA-
+
+CCompileC build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360987274.201690
+e360987274.289736
+r1
+xCompileC
+xbuild/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/main.m2fde338a3a84b541^132c4a8a3a84b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/main.m0000000000000000^3216"CompileC build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/main.o ketchup/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/main.m -o /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/main.o36"71E86396-15B2-44DB-876A-DA81482259D3-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPad.storyboard
+s360987274.588858
+e360987277.617251
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CompileStoryboard ketchup/en.lproj/MainStoryboard_iPad.storyboardd1cd968a3a84b541^57059e8d3a84b541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^940"CompileStoryboard ketchup/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"A508AF9B-063D-4C74-A58C-B8C39D3E1873-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPhone.storyboard
+s360988338.424633
+e360988338.471626
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CompileStoryboard ketchup/en.lproj/MainStoryboard_iPhone.storyboard9fc76cb23e84b541^a8c578b23e84b541^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^946"CompileStoryboard ketchup/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"4C40A144-D910-43C2-B205-0298F34DD638-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bg.png ketchup/Resources/bg.png
+s360987274.588860
+e360987275.074592
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bg.png
+xketchup/Resources/bg.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile build/Debug-iphoneos/ketchup.app/bg.png ketchup/Resources/bg.png39d1968a3a84b541^1e19138b3a84b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/bg.png0000000000000000^703"CopyPNGFile build/Debug-iphoneos/ketchup.app/bg.png ketchup/Resources/bg.png    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/bg.png /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bg.png36"DC277F09-30ED-41E4-B943-E1DFD7596599-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bottle.png ketchup/Resources/bottle.png
+s360987274.593885
+e360987274.814689
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bottle.png
+xketchup/Resources/bottle.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Debug-iphoneos/ketchup.app/bottle.png ketchup/Resources/bottle.pngeb1b988a3a84b541^b88fd08a3a84b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/bottle.png0000000000000000^719"CopyPNGFile build/Debug-iphoneos/ketchup.app/bottle.png ketchup/Resources/bottle.png    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/bottle.png /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/bottle.png36"08B16F3E-371D-46D7-9F95-716E0592B7B6-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/icon.png ketchup/Resources/icon.png
+s360991296.605403
+e360991296.667660
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/icon.png
+xketchup/Resources/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/Debug-iphoneos/ketchup.app/icon.png ketchup/Resources/icon.png8d0b9b404a84b541^07ecaa404a84b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/icon.png0000000000000000^711"CopyPNGFile build/Debug-iphoneos/ketchup.app/icon.png ketchup/Resources/icon.png    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/icon.png /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/icon.png36"A7ED0FBF-C6CD-4918-A717-D813B996AC38-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup.png ketchup/Resources/ketchup.png
+s360990867.954448
+e360990868.068876
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup.png
+xketchup/Resources/ketchup.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/Debug-iphoneos/ketchup.app/ketchup.png ketchup/Resources/ketchup.png9066f4934884b541^62a211944884b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/ketchup.png0000000000000000^723"CopyPNGFile build/Debug-iphoneos/ketchup.app/ketchup.png ketchup/Resources/ketchup.png    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/ketchup.png /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup.png36"59C5C42C-035D-433E-9C22-1646B5AF43C3-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/shadow.png ketchup/Resources/shadow.png
+s360987883.040105
+e360987883.128195
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/shadow.png
+xketchup/Resources/shadow.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Debug-iphoneos/ketchup.app/shadow.png ketchup/Resources/shadow.pngec4f0aeb3c84b541^d9d120eb3c84b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/shadow.png0000000000000000^719"CopyPNGFile build/Debug-iphoneos/ketchup.app/shadow.png ketchup/Resources/shadow.png    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/Resources/shadow.png /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/shadow.png36"B2852237-D484-409F-A306-CB1E707E9DD9-
+
+CCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/en.lproj/InfoPlist.strings ketchup/en.lproj/InfoPlist.strings
+s360987274.588418
+e360987274.592737
+r1
+xCopyStringsFile
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/en.lproj/InfoPlist.strings
+xketchup/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy ketchup/en.lproj/InfoPlist.strings67b7968a3a84b541^26c5978a3a84b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/en.lproj/InfoPlist.strings0000000000000000^590"CopyStringsFile build/Debug-iphoneos/ketchup.app/en.lproj/InfoPlist.strings ketchup/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/en.lproj -- ketchup/en.lproj/InfoPlist.strings36"46EC60E9-85AA-4357-BEA6-3C3E0EE4D0D3-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/ketchup.app/ResourceRules.plist
+s360987273.914313
+e360987273.918397
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/ketchup.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/ketchup.app/ResourceRules.plistc825ea893a84b541^2e1deb893a84b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ResourceRules.plist000000000080d041^867"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/ketchup.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app36"3BCBA610-2FB5-4347-A24C-0AAC8B54830D-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app.dSYM /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup
+s360991296.575497
+e360991296.596261
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app.dSYM
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Generating /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app.dSYMb26393404a84b541^b1a498404a84b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app.dSYM/0000000000000000^608"GenerateDSYMFile build/Debug-iphoneos/ketchup.app.dSYM build/Debug-iphoneos/ketchup.app/ketchup    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup -o /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app.dSYM36"869BCC12-49D5-4B0D-8206-D238E2A2C868-
+
+CLd /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup normal armv7
+s360991296.538960
+e360991296.567737
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchupd40b8a404a84b541^cd5791404a84b541^---0#0#0#--1093"Ld build/Debug-iphoneos/ketchup.app/ketchup normal armv7    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/Objects-normal/armv7/ketchup.LinkFileList -dead_strip -miphoneos-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ketchup36"C5921395-2B1B-4A64-B9D8-421667CA8B82-
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/Info.plist ketchup/ketchup-Info.plist
+s360991296.430368
+e360991296.433556
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/Info.plist
+xketchup/ketchup-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process ketchup/ketchup-Info.plistbc3b6e404a84b541^76fd6e404a84b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ketchup-Info.plist0000000000000000^798"ProcessInfoPlistFile build/Debug-iphoneos/ketchup.app/Info.plist ketchup/ketchup-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ketchup/ketchup-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/Info.plist36"AD53614E-B8F2-40BF-BB08-120A50645C54-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/ketchup-clpvcnvvqvebnpbwbptoraflpspm/Index/PrecompiledHeaders/ketchup-Prefix-dooipfwcgofwnqeftbmzoxrwldsw_ast/ketchup-Prefix.pch.pth ketchup/ketchup-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/ketchup-clpvcnvvqvebnpbwbptoraflpspm/Index/PrecompiledHeaders/ketchup-Prefix-eftroswmyxyyfofqsrjyigedrjfw_ast/ketchup-Prefix.pch.pth ketchup/ketchup-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch.pth ketchup/ketchup-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360987273.926068
+e360987274.193725
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch.pth
+xketchup/ketchup-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile ketchup/ketchup-Prefix.pch5930ed893a84b541^bb99318a3a84b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ketchup-Prefix.pch0000000000000000^3244"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch.pth ketchup/ketchup-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/ketchup/ketchup/ketchup-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-btajcymxczuwmjgbeebkrkgqzkiz/ketchup-Prefix.pch.d36"19571108-15CA-45DB-87B1-41FF71686722-
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ketchup-Prefix-eaeuxcndxtxvsaalmpwtnbxohebe/ketchup-Prefix.pch.pth ketchup/ketchup-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/embedded.mobileprovision
+s360987277.684881
+e360987277.688193
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection199"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/ketchup.app/embedded.mobileprovisionb96daf8d3a84b541^3b34b08d3a84b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/embedded.mobileprovision0000000000000000^724"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/ketchup.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" -o /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app/embedded.mobileprovision36"909A06FB-545D-49CE-BAA4-E889EB9B0B1C-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup.xcent
+s360991296.712644
+e360991296.717249
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection207"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup.xcentfb91b6404a84b541^a69cb7404a84b541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup.xcent0000000000000000^766"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup.xcent    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/ketchup/build/ketchup.build/Debug-iphoneos/ketchup.build/ketchup.xcent36"88F0F7E5-FBF5-406E-A52F-FFF291BB560E-
+
+CTouch /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app
+s360991296.694045
+e360991296.703281
+r1
+xTouch
+x/Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.appe9b9b1404a84b541^d80cb4404a84b541^---0#0#0#--403"Touch build/Debug-iphoneos/ketchup.app    cd /Users/roberttilton/Documents/iPhone-Development/ketchup    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/ketchup/build/Debug-iphoneos/ketchup.app36"9F1EAEC0-C782-4201-9793-779DE51BEDAF-
+

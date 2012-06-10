@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2C85A9B158438F4009A2E18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C85A9A158438F4009A2E18 /* UIKit.framework */; };
+		B2C85A9D158438F4009A2E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C85A9C158438F4009A2E18 /* Foundation.framework */; };
+		B2C85A9F158438F4009A2E18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C85A9E158438F4009A2E18 /* CoreGraphics.framework */; };
+		B2C85AA5158438F4009A2E18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2C85AA3158438F4009A2E18 /* InfoPlist.strings */; };
+		B2C85AA7158438F4009A2E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C85AA6158438F4009A2E18 /* main.m */; };
+		B2C85AAB158438F5009A2E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C85AAA158438F5009A2E18 /* AppDelegate.m */; };
+		B2C85AAE158438F5009A2E18 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C85AAC158438F5009A2E18 /* MainStoryboard_iPhone.storyboard */; };
+		B2C85AB1158438F5009A2E18 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C85AAF158438F5009A2E18 /* MainStoryboard_iPad.storyboard */; };
+		B2C85AB4158438F5009A2E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C85AB3158438F5009A2E18 /* ViewController.m */; };
+		B2C85ABC158438F5009A2E18 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C85ABB158438F5009A2E18 /* SenTestingKit.framework */; };
+		B2C85ABD158438F5009A2E18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C85A9A158438F4009A2E18 /* UIKit.framework */; };
+		B2C85ABE158438F5009A2E18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C85A9C158438F4009A2E18 /* Foundation.framework */; };
+		B2C85AC6158438F5009A2E18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2C85AC4158438F5009A2E18 /* InfoPlist.strings */; };
+		B2C85AC9158438F5009A2E18 /* ketchupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C85AC8158438F5009A2E18 /* ketchupTests.m */; };
+		B2C85ADB15843A6A009A2E18 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C85AD715843A6A009A2E18 /* bg.png */; };
+		B2C85ADC15843A6A009A2E18 /* bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C85AD815843A6A009A2E18 /* bottle.png */; };
+		B2C85ADD15843A6A009A2E18 /* ketchup.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C85AD915843A6A009A2E18 /* ketchup.png */; };
+		B2C85ADE15843A6A009A2E18 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C85ADA15843A6A009A2E18 /* shadow.png */; };
+		B2C85AEC15844A28009A2E18 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C85AEB15844A28009A2E18 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C85ABF158438F5009A2E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C85A8D158438F4009A2E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C85A95158438F4009A2E18;
+			remoteInfo = ketchup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2C85A96158438F4009A2E18 /* ketchup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ketchup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C85A9A158438F4009A2E18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2C85A9C158438F4009A2E18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2C85A9E158438F4009A2E18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2C85AA2158438F4009A2E18 /* ketchup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ketchup-Info.plist"; sourceTree = "<group>"; };
+		B2C85AA4158438F4009A2E18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2C85AA6158438F4009A2E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2C85AA8158438F4009A2E18 /* ketchup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ketchup-Prefix.pch"; sourceTree = "<group>"; };
+		B2C85AA9158438F5009A2E18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2C85AAA158438F5009A2E18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2C85AAD158438F5009A2E18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2C85AB0158438F5009A2E18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2C85AB2158438F5009A2E18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2C85AB3158438F5009A2E18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2C85ABA158438F5009A2E18 /* ketchupTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ketchupTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C85ABB158438F5009A2E18 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2C85AC3158438F5009A2E18 /* ketchupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ketchupTests-Info.plist"; sourceTree = "<group>"; };
+		B2C85AC5158438F5009A2E18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2C85AC7158438F5009A2E18 /* ketchupTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ketchupTests.h; sourceTree = "<group>"; };
+		B2C85AC8158438F5009A2E18 /* ketchupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ketchupTests.m; sourceTree = "<group>"; };
+		B2C85AD715843A6A009A2E18 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		B2C85AD815843A6A009A2E18 /* bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottle.png; sourceTree = "<group>"; };
+		B2C85AD915843A6A009A2E18 /* ketchup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ketchup.png; sourceTree = "<group>"; };
+		B2C85ADA15843A6A009A2E18 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		B2C85AEB15844A28009A2E18 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C85A93158438F4009A2E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C85A9B158438F4009A2E18 /* UIKit.framework in Frameworks */,
+				B2C85A9D158438F4009A2E18 /* Foundation.framework in Frameworks */,
+				B2C85A9F158438F4009A2E18 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C85AB6158438F5009A2E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C85ABC158438F5009A2E18 /* SenTestingKit.framework in Frameworks */,
+				B2C85ABD158438F5009A2E18 /* UIKit.framework in Frameworks */,
+				B2C85ABE158438F5009A2E18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2C85A8B158438F4009A2E18 = {
+			isa = PBXGroup;
+			children = (
+				B2C85AA0158438F4009A2E18 /* ketchup */,
+				B2C85AC1158438F5009A2E18 /* ketchupTests */,
+				B2C85A99158438F4009A2E18 /* Frameworks */,
+				B2C85A97158438F4009A2E18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C85A97158438F4009A2E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C85A96158438F4009A2E18 /* ketchup.app */,
+				B2C85ABA158438F5009A2E18 /* ketchupTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C85A99158438F4009A2E18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2C85A9A158438F4009A2E18 /* UIKit.framework */,
+				B2C85A9C158438F4009A2E18 /* Foundation.framework */,
+				B2C85A9E158438F4009A2E18 /* CoreGraphics.framework */,
+				B2C85ABB158438F5009A2E18 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2C85AA0158438F4009A2E18 /* ketchup */ = {
+			isa = PBXGroup;
+			children = (
+				B2C85AA9158438F5009A2E18 /* AppDelegate.h */,
+				B2C85AAA158438F5009A2E18 /* AppDelegate.m */,
+				B2C85AAC158438F5009A2E18 /* MainStoryboard_iPhone.storyboard */,
+				B2C85AAF158438F5009A2E18 /* MainStoryboard_iPad.storyboard */,
+				B2C85AB2158438F5009A2E18 /* ViewController.h */,
+				B2C85AB3158438F5009A2E18 /* ViewController.m */,
+				B2C85AD615843A6A009A2E18 /* Resources */,
+				B2C85AA1158438F4009A2E18 /* Supporting Files */,
+			);
+			path = ketchup;
+			sourceTree = "<group>";
+		};
+		B2C85AA1158438F4009A2E18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2C85AA2158438F4009A2E18 /* ketchup-Info.plist */,
+				B2C85AA3158438F4009A2E18 /* InfoPlist.strings */,
+				B2C85AA6158438F4009A2E18 /* main.m */,
+				B2C85AA8158438F4009A2E18 /* ketchup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2C85AC1158438F5009A2E18 /* ketchupTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2C85AC7158438F5009A2E18 /* ketchupTests.h */,
+				B2C85AC8158438F5009A2E18 /* ketchupTests.m */,
+				B2C85AC2158438F5009A2E18 /* Supporting Files */,
+			);
+			path = ketchupTests;
+			sourceTree = "<group>";
+		};
+		B2C85AC2158438F5009A2E18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2C85AC3158438F5009A2E18 /* ketchupTests-Info.plist */,
+				B2C85AC4158438F5009A2E18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2C85AD615843A6A009A2E18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2C85AEB15844A28009A2E18 /* icon.png */,
+				B2C85AD715843A6A009A2E18 /* bg.png */,
+				B2C85AD815843A6A009A2E18 /* bottle.png */,
+				B2C85AD915843A6A009A2E18 /* ketchup.png */,
+				B2C85ADA15843A6A009A2E18 /* shadow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C85A95158438F4009A2E18 /* ketchup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C85ACC158438F5009A2E18 /* Build configuration list for PBXNativeTarget "ketchup" */;
+			buildPhases = (
+				B2C85A92158438F4009A2E18 /* Sources */,
+				B2C85A93158438F4009A2E18 /* Frameworks */,
+				B2C85A94158438F4009A2E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ketchup;
+			productName = ketchup;
+			productReference = B2C85A96158438F4009A2E18 /* ketchup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2C85AB9158438F5009A2E18 /* ketchupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C85ACF158438F5009A2E18 /* Build configuration list for PBXNativeTarget "ketchupTests" */;
+			buildPhases = (
+				B2C85AB5158438F5009A2E18 /* Sources */,
+				B2C85AB6158438F5009A2E18 /* Frameworks */,
+				B2C85AB7158438F5009A2E18 /* Resources */,
+				B2C85AB8158438F5009A2E18 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2C85AC0158438F5009A2E18 /* PBXTargetDependency */,
+			);
+			name = ketchupTests;
+			productName = ketchupTests;
+			productReference = B2C85ABA158438F5009A2E18 /* ketchupTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C85A8D158438F4009A2E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B2C85A90158438F4009A2E18 /* Build configuration list for PBXProject "ketchup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2C85A8B158438F4009A2E18;
+			productRefGroup = B2C85A97158438F4009A2E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C85A95158438F4009A2E18 /* ketchup */,
+				B2C85AB9158438F5009A2E18 /* ketchupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C85A94158438F4009A2E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C85AA5158438F4009A2E18 /* InfoPlist.strings in Resources */,
+				B2C85AAE158438F5009A2E18 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2C85AB1158438F5009A2E18 /* MainStoryboard_iPad.storyboard in Resources */,
+				B2C85ADB15843A6A009A2E18 /* bg.png in Resources */,
+				B2C85ADC15843A6A009A2E18 /* bottle.png in Resources */,
+				B2C85ADD15843A6A009A2E18 /* ketchup.png in Resources */,
+				B2C85ADE15843A6A009A2E18 /* shadow.png in Resources */,
+				B2C85AEC15844A28009A2E18 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C85AB7158438F5009A2E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C85AC6158438F5009A2E18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2C85AB8158438F5009A2E18 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C85A92158438F4009A2E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C85AA7158438F4009A2E18 /* main.m in Sources */,
+				B2C85AAB158438F5009A2E18 /* AppDelegate.m in Sources */,
+				B2C85AB4158438F5009A2E18 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2C85AB5158438F5009A2E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C85AC9158438F5009A2E18 /* ketchupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2C85AC0158438F5009A2E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2C85A95158438F4009A2E18 /* ketchup */;
+			targetProxy = B2C85ABF158438F5009A2E18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2C85AA3158438F4009A2E18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C85AA4158438F4009A2E18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2C85AAC158438F5009A2E18 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C85AAD158438F5009A2E18 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2C85AAF158438F5009A2E18 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C85AB0158438F5009A2E18 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2C85AC4158438F5009A2E18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C85AC5158438F5009A2E18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2C85ACA158438F5009A2E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C85ACB158438F5009A2E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2C85ACD158438F5009A2E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ketchup/ketchup-Prefix.pch";
+				INFOPLIST_FILE = "ketchup/ketchup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2C85ACE158438F5009A2E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ketchup/ketchup-Prefix.pch";
+				INFOPLIST_FILE = "ketchup/ketchup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2C85AD0158438F5009A2E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ketchup.app/ketchup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ketchup/ketchup-Prefix.pch";
+				INFOPLIST_FILE = "ketchupTests/ketchupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2C85AD1158438F5009A2E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ketchup.app/ketchup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ketchup/ketchup-Prefix.pch";
+				INFOPLIST_FILE = "ketchupTests/ketchupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C85A90158438F4009A2E18 /* Build configuration list for PBXProject "ketchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C85ACA158438F5009A2E18 /* Debug */,
+				B2C85ACB158438F5009A2E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C85ACC158438F5009A2E18 /* Build configuration list for PBXNativeTarget "ketchup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C85ACD158438F5009A2E18 /* Debug */,
+				B2C85ACE158438F5009A2E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2C85ACF158438F5009A2E18 /* Build configuration list for PBXNativeTarget "ketchupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C85AD0158438F5009A2E18 /* Debug */,
+				B2C85AD1158438F5009A2E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2C85A8D158438F4009A2E18 /* Project object */;
+}

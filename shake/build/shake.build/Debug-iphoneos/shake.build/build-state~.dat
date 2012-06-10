@@ -1,0 +1,325 @@
+Tshake
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/Info.plist shake/shake-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/shake.app/ResourceRules.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch.pth shake/shake-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/shake/shake/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/shake/shake/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/shake/shake/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake normal armv7
+cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app.dSYM /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPhone.storyboard
+cCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/en.lproj/InfoPlist.strings shake/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPad.storyboard
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake.xcent
+cCodeSign /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004FCED44600000000000001A7
+t1338954822
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004FCED44600000000000001E5
+t1338954822
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FCED44800000000003AE430
+t1338954824
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FCED448000000000052C940
+t1338954824
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FCED4490000000000798EA0
+t1338954825
+s7966368
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app.dSYM
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/Info.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/PkgInfo
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/ResourceRules.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/shake.LinkFileList
+c000000004FD3B1150000000000000191
+t1339273493
+s401
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake.xcent
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/shake/AppDelegate.m
+c000000004FD3AF5D00000000000007FB
+t1339273053
+s2043
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/shake/ViewController.m
+c000000004FD3B10400000000000004D9
+t1339273476
+s1241
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/InfoPlist.strings
+c000000004FD3AF5D000000000000002D
+t1339273053
+s45
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPad.storyboard
+c000000004FD3AF5D0000000000000645
+t1339273053
+s1605
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPhone.storyboard
+c000000004FD3B1110000000000000AD4
+t1339273489
+s2772
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/shake/main.m
+c000000004FD3AF5D0000000000000155
+t1339273053
+s341
+
+N/Users/roberttilton/Documents/iPhone-Development/shake/shake/shake-Prefix.pch
+c000000004FD3AF5D0000000000000139
+t1339273053
+s313
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+c000000004FCE820400000000000079BB
+t1338933764
+s31163
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch.pth
+t2
+s0
+
+Nshake/shake-Info.plist
+c000000004FD3AF5D000000000000063E
+t1339273053
+s1598
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/shake/shake/AppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/shake/shake/ViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/shake/shake/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies527f6995e883b541^fb937895e883b541^---0#1#0#--18"Check dependencies36"2334D6D9-C38D-4FD4-A376-590A017B9997-
+
+CCodeSign /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app
+s360966295.432267
+e360966295.596125
+r1
+xCodeSign
+x/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"CodeSign build/Debug-iphoneos/shake.appf3c96e97e883b541^c79b9897e883b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/0000000000000000^840"CodeSign build/Debug-iphoneos/shake.app    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 7344011f784bbee72fe0ecf6fab7216b10ae2b89 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake.xcent /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app36"487D9C93-39AD-4833-8870-7D0EE64BBD4D-
+
+CCompileC build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/shake/shake/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360966293.903103
+e360966294.043797
+r1
+xCompileC
+xbuild/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/shake/shake/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/roberttilton/Documents/iPhone-Development/shake/shake/AppDelegate.m3062e795e883b541^48360b96e883b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/shake/AppDelegate.m0000000000000000^3187"CompileC build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/AppDelegate.o shake/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/shake/shake/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/AppDelegate.o36"F1FE7934-8DA8-4A0B-9711-437A989BFB18-
+
+CCompileC build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/shake/shake/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360966293.903135
+e360966294.065044
+r1
+xCompileC
+xbuild/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/ViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/shake/shake/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/roberttilton/Documents/iPhone-Development/shake/shake/ViewController.m295ce795e883b541^87a61096e883b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/shake/ViewController.m0000000000000000^3205"CompileC build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/ViewController.o shake/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/shake/shake/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/ViewController.o36"B5AF84D9-51C3-45A9-85CD-3083FB9B405F-
+
+CCompileC build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/shake/shake/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360966293.902951
+e360966294.037860
+r1
+xCompileC
+xbuild/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Documents/iPhone-Development/shake/shake/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/roberttilton/Documents/iPhone-Development/shake/shake/main.med61e795e883b541^c2be0996e883b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/shake/main.m0000000000000000^3145"CompileC build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/main.o shake/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone-Development/shake/shake/main.m -o /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/main.o36"0DAC91D8-5A58-48A0-8A57-E463E1A6310C-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPad.storyboard
+s360966294.623141
+e360966295.365955
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"CompileStoryboard shake/en.lproj/MainStoryboard_iPad.storyboard80999f96e883b541^8eaf5d97e883b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^928"CompileStoryboard shake/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"20543840-4BEA-4371-9FE7-9FB997717E59-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPhone.storyboard
+s360966294.622597
+e360966294.801915
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"CompileStoryboard shake/en.lproj/MainStoryboard_iPhone.storyboard32909f96e883b541^145bcd96e883b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^934"CompileStoryboard shake/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"AAEA2013-9F73-4EE3-A551-5037A5ED9344-
+
+CCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/en.lproj/InfoPlist.strings shake/en.lproj/InfoPlist.strings
+s360966294.622602
+e360966294.675632
+r1
+xCopyStringsFile
+x/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/en.lproj/InfoPlist.strings
+xshake/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy shake/en.lproj/InfoPlist.strings7c7f9f96e883b541^9df6ac96e883b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/shake/en.lproj/InfoPlist.strings0000000000000000^578"CopyStringsFile build/Debug-iphoneos/shake.app/en.lproj/InfoPlist.strings shake/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/en.lproj -- shake/en.lproj/InfoPlist.strings36"4EB221BC-76AD-4744-B334-4BA3EA8DC272-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/shake.app/ResourceRules.plist
+s360966293.480590
+e360966293.507251
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/shake.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/shake.app/ResourceRules.plistbd367b95e883b541^12db8195e883b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/ResourceRules.plist000000000080d041^859"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/shake.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app36"2177DBA9-EDE9-4E6B-91FB-DC1367DCE60E-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app.dSYM /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake
+s360966294.587785
+e360966294.615050
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app.dSYM
+x/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generating /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app.dSYM008d9696e883b541^b8739d96e883b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app.dSYM000000000080d041^590"GenerateDSYMFile build/Debug-iphoneos/shake.app.dSYM build/Debug-iphoneos/shake.app/shake    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake -o /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app.dSYM36"92132F41-D242-4C76-BC74-F6D1F50CE5B0-
+
+CLd /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake normal armv7
+s360966294.071704
+e360966294.581551
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake47751296e883b541^50e19496e883b541^---0#0#0#--1080"Ld build/Debug-iphoneos/shake.app/shake normal armv7    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/Objects-normal/armv7/shake.LinkFileList -dead_strip -fobjc-arc -miphoneos-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/shake36"9E774E9E-C682-4B66-9DD9-1EB7529B6EF4-
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/Info.plist shake/shake-Info.plist
+s360966293.480585
+e360966293.485399
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/Info.plist
+xshake/shake-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process shake/shake-Info.plist7a367b95e883b541^18447c95e883b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/shake/shake-Info.plist0000000000000000^774"ProcessInfoPlistFile build/Debug-iphoneos/shake.app/Info.plist shake/shake-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility shake/shake-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/Info.plist36"E3C05C52-04A0-48F9-A14D-FEDB72163F12-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/shake-dylplrkypoztoweechklncbmiptp/Index/PrecompiledHeaders/shake-Prefix-ddvgbyqheknaksebjpalwakvvqma_ast/shake-Prefix.pch.pth shake/shake-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch.pth shake/shake-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s360966293.516284
+e360966293.895117
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch.pth
+xshake/shake-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile shake/shake-Prefix.pch50528495e883b541^2d27e595e883b541^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/shake/shake-Prefix.pch0000000000000000^3179"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch.pth shake/shake-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/shake/shake/shake-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/shake-Prefix-cubvikxybcczndgmajqbcjohwoio/shake-Prefix.pch.d36"353AD25B-E31E-4023-85ED-B21893280952-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/embedded.mobileprovision
+s360966295.385906
+e360966295.389089
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+x/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection197"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/shake.app/embedded.mobileprovision7fdc6297e883b541^679b6397e883b541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/embedded.mobileprovision0000000000000000^716"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/shake.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" -o /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app/embedded.mobileprovision36"61429B0F-30A2-477C-9BFD-DD9FB4A44E84-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake.xcent
+s360966295.420030
+e360966295.424226
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/shake.build/Debug-iphoneos/shake.build/shake.xcentfe9b6b97e883b541^a0a86c97e883b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake.xcent000000000080d041^750"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/shake.build/Debug-iphoneos/shake.build/shake.xcent    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/shake/build/shake.build/Debug-iphoneos/shake.build/shake.xcent36"E1A4D0AF-B636-4F87-A647-BA2A9BF4C51E-
+
+CTouch /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app
+s360966295.398512
+e360966295.411381
+r1
+xTouch
+x/Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Touch /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app5b276697e883b541^8e5a6997e883b541^---0#0#0#--395"Touch build/Debug-iphoneos/shake.app    cd /Users/roberttilton/Documents/iPhone-Development/shake    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/shake/build/Debug-iphoneos/shake.app36"7620731A-4BA9-4DC4-A4AC-0F0C6FF32BBD-
+
