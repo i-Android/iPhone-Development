@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
@@ -24,7 +25,7 @@
                                 <rect key="frame" x="124" y="176" width="72" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Join">
+                                <state key="normal" title="Insert">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -32,11 +33,11 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="joinChat:" destination="2" eventType="touchDown" id="gEX-SN-syI"/>
+                                    <action selector="addName:" destination="2" eventType="touchDown" id="g8x-ic-Ak3"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="128.122.151.164" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="yfI-rd-Mbl">
-                                <rect key="frame" x="97" y="29" width="127" height="31"/>
+                                <rect key="frame" x="53" y="30" width="127" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -56,7 +57,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DMV-ls-pS4">
-                                <rect key="frame" x="118" y="63" width="85" height="37"/>
+                                <rect key="frame" x="108" y="65" width="105" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Connect">
@@ -70,13 +71,27 @@
                                     <action selector="joinHost:" destination="2" eventType="touchDown" id="kzf-Ca-Xrq"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="8080" borderStyle="roundedRect" minimumFontSize="17" id="ieO-tS-anI">
+                                <rect key="frame" x="205" y="30" width="47" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text=":" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ZOp-On-Mid">
+                                <rect key="frame" x="188" y="34" width="9" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="addName" destination="0dW-kA-VFk" id="qml-eP-NmR"/>
                         <outlet property="inputHostField" destination="yfI-rd-Mbl" id="bVH-vC-Lsu"/>
                         <outlet property="inputNameField" destination="4St-pU-sOO" id="Q7f-7s-CLD"/>
-                        <outlet property="joinChat" destination="0dW-kA-VFk" id="4TF-oM-lOt"/>
+                        <outlet property="inputPortField" destination="ieO-tS-anI" id="4ap-4o-Nwr"/>
                         <outlet property="joinHost" destination="DMV-ls-pS4" id="dMA-IL-6zH"/>
                         <outlet property="joinView" destination="3" id="3QZ-MT-e10"/>
                     </connections>
@@ -88,11 +103,12 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
-                <relationship kind="action" name="joinChat:"/>
+                <relationship kind="action" name="addName:"/>
                 <relationship kind="action" name="joinHost:"/>
+                <relationship kind="outlet" name="addName" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="inputHostField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="inputNameField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="joinChat" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="inputPortField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="joinHost" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="joinView" candidateClass="UIView"/>
             </relationships>

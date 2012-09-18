@@ -13,7 +13,7 @@
 @end
 
 @implementation ViewController
-@synthesize joinView, inputHostField, inputNameField, joinHost, joinChat, inputStream, outputStream;
+@synthesize joinView, inputHostField, inputPortField, inputNameField, joinHost, addName, inputStream, outputStream, connected;
 
 - (void)viewDidLoad
 {
@@ -22,6 +22,7 @@
     
     //call function to autoconnect to server
     //[self initNetworkCommunication];
+    connected = FALSE;
 }
 
 - (void)viewDidUnload
@@ -60,26 +61,42 @@
 }
 
 
+//manual connect - typing in server host and port number
 - (IBAction)joinHost:(id)sender {
-    CFReadStreamRef readStream;
-    CFWriteStreamRef writeStream;
-    CFStreamCreatePairWithSocketToHost(NULL, (__bridge CFStringRef)inputHostField.text, 8080, &readStream, &writeStream);
-    inputStream = (__bridge NSInputStream *)readStream;
-    outputStream = (__bridge NSOutputStream *)writeStream;
-    
-    [inputStream setDelegate:self];
-    [outputStream setDelegate:self];
-    
-    //schedule our input streams to have processing in the run loop
-    [inputStream scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
-    [outputStream scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
-    
-    [inputStream open];
-    [outputStream open];
+    //if not connected - connnect
+    if(!connected){
+        CFReadStreamRef readStream;
+        CFWriteStreamRef writeStream;
+        CFStreamCreatePairWithSocketToHost(NULL, (__bridge CFStringRef)inputHostField.text, [inputPortField.text intValue], &readStream, &writeStream);
+        inputStream = (__bridge NSInputStream *)readStream;
+        outputStream = (__bridge NSOutputStream *)writeStream;
+        
+        [inputStream setDelegate:self];
+        [outputStream setDelegate:self];
+        
+        //schedule our input streams to have processing in the run loop
+        [inputStream scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+        [outputStream scheduleInRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+        
+        [inputStream open];
+        [outputStream open];
+        
+        [sender setTitle:@"Disconnect" forState:UIControlStateNormal];
+        connected = TRUE;
+    }else{
+        //close connection by sending an x
+        NSString *response  = [NSString stringWithFormat:@"x"];
+        NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+        [outputStream write:[data bytes] maxLength:[data length]];
+        printf("%s", [response UTF8String]);
+        
+        [sender setTitle:@"Connect" forState:UIControlStateNormal];
+        connected = FALSE;
+    }
 }
 
-//button to join add name
-- (IBAction)joinChat:(id)sender {
+//button to add name
+- (IBAction)addName:(id)sender {
     
     //send name
 	NSString *response  = [NSString stringWithFormat:@"n=%@", inputNameField.text];
@@ -87,5 +104,6 @@
 	[outputStream write:[data bytes] maxLength:[data length]];
     printf("%s", [response UTF8String]);
 }
+
 
 @end

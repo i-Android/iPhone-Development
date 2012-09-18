@@ -11,9 +11,11 @@
 @interface ViewController : UIViewController{
     IBOutlet UIView *joinView;
     IBOutlet UITextField *inputHostField;
+    IBOutlet UITextField *inputPortField;
     IBOutlet UITextField *inputNameField;
     IBOutlet UIButton *joinHost;
-    IBOutlet UIButton *joinChat;
+    IBOutlet UIButton *addName;
+    BOOL connected;
     
     NSInputStream *inputStream;
     NSOutputStream *outputStream;
@@ -21,20 +23,22 @@
 
 @property UIView *joinView;
 @property UITextField *inputHostField;
+@property UITextField *inputPortField;
 @property UITextField *inputNameField;
 @property UIButton *joinHost;
-@property UIButton *joinChat;
+@property UIButton *addName;
+@property BOOL connected;
 
 
 @property NSInputStream *inputStream;
 @property NSOutputStream *outputStream;
-- (IBAction)joinChat:(id)sender;
-- (IBAction)joinHost:(id)sender;
+- (IBAction)joinHost:(id)sender; //connect to host button action
+- (IBAction)addName:(id)sender; //add name button action
 @end
 
 
-@interface ChatClientViewController : UIViewController <NSStreamDelegate>{
+//@interface ChatClientViewController : UIViewController <NSStreamDelegate>{
     
-}
+//}
 
-@end
+//@end
