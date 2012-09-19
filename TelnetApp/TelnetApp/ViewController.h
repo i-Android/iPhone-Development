@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController{
+@interface ViewController : UIViewController 
+                            <NSStreamDelegate, UITableViewDelegate, UITableViewDataSource, UITabBarDelegate> {
+    
+                        
+    //nav
+    IBOutlet UITabBar *tabBar;
+                                
+    //settings variables
     IBOutlet UIView *joinView;
     IBOutlet UITextField *inputHostField;
     IBOutlet UITextField *inputPortField;
@@ -19,7 +26,17 @@
     
     NSInputStream *inputStream;
     NSOutputStream *outputStream;
+    
+    //console variables
+    IBOutlet UIView *consoleView;
+    NSMutableArray * serverResponses;
+    IBOutlet UITextField *inputMessageField;
+    IBOutlet UITableView *tView;
+    IBOutlet UIButton *sendMessage;
+    
 }
+
+@property IBOutlet UITabBar *tabBar;
 
 @property UIView *joinView;
 @property UITextField *inputHostField;
@@ -32,8 +49,17 @@
 
 @property NSInputStream *inputStream;
 @property NSOutputStream *outputStream;
+
+//consolve variables
+@property UIView *consoleView;
+@property NSMutableArray * serverResponses;
+@property UITextField *inputMessageField;
+@property IBOutlet UITableView *tView;
+@property IBOutlet UIButton *sendMessage;
+
 - (IBAction)joinHost:(id)sender; //connect to host button action
 - (IBAction)addName:(id)sender; //add name button action
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item;
 @end
 
 
