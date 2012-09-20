@@ -71,6 +71,8 @@
 
 //manual connect - typing in server host and port number
 - (IBAction)joinHost:(id)sender {
+    [self.view endEditing:YES];//hide keyboard if open
+    
     //if not connected - connnect
     if(!connected){
         CFReadStreamRef readStream;
@@ -108,9 +110,10 @@
 
 //button to add name
 - (IBAction)addName:(id)sender {
-    
+    [self.view endEditing:YES];//hide keyboard if open
+
     //send name
-	NSString *response  = [NSString stringWithFormat:@"n=%@", inputNameField.text];
+	NSString *response  = [NSString stringWithFormat:@"n=%@\n", inputNameField.text];
 	NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
 	[outputStream write:[data bytes] maxLength:[data length]];
     printf("%s", [response UTF8String]);
@@ -156,12 +159,14 @@
             //pop-up alert view
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sorry there was a problem!" message:@"Can not connect to host..." delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Try Again",nil];
             [alert show];
+            [alert release];
             
             connected = FALSE;
             [joinHost setTitle:@"Connect" forState:UIControlStateNormal];
 			break;
             
 		case NSStreamEventEndEncountered:
+            NSLog(@"HERE HERE HERE!!!");
             //close the stream if someone disconnects
             [theStream close];
             [theStream removeFromRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
@@ -189,6 +194,8 @@
     [self.tView scrollToRowAtIndexPath:topIndexPath 
                       atScrollPosition:UITableViewScrollPositionMiddle 
                               animated:YES];
+    
+    [tView setContentOffset:CGPointMake(0, self.tView.contentSize.height- self.tView.frame.size.height)]; //autoscrolls table
 }
 
 - (void) messageSent:(NSString *)message {
@@ -196,7 +203,8 @@
     [userMessage appendString: message];
     
 	[serverResponses addObject:userMessage];
-	[self.tView reloadData];    
+	[self.tView reloadData];  
+    [tView setContentOffset:CGPointMake(0, self.tView.contentSize.height- self.tView.frame.size.height)]; //autoscrolls table
 }
 
 
@@ -242,10 +250,14 @@
 
 //console send message function
 - (IBAction)sendMessage:(id)sender {
-    NSString *response  = [NSString stringWithFormat: inputMessageField.text];
-	NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
-	[outputStream write:[data bytes] maxLength:[data length]];
-    [self messageSent:response]; //add resposne to array
+    [self.view endEditing:YES];//hide keyboard if open
+    
+    if([inputMessageField.text length] > 0){
+        NSString *response  = [NSString stringWithFormat: inputMessageField.text];
+        NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+        [outputStream write:[data bytes] maxLength:[data length]];
+        [self messageSent:response]; //add resposne to array
+    }
 }
 
 
@@ -259,5 +271,7 @@
         [self joinHost:nil];
     }
 }
+
+
 
 @end
