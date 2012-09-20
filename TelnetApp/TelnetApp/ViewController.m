@@ -13,7 +13,7 @@
 @end
 
 @implementation ViewController
-@synthesize joinView, inputHostField, inputPortField, inputNameField, joinHost, addName, inputStream, outputStream, connected, serverResponses, tabBar, consoleView, inputMessageField, sendMessage, tView;
+@synthesize joinView, inputHostField, inputPortField, inputNameField, joinHost, addName, inputStream, outputStream, connected, errorCounter, serverResponses, tabBar, consoleView, inputMessageField, sendMessage, tView;
 
 - (void)viewDidLoad
 {
@@ -23,6 +23,7 @@
     //[self initNetworkCommunication];
     
     connected = FALSE; //start connected as false
+    errorCounter = 0;
     
     //allocate array for response messages from server
     serverResponses = [[NSMutableArray alloc] init];
@@ -156,10 +157,13 @@
             
 		case NSStreamEventErrorOccurred:
 			NSLog(@"Can not connect to the host!");
-            //pop-up alert view
+            //pop-up alert view - using 'errorCounter as a workaround to fix double alert bug
+            errorCounter++;
+            if(errorCounter >= 2){
             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sorry there was a problem!" message:@"Can not connect to host..." delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Try Again",nil];
             [alert show];
             [alert release];
+            }
             
             connected = FALSE;
             [joinHost setTitle:@"Connect" forState:UIControlStateNormal];
@@ -263,6 +267,7 @@
 
 //cant connect alert box - try again or cancel
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    errorCounter = 0;//reset error counter
     if (buttonIndex == 0) {
         NSLog(@"Cancel Tapped.");
     }

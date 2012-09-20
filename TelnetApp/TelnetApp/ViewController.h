@@ -23,6 +23,7 @@
     IBOutlet UIButton *joinHost;
     IBOutlet UIButton *addName;
     BOOL connected;
+    int errorCounter;
     
     NSInputStream *inputStream;
     NSOutputStream *outputStream;
@@ -33,6 +34,7 @@
     IBOutlet UITextField *inputMessageField;
     IBOutlet UITableView *tView;
     IBOutlet UIButton *sendMessage;
+                                
     
 }
 
@@ -45,6 +47,7 @@
 @property UIButton *joinHost;
 @property UIButton *addName;
 @property BOOL connected;
+@property int errorCounter;
 
 
 @property NSInputStream *inputStream;
