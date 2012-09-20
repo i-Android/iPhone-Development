@@ -59,7 +59,10 @@
 
 - (IBAction)joinHost:(id)sender; //connect to host button action
 - (IBAction)addName:(id)sender; //add name button action
-- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item;
+- (IBAction)sendMessage:(id)sender; //send message in console
+- (void) messageReceived:(NSString *)message; //messages received in console
+- (void) messageSent:(NSString *)message; //messages sent in console
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item; //function to toggle tabs
 @end
 
 
