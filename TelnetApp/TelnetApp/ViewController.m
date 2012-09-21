@@ -15,6 +15,8 @@
 @implementation ViewController
 @synthesize joinView, inputHostField, inputPortField, inputNameField, joinHost, addName, inputStream, outputStream, connected, errorCounter, serverResponses, tabBar, consoleView, inputMessageField, sendMessage, tView;
 
+@synthesize joypadView, joypad, joybtn;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -36,6 +38,20 @@
     //delegate for table view
     self.tView.delegate = self;
 	self.tView.dataSource = self;
+    
+    
+    //load joystick images
+//    UIImage * joybuttonRef = [UIImage imageNamed:@"joybutton.png"];
+//    joybtn = [[UIImageView alloc] initWithImage:joybuttonRef];
+//    joybtn.frame = CGRectMake(100, 100, 100, 100);
+//    [self.view addSubview:joybtn];
+//    [joybtn release];
+//    
+//    UIImage * joypadRef = [UIImage imageNamed:@"joypad.png"];
+//    joypad = [[UIImageView alloc] initWithImage:joypadRef];
+//    joypad.frame = CGRectMake(51, 51, 50, 50);
+//    [self.view addSubview:joypad];
+//    [joypad release];
 }
 
 
@@ -176,7 +192,6 @@
 			break;
             
 		case NSStreamEventEndEncountered:
-            NSLog(@"HERE HERE HERE!!!");
             //close the stream if someone disconnects
             [theStream close];
             [theStream removeFromRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
@@ -209,7 +224,7 @@
 }
 
 - (void) messageSent:(NSString *)message {
-    NSMutableString* userMessage = [NSMutableString stringWithString: @"> "];
+    NSMutableString *userMessage = [NSMutableString stringWithString: @"> "];
     [userMessage appendString: message];
     
 	[serverResponses addObject:userMessage];
@@ -247,9 +262,12 @@
 
 
 //tab navigation controller - tells which view to appear
-- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{    
+- (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{  
     if(item.tag == 0){
         [self.view bringSubviewToFront:joinView];
+    }
+    if(item.tag == 1){
+        [self.view bringSubviewToFront:joypadView];
     }
     if(item.tag == 2){
         [self.view bringSubviewToFront:consoleView];
@@ -263,7 +281,7 @@
     [self.view endEditing:YES];//hide keyboard if open
     
     if([inputMessageField.text length] > 0){
-        NSString *response  = [NSString stringWithFormat: inputMessageField.text];
+        NSString *response  = [NSString stringWithFormat: @"%@\n", inputMessageField.text];
         NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
         [outputStream write:[data bytes] maxLength:[data length]];
         [self messageSent:response]; //add resposne to array
@@ -285,4 +303,10 @@
 
 
 
+
+//joystick functions
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+    CGPoint touchPoint = [[touches anyObject] locationInView:self.view];
+    [joybtn setCenter:touchPoint];
+}
 @end

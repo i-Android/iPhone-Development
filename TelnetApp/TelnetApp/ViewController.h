@@ -36,6 +36,12 @@
     IBOutlet UIButton *sendMessage;
                                 
     
+    //joystick variables
+    IBOutlet UIView *joypadView;
+    IBOutlet UIImageView* joypad,*joybtn;
+//    CGPoint touchPos;
+//    float joybtnDistSquared,joybtnAngle;
+//    BOOL isMovingJoybtn;
 }
 
 @property IBOutlet UITabBar *tabBar;
@@ -59,6 +65,14 @@
 @property UITextField *inputMessageField;
 @property IBOutlet UITableView *tView;
 @property IBOutlet UIButton *sendMessage;
+
+
+//joystick variables
+@property UIView *joypadView;
+@property IBOutlet UIImageView* joypad,*joybtn;
+//@property CGPoint touchPos;
+//@property float joybtnDistSquared,joybtnAngle;
+//@property BOOL isMovingJoybtn;
 
 - (IBAction)joinHost:(id)sender; //connect to host button action
 - (IBAction)addName:(id)sender; //add name button action
