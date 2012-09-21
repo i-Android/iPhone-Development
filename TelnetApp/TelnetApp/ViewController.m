@@ -38,6 +38,12 @@
 	self.tView.dataSource = self;
 }
 
+
+- (void)viewDidAppear:(BOOL)animated {
+        [self.tabBarController setSelectedIndex:1];
+}
+
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];

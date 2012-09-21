@@ -129,7 +129,6 @@
                             <tabBar contentMode="scaleToFill" id="ImR-mc-9eq">
                                 <rect key="frame" x="0.0" y="411" width="320" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
                                     <tabBarItem title="Connection" id="Euz-4p-cc2"/>
                                     <tabBarItem tag="1" title="Controller" id="Csx-ve-MP1"/>
@@ -156,27 +155,6 @@
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="addName:"/>
-                <relationship kind="action" name="joinHost:"/>
-                <relationship kind="action" name="sendMessage:"/>
-                <relationship kind="outlet" name="addName" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="consoleView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="inputHostField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="inputMessageField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="inputNameField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="inputPortField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="joinHost" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="joinView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="sendMessage" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="tView" candidateClass="UITableView"/>
-                <relationship kind="outlet" name="tabBar" candidateClass="UITabBar"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
