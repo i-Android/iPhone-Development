@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* SimpleDragging */ = {
+		activeExec = 0;
+		executables = (
+			FA57285F12A5AC80005E32CD /* SimpleDragging */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* SimpleDraggingViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 266}}";
+			sepNavSelRange = "{95, 0}";
+			sepNavVisRange = "{38, 295}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* SimpleDraggingViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {612, 938}}";
+			sepNavSelRange = "{852, 2}";
+			sepNavVisRange = "{699, 330}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FA57285F12A5AC80005E32CD /* SimpleDragging */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SimpleDragging */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SimpleDragging */,
+		);
+		codeSenseManager = FA57287212A5AC8E005E32CD /* Code sense */;
+		executables = (
+			FA57285F12A5AC80005E32CD /* SimpleDragging */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 312864747;
+			PBXWorkspaceStateSaveDate = 312864747;
+		};
+		perUserProjectItems = {
+			FA3389EB12A5F1D300F713FE /* PBXTextBookmark */ = FA3389EB12A5F1D300F713FE /* PBXTextBookmark */;
+			FA3389F012A5F1E900F713FE /* PBXTextBookmark */ = FA3389F012A5F1E900F713FE /* PBXTextBookmark */;
+			FA3389F112A5F1E900F713FE /* PBXTextBookmark */ = FA3389F112A5F1E900F713FE /* PBXTextBookmark */;
+			FA3389F212A5F1E900F713FE /* PBXTextBookmark */ = FA3389F212A5F1E900F713FE /* PBXTextBookmark */;
+			FA3389F512A5F1F900F713FE /* PBXTextBookmark */ = FA3389F512A5F1F900F713FE /* PBXTextBookmark */;
+		};
+		sourceControlManager = FA57287112A5AC8E005E32CD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	FA3389EB12A5F1D300F713FE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA57287712A5AD50005E32CD /* DragBox.h */;
+		name = "DragBox.h: 13";
+		rLen = 0;
+		rLoc = 218;
+		rType = 0;
+		vrLen = 227;
+		vrLoc = 0;
+	};
+	FA3389F012A5F1E900F713FE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SimpleDraggingViewController.m */;
+		name = "SimpleDraggingViewController.m: 38";
+		rLen = 2;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 330;
+		vrLoc = 699;
+	};
+	FA3389F112A5F1E900F713FE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA57287812A5AD50005E32CD /* DragBox.m */;
+		name = "DragBox.m: 26";
+		rLen = 0;
+		rLoc = 590;
+		rType = 0;
+		vrLen = 413;
+		vrLoc = 313;
+	};
+	FA3389F212A5F1E900F713FE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SimpleDraggingViewController.h */;
+		name = "SimpleDraggingViewController.h: 14";
+		rLen = 0;
+		rLoc = 323;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 0;
+	};
+	FA3389F512A5F1F900F713FE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SimpleDraggingViewController.h */;
+		name = "SimpleDraggingViewController.h: 5";
+		rLen = 0;
+		rLoc = 95;
+		rType = 0;
+		vrLen = 295;
+		vrLoc = 38;
+	};
+	FA57285F12A5AC80005E32CD /* SimpleDragging */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SimpleDragging;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FA57287112A5AC8E005E32CD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FA57287212A5AC8E005E32CD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FA57287712A5AD50005E32CD /* DragBox.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 238}}";
+			sepNavSelRange = "{218, 0}";
+			sepNavVisRange = "{0, 227}";
+		};
+	};
+	FA57287812A5AD50005E32CD /* DragBox.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {462, 644}}";
+			sepNavSelRange = "{590, 0}";
+			sepNavVisRange = "{396, 330}";
+		};
+	};
+}

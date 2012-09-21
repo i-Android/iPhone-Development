@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DragImage.h"
+#import "DragView.h"
 
 @interface ViewController : UIViewController 
                             <NSStreamDelegate, UITableViewDelegate, UITableViewDataSource, UITabBarDelegate> {
@@ -38,41 +40,15 @@
     
     //joystick variables
     IBOutlet UIView *joypadView;
-    IBOutlet UIImageView* joypad,*joybtn;
+    IBOutlet DragImage *joybtn;
+    IBOutlet DragView *joybtn2;
+    //IBOutlet UIImageView* joypad;
 //    CGPoint touchPos;
 //    float joybtnDistSquared,joybtnAngle;
 //    BOOL isMovingJoybtn;
 }
 
-@property IBOutlet UITabBar *tabBar;
 
-@property UIView *joinView;
-@property UITextField *inputHostField;
-@property UITextField *inputPortField;
-@property UITextField *inputNameField;
-@property UIButton *joinHost;
-@property UIButton *addName;
-@property BOOL connected;
-@property int errorCounter;
-
-
-@property NSInputStream *inputStream;
-@property NSOutputStream *outputStream;
-
-//consolve variables
-@property UIView *consoleView;
-@property NSMutableArray * serverResponses;
-@property UITextField *inputMessageField;
-@property IBOutlet UITableView *tView;
-@property IBOutlet UIButton *sendMessage;
-
-
-//joystick variables
-@property UIView *joypadView;
-@property IBOutlet UIImageView* joypad,*joybtn;
-//@property CGPoint touchPos;
-//@property float joybtnDistSquared,joybtnAngle;
-//@property BOOL isMovingJoybtn;
 
 - (IBAction)joinHost:(id)sender; //connect to host button action
 - (IBAction)addName:(id)sender; //add name button action
@@ -82,9 +58,3 @@
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item; //function to toggle tabs
 @end
 
-
-//@interface ChatClientViewController : UIViewController <NSStreamDelegate>{
-    
-//}
-
-//@end

@@ -13,9 +13,6 @@
 @end
 
 @implementation ViewController
-@synthesize joinView, inputHostField, inputPortField, inputNameField, joinHost, addName, inputStream, outputStream, connected, errorCounter, serverResponses, tabBar, consoleView, inputMessageField, sendMessage, tView;
-
-@synthesize joypadView, joypad, joybtn;
 
 - (void)viewDidLoad
 {
@@ -36,8 +33,8 @@
     [self.view bringSubviewToFront:joinView]; //start at join view
     
     //delegate for table view
-    self.tView.delegate = self;
-	self.tView.dataSource = self;
+    self->tView.delegate = self;
+	self->tView.dataSource = self;
     
     
     //load joystick images
@@ -52,6 +49,20 @@
 //    joypad.frame = CGRectMake(51, 51, 50, 50);
 //    [self.view addSubview:joypad];
 //    [joypad release];
+    
+//    UIImage *tmpImage = [[UIImage imageNamed:@"joybutton.png"] retain];
+//    UIImageView *imageView = [[UIImageView alloc] initWithImage:tmpImage];
+//    CGRect cellRectangle;
+//    cellRectangle = CGRectMake(0,0,tmpImage.size.width ,tmpImage.size.height );
+//    UIImageView *dragger = [[DragBox alloc] initWithFrame:cellRectangle];
+//    [dragger setImage:tmpImage];
+//    [dragger setUserInteractionEnabled:YES];
+//    
+//    [self.view addSubview:dragger];
+//    [imageView release];
+//    [tmpImage release];
+    
+    [joybtn setUserInteractionEnabled:YES];
 }
 
 
@@ -210,17 +221,17 @@
 //store the string response in array and place it into table
 - (void) messageReceived:(NSString *)message {
 	[serverResponses addObject:message];
-	[self.tView reloadData];
+	[self->tView reloadData];
     
     //add scrolling to table
     NSIndexPath *topIndexPath = 
     [NSIndexPath indexPathForRow:serverResponses.count-1 
                        inSection:0];
-    [self.tView scrollToRowAtIndexPath:topIndexPath 
+    [self->tView scrollToRowAtIndexPath:topIndexPath 
                       atScrollPosition:UITableViewScrollPositionMiddle 
                               animated:YES];
     
-    [tView setContentOffset:CGPointMake(0, self.tView.contentSize.height- self.tView.frame.size.height)]; //autoscrolls table
+    [tView setContentOffset:CGPointMake(0, self->tView.contentSize.height- self->tView.frame.size.height)]; //autoscrolls table
 }
 
 - (void) messageSent:(NSString *)message {
@@ -228,8 +239,8 @@
     [userMessage appendString: message];
     
 	[serverResponses addObject:userMessage];
-	[self.tView reloadData];  
-    [tView setContentOffset:CGPointMake(0, self.tView.contentSize.height- self.tView.frame.size.height)]; //autoscrolls table
+	[self->tView reloadData];  
+    [tView setContentOffset:CGPointMake(0, self->tView.contentSize.height- self->tView.frame.size.height)]; //autoscrolls table
 }
 
 
@@ -305,8 +316,8 @@
 
 
 //joystick functions
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
-    CGPoint touchPoint = [[touches anyObject] locationInView:self.view];
-    [joybtn setCenter:touchPoint];
-}
+//- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+//    CGPoint touchPoint = [[touches anyObject] locationInView:self.view];
+//    [joybtn setCenter:touchPoint];
+//}
 @end

@@ -1,0 +1,256 @@
+TSimpleDragging
+v7
+r0
+t312847553.619472
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/Info.plist SimpleDragging-Info.plist
+cCompileXIB /Users/alex/Desktop/SimpleDragging/MainWindow.xib
+cCompileXIB /Users/alex/Desktop/SimpleDragging/SimpleDraggingViewController.xib
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-aqraizwjdgfkcxdtwubofqxqcwmy/SimpleDragging_Prefix.pch.gch SimpleDragging_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/main.o /Users/alex/Desktop/SimpleDragging/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingAppDelegate.o /Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingViewController.o /Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging normal i386
+cGenerateDSYMFile /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app.dSYM /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging
+cTouch /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app
+
+N/Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingAppDelegate.h
+c000000004CF575000000000000000209
+t1291154688
+s521
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingAppDelegate.m
+c000000004CF575000000000000000AB8
+t1291154688
+s2744
+i"SimpleDraggingAppDelegate.h"
+i"SimpleDraggingViewController.h"
+
+N/Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingViewController.h
+c000000004CF5750B000000000000011D
+t1291154699
+s285
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingViewController.m
+c000000004CF5753E0000000000000636
+t1291154750
+s1590
+i"SimpleDraggingViewController.h"
+
+N/Users/alex/Desktop/SimpleDragging/MainWindow.xib
+c000000004CF575000000000000004E7D
+t1291154688
+s20093
+
+N/Users/alex/Desktop/SimpleDragging/SimpleDraggingViewController.xib
+c000000004CF5752300000000000042BB
+t1291154723
+s17083
+
+N/Users/alex/Desktop/SimpleDragging/SimpleDragging_Prefix.pch
+c000000004CF5750000000000000000C5
+t1291154688
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app
+t1291154753
+s238
+
+N/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app.dSYM
+t1291154753
+s102
+
+N/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/Info.plist
+t1291154751
+s619
+
+N/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/MainWindow.nib
+t1291154752
+s1137
+
+N/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/PkgInfo
+t1291154751
+s8
+
+N/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging
+t1291154753
+s17824
+
+N/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDraggingViewController.nib
+t1291154752
+s963
+
+N/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDragging.LinkFileList
+c000000004CF5753F00000000000001B9
+t1291154751
+s441
+
+N/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingAppDelegate.o
+t1291154753
+s51444
+
+N/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingViewController.o
+t1291154753
+s38740
+
+N/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/main.o
+t1291154753
+s6356
+
+N/Users/alex/Desktop/SimpleDragging/main.m
+c000000004CF575000000000000000170
+t1291154688
+s368
+i<UIKit/UIKit.h>
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-aqraizwjdgfkcxdtwubofqxqcwmy/SimpleDragging_Prefix.pch.gch
+t1291154753
+s15461584
+
+NSimpleDragging-Info.plist
+c000000004CF57500000000000000038D
+t1291154688
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312847551#312847551#0(0"0(0#1#0"29836824280170608#0"0#
+
+CCompileC build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingAppDelegate.o /Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312847553.305712
+e312847553.500205
+r1
+xCompileC
+xbuild/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingAppDelegate.o
+x/Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingAppDelegate.m312847553#312847553#0(0"0(0#0#70"/Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingAppDelegate.m8612475264#2120"    cd /Users/alex/Desktop/SimpleDragging    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-generated-files.hmap -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-own-target-headers.hmap -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-project-headers.hmap -F/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator -I/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-aqraizwjdgfkcxdtwubofqxqcwmy/SimpleDragging_Prefix.pch -c /Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingAppDelegate.m -o /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingAppDelegate.o0#
+
+CCompileC build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingViewController.o /Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312847553.396879
+e312847553.537277
+r1
+xCompileC
+xbuild/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingViewController.o
+x/Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingViewController.m312847553#312847553#0(0"0(0#0#73"/Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingViewController.m8612395168#2126"    cd /Users/alex/Desktop/SimpleDragging    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-generated-files.hmap -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-own-target-headers.hmap -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-project-headers.hmap -F/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator -I/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-aqraizwjdgfkcxdtwubofqxqcwmy/SimpleDragging_Prefix.pch -c /Users/alex/Desktop/SimpleDragging/Classes/SimpleDraggingViewController.m -o /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDraggingViewController.o0#
+
+CCompileC build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/main.o /Users/alex/Desktop/SimpleDragging/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312847553.304450
+e312847553.396760
+r1
+xCompileC
+xbuild/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/main.o
+x/Users/alex/Desktop/SimpleDragging/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/alex/Desktop/SimpleDragging/main.m312847553#312847553#0(0"0(0#0#41"/Users/alex/Desktop/SimpleDragging/main.m8612539040#2070"    cd /Users/alex/Desktop/SimpleDragging    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-generated-files.hmap -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-own-target-headers.hmap -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-project-headers.hmap -F/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator -I/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-aqraizwjdgfkcxdtwubofqxqcwmy/SimpleDragging_Prefix.pch -c /Users/alex/Desktop/SimpleDragging/main.m -o /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/alex/Desktop/SimpleDragging/MainWindow.xib
+s312847551.524856
+e312847552.170706
+r1
+xCompileXIB
+x/Users/alex/Desktop/SimpleDragging/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312847551#312847552#0(0"0(0#0#49"/Users/alex/Desktop/SimpleDragging/MainWindow.xib28992339220496452#625"    cd /Users/alex/Desktop/SimpleDragging    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/MainWindow.nib /Users/alex/Desktop/SimpleDragging/MainWindow.xib --sdk /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/alex/Desktop/SimpleDragging/SimpleDraggingViewController.xib
+s312847551.526519
+e312847552.228278
+r1
+xCompileXIB
+x/Users/alex/Desktop/SimpleDragging/SimpleDraggingViewController.xib
+lSLF07#2@43"CompileXIB SimpleDraggingViewController.xib312847551#312847552#0(0"0(0#0#67"/Users/alex/Desktop/SimpleDragging/SimpleDraggingViewController.xib8612438720#661"    cd /Users/alex/Desktop/SimpleDragging    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDraggingViewController.nib /Users/alex/Desktop/SimpleDragging/SimpleDraggingViewController.xib --sdk /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app.dSYM /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging
+s312847553.583111
+e312847553.610646
+r1
+xGenerateDSYMFile
+x/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app.dSYM
+x/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/SimpleDragging.app.dSYM build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging312847553#312847553#0(0"0(0#0#96"/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging8612393216#437"    cd /Users/alex/Desktop/SimpleDragging    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/usr/bin/dsymutil /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging -o /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app.dSYM0#
+
+CLd /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging normal i386
+s312847553.537404
+e312847553.582999
+r1
+xLd
+x/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging
+xnormal
+xi386
+lSLF07#2@101"Link /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging312847553#312847553#0(0"0(0#0#0"8612535520#975"    cd /Users/alex/Desktop/SimpleDragging    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator -F/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator -filelist /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/Objects-normal/i386/SimpleDragging.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/SimpleDragging0#
+
+CProcessInfoPlistFile /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/Info.plist SimpleDragging-Info.plist
+s312847551.514347
+e312847551.524753
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/Info.plist
+xSimpleDragging-Info.plist
+lSLF07#2@33"Process SimpleDragging-Info.plist312847551#312847551#0(0"0(0#0#60"/Users/alex/Desktop/SimpleDragging/SimpleDragging-Info.plist29555366482477168#518"    cd /Users/alex/Desktop/SimpleDragging    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimpleDragging-Info.plist -genpkginfo /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-aqraizwjdgfkcxdtwubofqxqcwmy/SimpleDragging_Prefix.pch.gch SimpleDragging_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312847552.228528
+e312847553.304241
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-aqraizwjdgfkcxdtwubofqxqcwmy/SimpleDragging_Prefix.pch.gch
+xSimpleDragging_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile SimpleDragging_Prefix.pch312847552#312847553#0(0"0(0#0#60"/Users/alex/Desktop/SimpleDragging/SimpleDragging_Prefix.pch8611037088#1959"    cd /Users/alex/Desktop/SimpleDragging    setenv LANG en_US.US-ASCII    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-generated-files.hmap -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-own-target-headers.hmap -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-all-target-headers.hmap -iquote /Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/SimpleDragging-project-headers.hmap -F/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator -I/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/DerivedSources/i386 -I/Users/alex/Desktop/SimpleDragging/build/SimpleDragging.build/Debug-iphonesimulator/SimpleDragging.build/DerivedSources -c /Users/alex/Desktop/SimpleDragging/SimpleDragging_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-aqraizwjdgfkcxdtwubofqxqcwmy/SimpleDragging_Prefix.pch.gch0#
+
+CTouch /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app
+s312847553.610759
+e312847553.619406
+r1
+xTouch
+x/Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app
+lSLF07#2@87"Touch /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app312847553#312847553#0(0"0(0#0#0"8611947808#307"    cd /Users/alex/Desktop/SimpleDragging    setenv PATH "/Xcodes/Developer11072010/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcodes/Developer11072010/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alex/Desktop/SimpleDragging/build/Debug-iphonesimulator/SimpleDragging.app0#
+

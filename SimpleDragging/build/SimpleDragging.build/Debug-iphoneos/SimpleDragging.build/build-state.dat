@@ -1,0 +1,344 @@
+TSimpleDragging
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleDragging.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/Info.plist SimpleDragging-Info.plist
+cCompileXIB /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/MainWindow.xib
+cCompileXIB /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDraggingViewController.xib
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch.pth SimpleDragging_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingAppDelegate.o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingViewController.o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/DragBox.o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/DragBox.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging normal armv7
+cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app.dSYM /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging.xcent
+cCodeSign /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004FCED44600000000000001A7
+t1338954822
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004FCED44600000000000001E5
+t1338954822
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004FCED44800000000003AE430
+t1338954824
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004FCED448000000000052C940
+t1338954824
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004FCED4480000000000001534
+t1338954824
+s5428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004FCED4480000000000000BF5
+t1338954824
+s3061
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004FCED4490000000000798EA0
+t1338954825
+s7966368
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/DragBox.m
+c000000004CF5BA6400000000000003DD
+t1291172452
+s989
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingAppDelegate.m
+c000000004CF575000000000000000AB8
+t1291154688
+s2744
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingViewController.m
+c000000004CF5BA5F0000000000000689
+t1291172447
+s1673
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/MainWindow.xib
+c000000004CF575000000000000004E7D
+t1291154688
+s20093
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDraggingViewController.xib
+c000000004CF5BA700000000000004D3D
+t1291172464
+s19773
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDragging_Prefix.pch
+c000000004CF5750000000000000000C5
+t1291154688
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app.dSYM
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/Info.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/MainWindow.nib
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/PkgInfo
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/ResourceRules.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDraggingViewController.nib
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/DragBox.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDragging.LinkFileList
+c00000000505CAA55000000000000029C
+t1348250197
+s668
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingAppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingViewController.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging.xcent
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/main.m
+c000000004CF575000000000000000170
+t1291154688
+s368
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+c000000004FCE820400000000000079BB
+t1338933764
+s31163
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch.pth
+t2
+s0
+
+NSimpleDragging-Info.plist
+c000000004CF57500000000000000038D
+t1291154688
+s909
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/DragBox.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingAppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies438d9ad5e10cb641^293cc4d5e10cb641^---0#1#0#--18"Check dependencies36"44F9581B-ADE8-47E8-A8B5-8627D2DBA13B-
+
+CCodeSign /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app
+s369942999.282608
+e369942999.402701
+r1
+xCodeSign
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"CodeSign build/Debug-iphoneos/SimpleDragging.app236848d7e10cb641^8b1767d7e10cb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/0000000000000000^930"CodeSign build/Debug-iphoneos/SimpleDragging.app    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 7344011f784bbee72fe0ecf6fab7216b10ae2b89 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging.xcent /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app36"03801C17-67AF-4360-B803-28AEDCA4224D-
+
+CCompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/DragBox.o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/DragBox.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942999.089220
+e369942999.160762
+r1
+xCompileC
+xbuild/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/DragBox.o
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/DragBox.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/DragBox.mc91c17d7e10cb641^a22729d7e10cb641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/DragBox.m0000000000000000^3518"CompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/DragBox.o Classes/DragBox.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/DragBox.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/DragBox.dia -c /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/DragBox.m -o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/DragBox.o36"C5A3AFEA-8A11-4A30-815A-565016CFA00E-
+
+CCompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingAppDelegate.o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942999.089126
+e369942999.168182
+r1
+xCompileC
+xbuild/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingAppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingAppDelegate.m6e1617d7e10cb641^fa0d2bd7e10cb641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingAppDelegate.m0000000000000000^3626"CompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingAppDelegate.o Classes/SimpleDraggingAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingAppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingAppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingAppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingAppDelegate.o36"AF12CA27-DEF3-4102-81D6-C19323C18F4E-
+
+CCompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingViewController.o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942999.089167
+e369942999.154890
+r1
+xCompileC
+xbuild/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingViewController.m051717d7e10cb641^cea627d7e10cb641^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingViewController.m0000000000000000^3644"CompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingViewController.o Classes/SimpleDraggingViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/Classes/SimpleDraggingViewController.m -o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDraggingViewController.o36"24A5AA03-42C1-4B2D-9383-43C24CB48CA5-
+
+CCompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942999.089209
+e369942999.129006
+r1
+xCompileC
+xbuild/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/main.m1e1517d7e10cb641^ff0621d7e10cb641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/main.m0000000000000000^3484"CompileC build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/main.m -o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/main.o36"7DD1B29A-2ED2-4F31-A48E-D2B5E909E1B0-
+
+CCompileXIB /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/MainWindow.xib
+s369942997.812201
+e369942998.626091
+r1
+xCompileXIB
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/MainWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/MainWindow.xib3e05d0d5e10cb641^b88fa0d6e10cb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/MainWindow.xib0000000000000000^868"CompileXIB MainWindow.xib    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/MainWindow.nib /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"02EFA71B-97FA-40F7-9BDE-C14DAB50E051-
+
+CCompileXIB /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDraggingViewController.xib
+s369942997.812213
+e369942998.601663
+r1
+xCompileXIB
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDraggingViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compiling /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDraggingViewController.xib3e05d0d5e10cb641^78629ad6e10cb641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDraggingViewController.xib0000000000000000^922"CompileXIB SimpleDraggingViewController.xib    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDraggingViewController.nib /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDraggingViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"A502D1C1-42F4-4349-B440-52B0E53DB5E9-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleDragging.app/ResourceRules.plist
+s369942997.780521
+e369942997.795701
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/SimpleDragging.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphoneos/SimpleDragging.app/ResourceRules.plistf81bc9d5e10cb641^ed0bccd5e10cb641^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/ResourceRules.plist000000000080d041^895"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleDragging.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app36"620903BE-F077-414B-A54E-0A09933E94BB-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app.dSYM /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging
+s369942999.204159
+e369942999.224461
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app.dSYM
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generating /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app.dSYMc36634d7e10cb641^147639d7e10cb641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app.dSYM000000000080d041^671"GenerateDSYMFile build/Debug-iphoneos/SimpleDragging.app.dSYM build/Debug-iphoneos/SimpleDragging.app/SimpleDragging    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging -o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app.dSYM36"B89C7691-C99F-42B4-96DF-05322EE37280-
+
+CLd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging normal armv7
+s369942999.175374
+e369942999.197006
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging98f72cd7e10cb641^e76f32d7e10cb641^---0#0#0#--1177"Ld build/Debug-iphoneos/SimpleDragging.app/SimpleDragging normal armv7    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/Objects-normal/armv7/SimpleDragging.LinkFileList -dead_strip -miphoneos-version-min=5.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/SimpleDragging36"A6410F80-A98D-4CCD-B3E5-0EF01CE91F70-
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/Info.plist SimpleDragging-Info.plist
+s369942997.785546
+e369942997.803007
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/Info.plist
+xSimpleDragging-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Process SimpleDragging-Info.plist342dc9d5e10cb641^0ef7cdd5e10cb641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDragging-Info.plist0000000000000000^852"ProcessInfoPlistFile build/Debug-iphoneos/SimpleDragging.app/Info.plist SimpleDragging-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimpleDragging-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/Info.plist36"5B31FC39-8C6E-4B86-A1FC-D4ABD6CC9460-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/SimpleDragging-fykixokwbalbbiclkspkyojudlhj/Index/PrecompiledHeaders/SimpleDragging_Prefix-fqkgpntekxxmmbbrhvlqcgmzuqgn_ast/SimpleDragging_Prefix.pch.pth SimpleDragging_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch.pth SimpleDragging_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s369942998.638417
+e369942999.080252
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch.pth
+xSimpleDragging_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile SimpleDragging_Prefix.pchb491a3d6e10cb641^fc8b14d7e10cb641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDragging_Prefix.pch0000000000000000^3491"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch.pth SimpleDragging_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/SimpleDragging_Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleDragging_Prefix-ekpykwrxniuupidxclzmmotuizxj/SimpleDragging_Prefix.pch.d36"7B25A4E3-15C5-4DF5-9B37-E04303BC1504-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/embedded.mobileprovision
+s369942999.245441
+e369942999.249227
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/SimpleDragging.app/embedded.mobileprovision4be43ed7e10cb641^d9ce3fd7e10cb641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/embedded.mobileprovision0000000000000000^752"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/SimpleDragging.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" -o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app/embedded.mobileprovision36"DD5AD9BB-A19D-4D1F-B7E4-920409F64AAD-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging.xcent
+s369942999.269758
+e369942999.273441
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection228"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging.xcent0c1f45d7e10cb641^540246d7e10cb641^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging.xcent000000000080d041^822"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging.xcent    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/SimpleDragging.build/Debug-iphoneos/SimpleDragging.build/SimpleDragging.xcent36"A2DEB19F-9A61-471B-BB8F-4E0223C9C971-
+
+CTouch /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app
+s369942999.257463
+e369942999.261418
+r1
+xTouch
+x/Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.appbef541d7e10cb641^6cec42d7e10cb641^---0#0#0#--431"Touch build/Debug-iphoneos/SimpleDragging.app    cd /Users/roberttilton/Documents/iPhone-Development/SimpleDragging    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/SimpleDragging/build/Debug-iphoneos/SimpleDragging.app36"54ECB8A5-507B-416F-8491-5FB33ED9D7FC-
+
