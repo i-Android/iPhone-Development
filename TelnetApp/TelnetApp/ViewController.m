@@ -37,50 +37,73 @@
     
 
     
-//    [joybtn getTouchPoint].x
-    //load joystick images
-//    UIImage * joybuttonRef = [UIImage imageNamed:@"joybutton.png"];
-//    joybtn = [[UIImageView alloc] initWithImage:joybuttonRef];
-//    joybtn.frame = CGRectMake(100, 100, 100, 100);
-//    [self.view addSubview:joybtn];
-//    [joybtn release];
-//    
-//    UIImage * joypadRef = [UIImage imageNamed:@"joypad.png"];
-//    joypad = [[UIImageView alloc] initWithImage:joypadRef];
-//    joypad.frame = CGRectMake(51, 51, 50, 50);
-//    [self.view addSubview:joypad];
-//    [joypad release];
-    
-//    UIImage *tmpImage = [[UIImage imageNamed:@"joybutton.png"] retain];
-//    UIImageView *imageView = [[UIImageView alloc] initWithImage:tmpImage];
-//    CGRect cellRectangle;
-//    cellRectangle = CGRectMake(0,0,tmpImage.size.width ,tmpImage.size.height );
-//    UIImageView *dragger = [[DragBox alloc] initWithFrame:cellRectangle];
-//    [dragger setImage:tmpImage];
-//    [dragger setUserInteractionEnabled:YES];
-//    
-//    [self.view addSubview:dragger];
-//    [imageView release];
-//    [tmpImage release];
+
     
     //allocation/initilization of object
     //joybtn = [[DragImage alloc] init];
     [joybtn setUserInteractionEnabled:YES];
+    joybtn.center = joypadView.center; // center view;
+    //NSLog(@"%f, %f", joypadView.center.x, joypadView.center.y);
+    joybtn->touching = FALSE;
+    joybtn->sendTouchPoint = CGPointMake(160, 205.5); //center of touchpad
 }
 
 -(void) showActivity{
-//    NSLog(@"TouchPoint: (%f, %f)", joybtn->sendTouchPoint.x, joybtn->sendTouchPoint.y);
-    float length = sqrt( joybtn->sendTouchPoint.x*joybtn->sendTouchPoint.x + joybtn->sendTouchPoint.y*joybtn->sendTouchPoint.y );
-    CGPoint normal;
-    if(length != 0){
-        normal.x = (joybtn->sendTouchPoint.x - joinView.center.x)/length;
-        normal.y = (joybtn->sendTouchPoint.y - joinView.center.y)/length;
-        //NSLog(@"%f, %f", normal.x, normal.y);
+    CGPoint touchPoint = CGPointMake(joybtn->sendTouchPoint.x,joybtn->sendTouchPoint.y);
+    CGPoint center = CGPointMake(joypadView.center.x, joypadView.center.y);
+    touchPoint.x = touchPoint.x-center.x;
+    touchPoint.y = touchPoint.y-center.y;
+    
+    float length = sqrt( touchPoint.x * touchPoint.x + touchPoint.y * touchPoint.y);
+    //NSLog(@"%f", length);
+    
+    if(length > 40){
+        CGPoint normal;
+        normal.x = touchPoint.x/length;
+        normal.y = touchPoint.y/length;
+        //NSLog(@"%f, %f", normal.x*50, normal.y*50);
         
         //calculate angle
         float angle = atan2(normal.x, normal.y);
-        float degree = angle*(180/3.141592635);
+        float degree = angle*(180/3.141592653589793238);
         NSLog(@"%f", degree);
+        
+        if(degree > -22.5 && degree < 22.5){
+            //send paddle down
+            [self joyPadSend:@"d"];
+        }
+        if(degree > 22.5 && degree < 67.5){
+            //send paddle down and right
+            [self joyPadSend:@"drd"];
+        }
+        if(degree > 67.5 && degree < 112.5){
+            //send paddle right
+            [self joyPadSend:@"r"];
+        }
+        if(degree > 112.5 && degree < 157.5){
+            //send paddle up and right
+            [self joyPadSend:@"uru"];
+        }
+        if(degree > 157.5){
+            //send paddle up
+            [self joyPadSend:@"u"];
+        }
+        if(degree < -157.5){
+            //send paddle up
+            [self joyPadSend:@"u"];
+        }
+        if(degree > -157.5 && degree < -112.5){
+            //send paddle up and left
+            [self joyPadSend:@"ulu"];
+        }
+        if(degree > -122.5 && degree < -67.5){
+            //send paddle left
+            [self joyPadSend:@"l"];
+        }
+        if(degree > -67.5 && degree < -22.5){
+            //send paddle down and left
+            [self joyPadSend:@"dld"];
+        }
     }
 }
 
@@ -170,7 +193,13 @@
     printf("%s", [response UTF8String]);
 }
 
-
+//joypad sending controls
+-(void)joyPadSend:(NSString *)moveAmount{
+    NSString *response  = [NSString stringWithFormat: @"%@\n", moveAmount];
+    NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+    [outputStream write:[data bytes] maxLength:[data length]];
+    [self messageSent:response]; //add resposne to array
+}
 
 
 - (void)stream:(NSStream *)theStream handleEvent:(NSStreamEvent)streamEvent {
@@ -298,7 +327,7 @@
     if(item.tag == 1){
         [self.view bringSubviewToFront:joypadView];
         //create a looping timer that calls showActivity
-        timer = [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(showActivity) userInfo:nil repeats:YES];
+        timer = [NSTimer scheduledTimerWithTimeInterval:0.3 target:self selector:@selector(showActivity) userInfo:nil repeats:YES];
     }
     if(item.tag == 2){
         [self.view bringSubviewToFront:consoleView];
