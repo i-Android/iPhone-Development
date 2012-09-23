@@ -180,9 +180,6 @@
         <class className="DragImage" superclassName="UIImageView">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DragImage.h"/>
         </class>
-        <class className="DragView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DragView.h"/>
-        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
@@ -197,8 +194,7 @@
                 <relationship kind="outlet" name="inputPortField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="joinHost" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="joinView" candidateClass="UIView"/>
-                <relationship kind="outlet" name="joybtn" candidateClass="DragImage"/>
-                <relationship kind="outlet" name="joybtn2" candidateClass="DragView"/>
+                <relationship kind="outlet" name="joybtn" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="joypadView" candidateClass="UIView"/>
                 <relationship kind="outlet" name="sendMessage" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="tView" candidateClass="UITableView"/>

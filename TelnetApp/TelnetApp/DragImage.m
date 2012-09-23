@@ -10,12 +10,29 @@
 
 @implementation DragImage
 
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        touching = FALSE;
+        sendTouchPoint = CGPointMake(0, 0);
+    }
+    return self;
+}
+
+
 - (void) touchesBegan:(NSSet*)touches withEvent:(UIEvent*)event {
     // Retrieve the touch point
     CGPoint pt = [[touches anyObject] locationInView:self];
     startPoint = pt;
     [[self superview] bringSubviewToFront:self];
+    
+    touching = TRUE;
+    NSLog(@"%@", (touching ? @"YES" : @"NO"));
+    sendTouchPoint = startPoint;
 }
+
 - (void) touchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
     // Move relative to the original touch point
     CGPoint pt = [[touches anyObject] locationInView:self];
@@ -23,16 +40,33 @@
     frame.origin.x += pt.x - startPoint.x;
     frame.origin.y += pt.y - startPoint.y;
     [self setFrame:frame];
+    
+    sendTouchPoint = frame.origin;
+}
+
+- (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+    CGRect frame = [self frame];
+    frame.origin.x = [UIScreen mainScreen].bounds.size.width/2-25;
+    frame.origin.y = [UIScreen mainScreen].bounds.size.height/2-61;
+    [self setFrame:frame];
+    
+    touching = FALSE;
+    NSLog(@"%@", (touching ? @"YES" : @"NO"));
+    sendTouchPoint = CGPointMake(0, 0);
 }
 
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
+
+-(CGPoint)getTouchPoint{
+    if(touching){
+        return sendTouchPoint;
+    }else{
+        return CGPointMake(0, 0);
     }
-    return self;
+    
 }
+
+
+
 
 @end

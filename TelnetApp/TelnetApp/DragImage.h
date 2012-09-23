@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface DragImage : UIImageView{
-    CGPoint startPoint;   
+    @public
+    CGPoint startPoint; 
+    BOOL touching;    
+    CGPoint sendTouchPoint;
 }
+
+-(CGPoint)getTouchPoint;
+
 @end

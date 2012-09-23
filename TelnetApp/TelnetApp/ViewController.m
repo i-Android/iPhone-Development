@@ -14,8 +14,7 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
     
     //call function to autoconnect to server
@@ -36,7 +35,9 @@
     self->tView.delegate = self;
 	self->tView.dataSource = self;
     
+
     
+//    [joybtn getTouchPoint].x
     //load joystick images
 //    UIImage * joybuttonRef = [UIImage imageNamed:@"joybutton.png"];
 //    joybtn = [[UIImageView alloc] initWithImage:joybuttonRef];
@@ -62,17 +63,33 @@
 //    [imageView release];
 //    [tmpImage release];
     
+    //allocation/initilization of object
+    //joybtn = [[DragImage alloc] init];
     [joybtn setUserInteractionEnabled:YES];
 }
 
+-(void) showActivity{
+//    NSLog(@"TouchPoint: (%f, %f)", joybtn->sendTouchPoint.x, joybtn->sendTouchPoint.y);
+    float length = sqrt( joybtn->sendTouchPoint.x*joybtn->sendTouchPoint.x + joybtn->sendTouchPoint.y*joybtn->sendTouchPoint.y );
+    CGPoint normal;
+    if(length != 0){
+        normal.x = (joybtn->sendTouchPoint.x - joinView.center.x)/length;
+        normal.y = (joybtn->sendTouchPoint.y - joinView.center.y)/length;
+        //NSLog(@"%f, %f", normal.x, normal.y);
+        
+        //calculate angle
+        float angle = atan2(normal.x, normal.y);
+        float degree = angle*(180/3.141592635);
+        NSLog(@"%f", degree);
+    }
+}
 
 - (void)viewDidAppear:(BOOL)animated {
         [self.tabBarController setSelectedIndex:1];
 }
 
 
-- (void)viewDidUnload
-{
+- (void)viewDidUnload {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     
@@ -276,12 +293,16 @@
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{  
     if(item.tag == 0){
         [self.view bringSubviewToFront:joinView];
+        [timer invalidate];
     }
     if(item.tag == 1){
         [self.view bringSubviewToFront:joypadView];
+        //create a looping timer that calls showActivity
+        timer = [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(showActivity) userInfo:nil repeats:YES];
     }
     if(item.tag == 2){
         [self.view bringSubviewToFront:consoleView];
+        [timer invalidate];
     }
 }
 
@@ -314,10 +335,4 @@
 
 
 
-
-//joystick functions
-//- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
-//    CGPoint touchPoint = [[touches anyObject] locationInView:self.view];
-//    [joybtn setCenter:touchPoint];
-//}
 @end

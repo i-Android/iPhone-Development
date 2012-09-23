@@ -10,10 +10,10 @@
 #import "DragImage.h"
 #import "DragView.h"
 
+
 @interface ViewController : UIViewController 
                             <NSStreamDelegate, UITableViewDelegate, UITableViewDataSource, UITabBarDelegate> {
-    
-                        
+                                
     //nav
     IBOutlet UITabBar *tabBar;
                                 
@@ -41,7 +41,9 @@
     //joystick variables
     IBOutlet UIView *joypadView;
     IBOutlet DragImage *joybtn;
-    IBOutlet DragView *joybtn2;
+    NSTimer *timer;
+//    CGPoint startPoint; 
+//    BOOL touching;
     //IBOutlet UIImageView* joypad;
 //    CGPoint touchPos;
 //    float joybtnDistSquared,joybtnAngle;
@@ -56,5 +58,7 @@
 - (void) messageReceived:(NSString *)message; //messages received in console
 - (void) messageSent:(NSString *)message; //messages sent in console
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item; //function to toggle tabs
+
+- (void)showActivity;
 @end
 
