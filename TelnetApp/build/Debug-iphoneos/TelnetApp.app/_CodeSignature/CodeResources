@@ -8,6 +8,10 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>console-btn.png</key>
+		<data>
+		KKnqtU6WgxjGCVxO6Ie3n8j6wRY=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		Hg046EXo5UXvSVqH4X52m1fcNFw=
@@ -26,11 +30,11 @@
 		</data>
 		<key>en.lproj/MainStoryboard_iPhone.storyboardc/2-view-3.nib</key>
 		<data>
-		8VjgFAClXMtntcd+FGppLeiYw6s=
+		xCZeYlxcgM708xzTeUs3OraSMAM=
 		</data>
 		<key>en.lproj/MainStoryboard_iPhone.storyboardc/UIViewController-2.nib</key>
 		<data>
-		avG3zg13shePeTGAXes6auQE9xM=
+		tJM79vwJ4S/+kYz6B+XdTy19eqw=
 		</data>
 		<key>header.png</key>
 		<data>
@@ -52,13 +56,25 @@
 		<data>
 		33llI6yHvaZ0DoQXDQg9wXbGfRo=
 		</data>
+		<key>joinHost-btn.png</key>
+		<data>
+		Me1JI7ZDG5f21+bCmGtEZnEtltk=
+		</data>
+		<key>joinView-bg.png</key>
+		<data>
+		9vVrAKFXUNUkIevFYWYjMeocEok=
+		</data>
 		<key>joybtn.png</key>
 		<data>
-		Q4bsMJkos/E5NeTNy8OmwTpnIAQ=
+		qGHjYdNw2VP+BKY96Ql5WqhPMvY=
 		</data>
 		<key>joybutton.png</key>
 		<data>
 		aCH2uNVOAhT2jZyrf5oRZSDZjw0=
+		</data>
+		<key>joypad-bg.png</key>
+		<data>
+		BikoEZbRNlcTZ2yIlKT4pikz3us=
 		</data>
 		<key>joypad.png</key>
 		<data>

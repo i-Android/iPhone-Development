@@ -28,7 +28,10 @@
 		B2761EA3160FDBAE00167324 /* icon-joypad.png in Resources */ = {isa = PBXBuildFile; fileRef = B2761EA2160FDBAE00167324 /* icon-joypad.png */; };
 		B2761EA5160FDC2100167324 /* icon-console.png in Resources */ = {isa = PBXBuildFile; fileRef = B2761EA4160FDC2100167324 /* icon-console.png */; };
 		B2761EA7160FE25600167324 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2761EA6160FE25600167324 /* icon.png */; };
-		B2C8B6EF160BF45700062CBB /* joypad.png in Resources */ = {isa = PBXBuildFile; fileRef = B2C8B6ED160BF45700062CBB /* joypad.png */; };
+		B2761EAB1610965200167324 /* joypad-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B2761EAA1610965200167324 /* joypad-bg.png */; };
+		B2761EAE1610A02D00167324 /* joinHost-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B2761EAC1610A02D00167324 /* joinHost-btn.png */; };
+		B2761EAF1610A02D00167324 /* joinView-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B2761EAD1610A02D00167324 /* joinView-bg.png */; };
+		B2761EB11610A16400167324 /* console-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B2761EB01610A16400167324 /* console-btn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +74,10 @@
 		B2761EA2160FDBAE00167324 /* icon-joypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-joypad.png"; sourceTree = "<group>"; };
 		B2761EA4160FDC2100167324 /* icon-console.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-console.png"; sourceTree = "<group>"; };
 		B2761EA6160FE25600167324 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		B2C8B6ED160BF45700062CBB /* joypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joypad.png; sourceTree = "<group>"; };
+		B2761EAA1610965200167324 /* joypad-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joypad-bg.png"; sourceTree = "<group>"; };
+		B2761EAC1610A02D00167324 /* joinHost-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joinHost-btn.png"; sourceTree = "<group>"; };
+		B2761EAD1610A02D00167324 /* joinView-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "joinView-bg.png"; sourceTree = "<group>"; };
+		B2761EB01610A16400167324 /* console-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "console-btn.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,12 +186,15 @@
 		B2C8B6EB160BF45700062CBB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B2761E9B160FA4B400167324 /* joybtn.png */,
-				B2C8B6ED160BF45700062CBB /* joypad.png */,
 				B2761EA0160FDB2400167324 /* icon-connect.png */,
 				B2761EA2160FDBAE00167324 /* icon-joypad.png */,
 				B2761EA4160FDC2100167324 /* icon-console.png */,
 				B2761EA6160FE25600167324 /* icon.png */,
+				B2761E9B160FA4B400167324 /* joybtn.png */,
+				B2761EAA1610965200167324 /* joypad-bg.png */,
+				B2761EAC1610A02D00167324 /* joinHost-btn.png */,
+				B2761EAD1610A02D00167324 /* joinView-bg.png */,
+				B2761EB01610A16400167324 /* console-btn.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -263,12 +272,15 @@
 				B241DD7716081CFE0039F1CB /* InfoPlist.strings in Resources */,
 				B241DD8016081CFE0039F1CB /* MainStoryboard_iPhone.storyboard in Resources */,
 				B241DD8316081CFE0039F1CB /* MainStoryboard_iPad.storyboard in Resources */,
-				B2C8B6EF160BF45700062CBB /* joypad.png in Resources */,
 				B2761E9C160FA4B400167324 /* joybtn.png in Resources */,
 				B2761EA1160FDB2400167324 /* icon-connect.png in Resources */,
 				B2761EA3160FDBAE00167324 /* icon-joypad.png in Resources */,
 				B2761EA5160FDC2100167324 /* icon-console.png in Resources */,
 				B2761EA7160FE25600167324 /* icon.png in Resources */,
+				B2761EAB1610965200167324 /* joypad-bg.png in Resources */,
+				B2761EAE1610A02D00167324 /* joinHost-btn.png in Resources */,
+				B2761EAF1610A02D00167324 /* joinView-bg.png in Resources */,
+				B2761EB11610A16400167324 /* console-btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
