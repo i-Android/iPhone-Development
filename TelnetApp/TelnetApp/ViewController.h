@@ -16,6 +16,7 @@
                                 
     //nav
     IBOutlet UITabBar *tabBar;
+    BOOL timerValid;
                                 
     //settings variables
     IBOutlet UIView *joinView;

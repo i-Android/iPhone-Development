@@ -30,22 +30,23 @@
     //need to add this to get tab bar to realize touches
     tabBar.delegate = self;
     [self.view bringSubviewToFront:joinView]; //start at join view
+    [inputHostField becomeFirstResponder];
     
     //delegate for table view
     self->tView.delegate = self;
 	self->tView.dataSource = self;
     
-
+    timerValid= FALSE;
     
 
     
     //allocation/initilization of object
     //joybtn = [[DragImage alloc] init];
     [joybtn setUserInteractionEnabled:YES];
-    joybtn.center = joypadView.center; // center view;
-    //NSLog(@"%f, %f", joypadView.center.x, joypadView.center.y);
+    joybtn.center = CGPointMake(160, 254.5-50);//joypadView.center; // center view;
+    //NSLog(@"center: %f, %f", joypadView.center.x, joypadView.center.y);
     joybtn->touching = FALSE;
-    joybtn->sendTouchPoint = CGPointMake(160, 205.5); //center of touchpad
+    joybtn->sendTouchPoint = CGPointMake(160, 254.5); //center of touchpad
 }
 
 -(void) showActivity{
@@ -57,7 +58,7 @@
     float length = sqrt( touchPoint.x * touchPoint.x + touchPoint.y * touchPoint.y);
     //NSLog(@"%f", length);
     
-    if(length > 40){
+    if(length > 35){
         CGPoint normal;
         normal.x = touchPoint.x/length;
         normal.y = touchPoint.y/length;
@@ -70,7 +71,7 @@
         
         if(degree > -22.5 && degree < 22.5){
             //send paddle down
-            [self joyPadSend:@"d"];
+            [self joyPadSend:@"dd"];
         }
         if(degree > 22.5 && degree < 67.5){
             //send paddle down and right
@@ -86,11 +87,11 @@
         }
         if(degree > 157.5){
             //send paddle up
-            [self joyPadSend:@"u"];
+            [self joyPadSend:@"uu"];
         }
         if(degree < -157.5){
             //send paddle up
-            [self joyPadSend:@"u"];
+            [self joyPadSend:@"uu"];
         }
         if(degree > -157.5 && degree < -112.5){
             //send paddle up and left
@@ -145,7 +146,7 @@
 
 //manual connect - typing in server host and port number
 - (IBAction)joinHost:(id)sender {
-    [self.view endEditing:YES];//hide keyboard if open
+    //[self.view endEditing:YES];//hide keyboard if open
     
     //if not connected - connnect
     if(!connected){
@@ -166,7 +167,7 @@
         [outputStream open];
         
         //change button to read disconnect
-        [sender setTitle:@"Disconnect" forState:UIControlStateNormal];
+        [sender setTitle:@"DISCONNECT" forState:UIControlStateNormal];
         connected = TRUE;
     }else{
         //close connection by sending an x
@@ -176,7 +177,7 @@
         printf("%s", [response UTF8String]);
 
         //change button to read connect
-        [sender setTitle:@"Connect" forState:UIControlStateNormal];
+        [sender setTitle:@"CONNECT" forState:UIControlStateNormal];
         connected = FALSE;
     }
 }
@@ -184,13 +185,22 @@
 
 //button to add name
 - (IBAction)addName:(id)sender {
-    [self.view endEditing:YES];//hide keyboard if open
-
+    //[self.view endEditing:YES];//hide keyboard if open
+   
     //send name
 	NSString *response  = [NSString stringWithFormat:@"n=%@\n", inputNameField.text];
 	NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
 	[outputStream write:[data bytes] maxLength:[data length]];
     printf("%s", [response UTF8String]);
+    
+    //[self.view bringSubviewToFront:joypadView];
+    //[self.view endEditing:YES];//hide keyboard if open
+//    [UIView beginAnimations:@"fade" context:nil];
+//    [UIView setAnimationDuration:0.5];
+//    joinView.alpha = 0.0;
+//    [UIView commitAnimations];
+//    [self.view endEditing:YES];
+    
 }
 
 //joypad sending controls
@@ -245,7 +255,7 @@
             }
             
             connected = FALSE;
-            [joinHost setTitle:@"Connect" forState:UIControlStateNormal];
+            [joinHost setTitle:@"CONNECT" forState:UIControlStateNormal];
 			break;
             
 		case NSStreamEventEndEncountered:
@@ -254,7 +264,7 @@
             [theStream removeFromRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
             
             connected = FALSE;
-            [joinHost setTitle:@"Connect" forState:UIControlStateNormal];
+            [joinHost setTitle:@"CONNECT" forState:UIControlStateNormal];
             break;
             
 		default:
@@ -322,16 +332,28 @@
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{  
     if(item.tag == 0){
         [self.view bringSubviewToFront:joinView];
-        [timer invalidate];
+        [self.view endEditing:YES];
+        [inputHostField becomeFirstResponder]; //make input field active
+        if(!timer){
+            [timer invalidate];
+            timerValid = TRUE;
+        }
     }
     if(item.tag == 1){
         [self.view bringSubviewToFront:joypadView];
+        [self.view endEditing:YES];
         //create a looping timer that calls showActivity
-        timer = [NSTimer scheduledTimerWithTimeInterval:0.3 target:self selector:@selector(showActivity) userInfo:nil repeats:YES];
+        timer = [NSTimer scheduledTimerWithTimeInterval:0.4 target:self selector:@selector(showActivity) userInfo:nil repeats:YES];
+        timerValid = FALSE;
     }
     if(item.tag == 2){
         [self.view bringSubviewToFront:consoleView];
-        [timer invalidate];
+        [self.view endEditing:YES];
+        [inputMessageField becomeFirstResponder]; //make input field active
+        if(!timer){
+            [timer invalidate];
+            timerValid = TRUE;
+        }
     }
 }
 
@@ -339,7 +361,7 @@
 
 //console send message function
 - (IBAction)sendMessage:(id)sender {
-    [self.view endEditing:YES];//hide keyboard if open
+    //[self.view endEditing:YES];//hide keyboard if open
     
     if([inputMessageField.text length] > 0){
         NSString *response  = [NSString stringWithFormat: @"%@\n", inputMessageField.text];

@@ -38,18 +38,18 @@
     frame.origin.y += pt.y - startPoint.y;
     [self setFrame:frame];
     
-    sendTouchPoint = CGPointMake(frame.origin.x+50,frame.origin.y+50);//account for size of image
+    sendTouchPoint = CGPointMake(frame.origin.x+80,frame.origin.y+80);//account for size of image
 }
 
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
     CGRect frame = [self frame];
-    frame.origin.x = [UIScreen mainScreen].bounds.size.width/2-50;
-    frame.origin.y = [UIScreen mainScreen].bounds.size.height/2-75;
+    frame.origin.x = [UIScreen mainScreen].bounds.size.width/2-80;
+    frame.origin.y = [UIScreen mainScreen].bounds.size.height/2-115;
     [self setFrame:frame];
     
     touching = FALSE;
     //NSLog(@"%@", (touching ? @"YES" : @"NO"));
-    sendTouchPoint = CGPointMake(160, 205.5);
+    sendTouchPoint = CGPointMake(160, 254.5);
 }
 
 
