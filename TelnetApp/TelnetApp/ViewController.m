@@ -69,42 +69,27 @@
         float degree = angle*(180/3.141592653589793238);
         NSLog(@"%f", degree);
         
-        if(degree > -22.5 && degree < 22.5){
+        if(degree > -45 && degree < 45){
             //send paddle down
             [self joyPadSend:@"dd"];
         }
-        if(degree > 22.5 && degree < 67.5){
-            //send paddle down and right
-            [self joyPadSend:@"drd"];
-        }
-        if(degree > 67.5 && degree < 112.5){
+        if(degree > 45 && degree < 135){
             //send paddle right
             [self joyPadSend:@"r"];
         }
-        if(degree > 112.5 && degree < 157.5){
-            //send paddle up and right
-            [self joyPadSend:@"uru"];
-        }
-        if(degree > 157.5){
+        if(degree > 135){
             //send paddle up
             [self joyPadSend:@"uu"];
         }
-        if(degree < -157.5){
+        if(degree < -135){
             //send paddle up
             [self joyPadSend:@"uu"];
         }
-        if(degree > -157.5 && degree < -112.5){
-            //send paddle up and left
-            [self joyPadSend:@"ulu"];
-        }
-        if(degree > -122.5 && degree < -67.5){
+        if(degree > -135 && degree < -45){
             //send paddle left
             [self joyPadSend:@"l"];
         }
-        if(degree > -67.5 && degree < -22.5){
-            //send paddle down and left
-            [self joyPadSend:@"dld"];
-        }
+   
     }
 }
 
@@ -343,7 +328,7 @@
         [self.view bringSubviewToFront:joypadView];
         [self.view endEditing:YES];
         //create a looping timer that calls showActivity
-        timer = [NSTimer scheduledTimerWithTimeInterval:0.4 target:self selector:@selector(showActivity) userInfo:nil repeats:YES];
+        timer = [NSTimer scheduledTimerWithTimeInterval:0.3 target:self selector:@selector(showActivity) userInfo:nil repeats:YES];
         timerValid = FALSE;
     }
     if(item.tag == 2){
