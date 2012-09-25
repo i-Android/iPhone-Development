@@ -38,7 +38,7 @@
     frame.origin.y += pt.y - startPoint.y;
     [self setFrame:frame];
     
-    sendTouchPoint = CGPointMake(frame.origin.x+80,frame.origin.y+80);//account for size of image
+    sendTouchPoint = CGPointMake(frame.origin.x+80,frame.origin.y+140);//account for size of image
 }
 
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
