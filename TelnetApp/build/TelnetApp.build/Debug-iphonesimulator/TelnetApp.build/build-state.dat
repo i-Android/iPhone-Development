@@ -5,15 +5,15 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist TelnetApp/TelnetApp-Info.plist
 cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp normal i386
 cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp
 cCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/InfoPlist.strings TelnetApp/en.lproj/InfoPlist.strings
-cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard
 cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPad.storyboard
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard
 cCpResource TelnetApp/Resources/joybtn.png build/Debug-iphonesimulator/TelnetApp.app/joybtn.png
 cCpResource TelnetApp/Resources/icon-connect.png build/Debug-iphonesimulator/TelnetApp.app/icon-connect.png
 cCpResource TelnetApp/Resources/icon-joypad.png build/Debug-iphonesimulator/TelnetApp.app/icon-joypad.png
@@ -27,7 +27,7 @@ cCpResource TelnetApp/Resources/nav1.png build/Debug-iphonesimulator/TelnetApp.a
 cCpResource TelnetApp/Resources/nav2.png build/Debug-iphonesimulator/TelnetApp.app/nav2.png
 cCpResource TelnetApp/Resources/nav3.png build/Debug-iphonesimulator/TelnetApp.app/nav3.png
 cCpResource TelnetApp/Resources/consoleView-bg.png build/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.png
-cCpResource TelnetApp/Resources/default.png build/Debug-iphonesimulator/TelnetApp.app/default.png
+cCpResource TelnetApp/Resources/Default.png build/Debug-iphonesimulator/TelnetApp.app/Default.png
 cTouch /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
@@ -50,45 +50,15 @@ c000000004FCED45F0000000000905E40
 t1338954847
 s9461312
 
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/Default.png
-c00000000506309EC000000000001A167
-t1348667884
-s106855
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.h
-c000000005057E57E000000000000011F
-t1347937662
-s287
-
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m
 c0000000050634A06000000000000080E
 t1348684294
 s2062
 
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragBox.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragBox.m
-c00000000505CB0D400000000000003AD
-t1348251860
-s941
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.h
-c00000000505DEE520000000000000148
-t1348333138
-s328
-
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m
 c000000005060E879000000000000062F
 t1348528249
 s1583
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.h
-c00000000505CB1E700000000000000EA
-t1348252135
-s234
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.m
 c00000000505CB1F300000000000003AF
@@ -109,11 +79,6 @@ N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/
 c0000000050627D57000000000000FA0B
 t1348631895
 s64011
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/default.png
-c0000000050634D2E0000000000019BE9
-t1348685102
-s105449
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/icon-connect.png
 c00000000505FA3CA00000000000005BF
@@ -150,20 +115,10 @@ c0000000050605F360000000000005420
 t1348493110
 s21536
 
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joybutton.png
-c00000000505BB4030000000000001609
-t1348187139
-s5641
-
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joypad-bg.png
 c00000000506061EF000000000001D683
 t1348493807
 s120451
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joypad.png
-c00000000505BBE450000000000003817
-t1348189765
-s14359
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/nav1.png
 c000000005062794F0000000000004F97
@@ -184,11 +139,6 @@ N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-
 c000000005057E57E0000000000000141
 t1347937662
 s321
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h
-c00000000506282B50000000000000841
-t1348633269
-s2113
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m
 c0000000050634B9600000000000035AE
@@ -216,141 +166,121 @@ t1347937662
 s346
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app
-t1348685814
-s748
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM
-t1348684696
-s102
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Default.png
-t1348685258
-s105449
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist
-t1348685814
-s1024
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/PkgInfo
-t1348685814
-s8
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp
-t1348684696
-s47732
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/console-btn.png
-t1348684622
-s775
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.png
-t1348684622
-s64011
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/default.png
-t1348685258
-s105449
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/InfoPlist.strings
-t1347941732
-s42
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/MainStoryboard_iPad.storyboardc
-t1347941732
-s170
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/MainStoryboard_iPhone.storyboardc
-t1348684623
-s170
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon-connect.png
-t1348684622
-s1471
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon-console.png
-t1348684622
-s1071
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon-joypad.png
-t1348684622
-s1281
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon.png
-t1348684622
-s5014
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joinHost-btn.png
-t1348684622
-s813
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joinView-bg.png
-t1348684622
-s90946
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joybtn.png
-t1348684622
-s21536
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joybutton.png
-t1348251013
-s5641
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joypad-bg.png
-t1348684622
-s120451
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joypad.png
-t1348251013
-s14359
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/nav1.png
-t1348684622
-s20375
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/nav2.png
-t1348684622
-s19976
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/nav3.png
-t1348684622
-s20369
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o
-t1348684621
-s58724
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragBox.o
-t1348251882
-s46380
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.o
-t1348684621
-s49612
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.o
-t1348684621
-s46396
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/TelnetApp.LinkFileList
-c0000000050634B4D00000000000002F4
-t1348684621
+c000000005063520E00000000000002F4
+t1348686350
 s756
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o
-t1348684696
-s97232
+t2
+s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o
-t1348250809
-s3120
-
-N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth
-t1347939974
-s4029176
+t2
+s0
 
 N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.pth
-t1348250809
-s4021432
+t2
+s0
 
 NTelnetApp/TelnetApp-Info.plist
 c0000000050634E3200000000000005F6
@@ -358,9 +288,6 @@ t1348685362
 s1526
 
 CBuild AST from /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m
-r0
-
-CBuild AST from /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragBox.m
 r0
 
 CBuild AST from /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m
@@ -377,11 +304,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1762ed508813b641^fed60a518813b641^---0#1#0#--18"Check dependencies36"61201F9B-7BC4-4F29-B2E3-8A7A86F1713F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesea5c8d8e8913b641^0f7f9d8e8913b641^---0#1#0#--18"Check dependencies36"2D03F97D-E248-4495-AB00-DDCF6AF78494-
 
 CCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s370377421.349448
-e370377421.702505
+s370379153.393895
+e370379153.460387
 r1
 xCompileC
 xbuild/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o
@@ -390,24 +317,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m2d9759cd8213b641^e4d7b3cd8213b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m0000000000000000^3540"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o TelnetApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o36"7DCF0220-1DDF-469C-A598-A437C5C3C5DA-
-
-CCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragBox.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragBox.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s369944682.495293
-e369944682.538175
-r1
-xCompileC
-xbuild/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragBox.o
-x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragBox.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragBox.m82e37e6ae80cb641^a4c5896ae80cb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragBox.m0000000000000000^3516"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragBox.o TelnetApp/DragBox.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragBox.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragBox.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragBox.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragBox.o36"F57F5A63-7EA8-4F47-BEBE-FBC05064DBD6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m30f464918913b641^23db75918913b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m0000000000000000^3540"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o TelnetApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o36"F481FF37-D2CE-492A-8C22-FA54ACC12706-
 
 CCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s370377421.350545
-e370377421.701257
+s370379153.451228
+e370379153.514120
 r1
 xCompileC
 xbuild/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.o
@@ -416,11 +330,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m7fd959cd8213b641^dc84b3cd8213b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m0000000000000000^3528"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.o TelnetApp/DragImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.o36"D5EAD9F6-124B-4CE4-8CD4-7D12938FC851-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m0da873918913b641^a69c83918913b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m0000000000000000^3528"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.o TelnetApp/DragImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragImage.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragImage.o36"9487C08D-EC60-4086-AB32-88E5D05F00D0-
 
 CCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s370377421.349464
-e370377421.700739
+s370379153.393946
+e370379153.449936
 r1
 xCompileC
 xbuild/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.o
@@ -429,11 +343,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.md99659cd8213b641^1570b3cd8213b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.m0000000000000000^3522"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.o TelnetApp/DragView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.o36"BC6CD797-C6BD-4D2A-B3FC-FEFF0DAA4FC6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.me4f564918913b641^ca3773918913b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.m0000000000000000^3522"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.o TelnetApp/DragView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/DragView.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/DragView.o36"6791AC31-004D-4DCF-84F4-C829C4BCA8EF-
 
 CCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s370377496.814053
-e370377496.883175
+s370379153.393920
+e370379153.480408
 r1
 xCompileC
 xbuild/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o
@@ -442,11 +356,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.mcf82d0188313b641^0518e2188313b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^3558"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o TelnetApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o36"3290FC77-DB7C-4997-A239-61458BA2B0B9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m45f364918913b641^9cfc7a918913b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^3558"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o TelnetApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o36"FD792311-A683-4151-BD7D-1CB16EFCA0E6-
 
 CCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s369943609.279759
-e369943609.339223
+s370379153.393357
+e370379153.479333
 r1
 xCompileC
 xbuild/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o
@@ -455,239 +369,193 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m90d74739e40cb641^bde15639e40cb641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m0000000000000000^3498"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o TelnetApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o36"6166DAB7-CDC1-4AF4-99E8-7AA7B857FD96-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.mc0cf64918913b641^d3bd7a918913b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m0000000000000000^3498"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o TelnetApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o36"4E6F1B02-A30E-41A0-9EFD-FA797D33C6C7-
 
 CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPad.storyboard
-s369634532.169344
-e369634532.833062
+s370379153.661586
+e370379154.410124
 r1
 xCompileStoryboard
 x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPad.storyboard
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CompileStoryboard TelnetApp/en.lproj/MainStoryboard_iPad.storyboard76712be42c08b641^9e43d5e42c08b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^980"CompileStoryboard TelnetApp/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"AE47756F-8D41-43A3-8C64-ABFDDA817A9C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CompileStoryboard TelnetApp/en.lproj/MainStoryboard_iPad.storyboardbf81a9918913b641^342d69928913b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^980"CompileStoryboard TelnetApp/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"A98C2BAD-8EC2-48C6-8D34-8E0ED1A8ECEC-
 
 CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard
-s370377422.076285
-e370377423.621655
+s370379153.661591
+e370379154.651032
 r1
 xCompileStoryboard
 x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"CompileStoryboard TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard569f13ce8213b641^d9249fcf8213b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^986"CompileStoryboard TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"B1DAF9EC-1819-4A78-A8C2-37B3D8E57E85-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"CompileStoryboard TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard4582a9918913b641^19aaa6928913b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^986"CompileStoryboard TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"8B5D0AD6-4278-41E0-A743-B23D425C9CE9-
 
 CCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/InfoPlist.strings TelnetApp/en.lproj/InfoPlist.strings
-s369634532.169342
-e369634532.172978
+s370379153.661575
+e370379153.682022
 r1
 xCopyStringsFile
 x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/InfoPlist.strings
 xTelnetApp/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy TelnetApp/en.lproj/InfoPlist.stringsce6c2be42c08b641^49482ce42c08b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/InfoPlist.strings0000000000000000^623"CopyStringsFile build/Debug-iphonesimulator/TelnetApp.app/en.lproj/InfoPlist.strings TelnetApp/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj -- TelnetApp/en.lproj/InfoPlist.strings36"66BBEE59-7FD3-49A5-84AE-662DE5230CB3-
-
-CCpResource Default.png build/Debug-iphonesimulator/TelnetApp.app/Default.png
-s370377556.074230
-e370377556.077714
-r1
-xCpResource
-xDefault.png
-xbuild/Debug-iphonesimulator/TelnetApp.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/TelnetApp.app/Default.png5a0f13548313b641^54e513548313b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Default.png0000000000000000^727"CpResource Default.png build/Debug-iphonesimulator/TelnetApp.app/Default.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/Default.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"8E4A9589-4E94-415C-A50B-B4F6868896E1-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy TelnetApp/en.lproj/InfoPlist.strings6682a9918913b641^34a0ae918913b641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/InfoPlist.strings0000000000000000^623"CopyStringsFile build/Debug-iphonesimulator/TelnetApp.app/en.lproj/InfoPlist.strings TelnetApp/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj -- TelnetApp/en.lproj/InfoPlist.strings36"8AF63692-5D17-4AD9-8C8A-CA57364EFDAA-
 
 CCpResource TelnetApp/Resources/Default.png build/Debug-iphonesimulator/TelnetApp.app/Default.png
-s370378058.282211
-e370378058.306368
+s370379153.698543
+e370379153.701373
 r1
 xCpResource
 xTelnetApp/Resources/Default.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/TelnetApp.app/Default.png014d484a8513b641^0d6f4e4a8513b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Default.png0000000000000000^767"CpResource TelnetApp/Resources/Default.png build/Debug-iphonesimulator/TelnetApp.app/Default.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/Default.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"C766D00B-15F7-439A-903F-3E9393B7519B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/TelnetApp.app/Default.png10e6b2918913b641^938db3918913b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Default.png000000000080d041^767"CpResource TelnetApp/Resources/Default.png build/Debug-iphonesimulator/TelnetApp.app/Default.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/Default.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"89C90425-27B8-4181-9E0E-7219D37321F5-
 
 CCpResource TelnetApp/Resources/console-btn.png build/Debug-iphonesimulator/TelnetApp.app/console-btn.png
-s370377422.170281
-e370377422.172566
+s370379153.688909
+e370379153.691187
 r1
 xCpResource
 xTelnetApp/Resources/console-btn.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/console-btn.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/TelnetApp.app/console-btn.png7ea92bce8213b641^2f332cce8213b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/console-btn.png000000000080d041^779"CpResource TelnetApp/Resources/console-btn.png build/Debug-iphonesimulator/TelnetApp.app/console-btn.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/console-btn.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"0DCE367F-556E-473C-8A9F-6A4A67A31DBC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/TelnetApp.app/console-btn.pngc66db0918913b641^55f7b0918913b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/console-btn.png000000000080d041^779"CpResource TelnetApp/Resources/console-btn.png build/Debug-iphonesimulator/TelnetApp.app/console-btn.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/console-btn.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"C7170B81-8676-4863-8C17-BCC73C16CC75-
 
 CCpResource TelnetApp/Resources/consoleView-bg.png build/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.png
-s370377422.177244
-e370377422.179879
+s370379153.695856
+e370379153.698415
 r1
 xCpResource
 xTelnetApp/Resources/consoleView-bg.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.pngd2712dce8213b641^240d2ece8213b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.png000000000080d041^788"CpResource TelnetApp/Resources/consoleView-bg.png build/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/consoleView-bg.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"3BD7C1F5-A87E-4EC5-A9C9-EACBDC682D70-
-
-CCpResource TelnetApp/Resources/default.png build/Debug-iphonesimulator/TelnetApp.app/default.png
-r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.pngf33eb2918913b641^96cbb2918913b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.png000000000080d041^788"CpResource TelnetApp/Resources/consoleView-bg.png build/Debug-iphonesimulator/TelnetApp.app/consoleView-bg.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/consoleView-bg.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"3DC6B3E3-85CF-4F2E-A7D5-F0FAE5E1447B-
 
 CCpResource TelnetApp/Resources/icon-connect.png build/Debug-iphonesimulator/TelnetApp.app/icon-connect.png
-s370377422.077493
-e370377422.161625
+s370379153.667325
+e370379153.669878
 r1
 xCpResource
 xTelnetApp/Resources/icon-connect.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/icon-connect.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/TelnetApp.app/icon-connect.pngabe813ce8213b641^7a6e29ce8213b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon-connect.png000000000080d041^782"CpResource TelnetApp/Resources/icon-connect.png build/Debug-iphonesimulator/TelnetApp.app/icon-connect.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/icon-connect.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"E63867F7-CBE7-46DD-B87F-F1AD58BA4383-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/TelnetApp.app/icon-connect.png2ee7aa918913b641^598bab918913b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon-connect.png000000000080d041^782"CpResource TelnetApp/Resources/icon-connect.png build/Debug-iphonesimulator/TelnetApp.app/icon-connect.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/icon-connect.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"F49EF26B-1F63-4AB0-A9D3-974E0E221461-
 
 CCpResource TelnetApp/Resources/icon-console.png build/Debug-iphonesimulator/TelnetApp.app/icon-console.png
-s370377422.162910
-e370377422.165629
+s370379153.675547
+e370379153.678215
 r1
 xCpResource
 xTelnetApp/Resources/icon-console.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/icon-console.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/TelnetApp.app/icon-console.png3fc929ce8213b641^ed662ace8213b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon-console.png000000000080d041^782"CpResource TelnetApp/Resources/icon-console.png build/Debug-iphonesimulator/TelnetApp.app/icon-console.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/icon-console.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"E8A31C82-BE77-4686-BB8C-9FEAEAB5AE71-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/TelnetApp.app/icon-console.png6c05ad918913b641^d39fad918913b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon-console.png000000000080d041^782"CpResource TelnetApp/Resources/icon-console.png build/Debug-iphonesimulator/TelnetApp.app/icon-console.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/icon-console.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"1CC91EB9-3327-4B73-9F15-6F72509F8CD0-
 
 CCpResource TelnetApp/Resources/icon-joypad.png build/Debug-iphonesimulator/TelnetApp.app/icon-joypad.png
-s370377422.077619
-e370377422.161615
+s370379153.671199
+e370379153.674294
 r1
 xCpResource
 xTelnetApp/Resources/icon-joypad.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/icon-joypad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/TelnetApp.app/icon-joypad.png9eef13ce8213b641^306429ce8213b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon-joypad.png000000000080d041^779"CpResource TelnetApp/Resources/icon-joypad.png build/Debug-iphonesimulator/TelnetApp.app/icon-joypad.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/icon-joypad.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"62C743FB-50AB-42AC-B11D-E095A15C0A46-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/TelnetApp.app/icon-joypad.pnga4e2ab918913b641^cb9eac918913b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon-joypad.png000000000080d041^779"CpResource TelnetApp/Resources/icon-joypad.png build/Debug-iphonesimulator/TelnetApp.app/icon-joypad.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/icon-joypad.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"30C0C105-31A8-4DE5-BB84-B9F36174BF16-
 
 CCpResource TelnetApp/Resources/icon.png build/Debug-iphonesimulator/TelnetApp.app/icon.png
-s370377422.162901
-e370377422.217572
+s370379153.679534
+e370379153.682377
 r1
 xCpResource
 xTelnetApp/Resources/icon.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TelnetApp.app/icon.png25cb29ce8213b641^c8b337ce8213b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon.png000000000080d041^758"CpResource TelnetApp/Resources/icon.png build/Debug-iphonesimulator/TelnetApp.app/icon.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/icon.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"3ED4A19E-8AE8-4150-81DA-424587B156FD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TelnetApp.app/icon.png020dae918913b641^c9b0ae918913b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/icon.png000000000080d041^758"CpResource TelnetApp/Resources/icon.png build/Debug-iphonesimulator/TelnetApp.app/icon.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/icon.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"E92B0E02-D1C0-4582-BF87-85296C9B9495-
 
 CCpResource TelnetApp/Resources/joinHost-btn.png build/Debug-iphonesimulator/TelnetApp.app/joinHost-btn.png
-s370377422.166777
-e370377422.169071
+s370379153.683247
+e370379153.686939
 r1
 xCpResource
 xTelnetApp/Resources/joinHost-btn.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/joinHost-btn.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/TelnetApp.app/joinHost-btn.png50c42ace8213b641^b2482bce8213b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joinHost-btn.png000000000080d041^782"CpResource TelnetApp/Resources/joinHost-btn.png build/Debug-iphonesimulator/TelnetApp.app/joinHost-btn.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joinHost-btn.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"7E5E5FA5-5BAA-476F-A012-BE67B6EDEFF0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/TelnetApp.app/joinHost-btn.png97fdae918913b641^a4e2af918913b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joinHost-btn.png000000000080d041^782"CpResource TelnetApp/Resources/joinHost-btn.png build/Debug-iphonesimulator/TelnetApp.app/joinHost-btn.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joinHost-btn.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"C3E9E01A-57A0-4497-8310-981AFBD99341-
 
 CCpResource TelnetApp/Resources/joinView-bg.png build/Debug-iphonesimulator/TelnetApp.app/joinView-bg.png
-s370377422.168753
-e370377422.171055
+s370379153.687325
+e370379153.689703
 r1
 xCpResource
 xTelnetApp/Resources/joinView-bg.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/joinView-bg.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/TelnetApp.app/joinView-bg.png13462bce8213b641^1dcb2bce8213b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joinView-bg.png000000000080d041^779"CpResource TelnetApp/Resources/joinView-bg.png build/Debug-iphonesimulator/TelnetApp.app/joinView-bg.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joinView-bg.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"B7163A47-914E-4196-87AD-E6DB94F0C8C7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/TelnetApp.app/joinView-bg.png2d09b0918913b641^4b91b0918913b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joinView-bg.png000000000080d041^779"CpResource TelnetApp/Resources/joinView-bg.png build/Debug-iphonesimulator/TelnetApp.app/joinView-bg.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joinView-bg.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"951482FC-1B13-4093-97B3-CCDFA8A68570-
 
 CCpResource TelnetApp/Resources/joybtn.png build/Debug-iphonesimulator/TelnetApp.app/joybtn.png
-s370377422.076490
-e370377422.161635
+s370379153.661761
+e370379153.666050
 r1
 xCpResource
 xTelnetApp/Resources/joybtn.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/joybtn.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/TelnetApp.app/joybtn.png5da913ce8213b641^367229ce8213b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joybtn.png000000000080d041^764"CpResource TelnetApp/Resources/joybtn.png build/Debug-iphonesimulator/TelnetApp.app/joybtn.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joybtn.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"522E851C-FBC2-4278-B42E-CB27166384F3-
-
-CCpResource TelnetApp/Resources/joybutton.png build/Debug-iphonesimulator/TelnetApp.app/joybutton.png
-s369943813.514545
-e369943813.518221
-r1
-xCpResource
-xTelnetApp/Resources/joybutton.png
-xbuild/Debug-iphonesimulator/TelnetApp.app/joybutton.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/TelnetApp.app/joybutton.png60c78305e50cb641^86aa8405e50cb641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joybutton.png000000000080d041^773"CpResource TelnetApp/Resources/joybutton.png build/Debug-iphonesimulator/TelnetApp.app/joybutton.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joybutton.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"C979AA41-BA76-461B-9D91-C2369A5CAA9E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/TelnetApp.app/joybtn.pngf580a9918913b641^a582aa918913b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joybtn.png000000000080d041^764"CpResource TelnetApp/Resources/joybtn.png build/Debug-iphonesimulator/TelnetApp.app/joybtn.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joybtn.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"8A8DA34D-1009-4364-AB60-0DCD2A3B8E0F-
 
 CCpResource TelnetApp/Resources/joypad-bg.png build/Debug-iphonesimulator/TelnetApp.app/joypad-bg.png
-s370377422.163426
-e370377422.167605
+s370379153.683232
+e370379153.686146
 r1
 xCpResource
 xTelnetApp/Resources/joypad-bg.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/joypad-bg.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/TelnetApp.app/joypad-bg.png58e229ce8213b641^47e92ace8213b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joypad-bg.png000000000080d041^773"CpResource TelnetApp/Resources/joypad-bg.png build/Debug-iphonesimulator/TelnetApp.app/joypad-bg.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joypad-bg.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"F11D6E05-5787-4A40-9A7A-4619DA80D135-
-
-CCpResource TelnetApp/Resources/joypad.png build/Debug-iphonesimulator/TelnetApp.app/joypad.png
-s369943813.515720
-e369943813.519364
-r1
-xCpResource
-xTelnetApp/Resources/joypad.png
-xbuild/Debug-iphonesimulator/TelnetApp.app/joypad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphonesimulator/TelnetApp.app/joypad.png62108405e50cb641^f9f48405e50cb641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joypad.png000000000080d041^764"CpResource TelnetApp/Resources/joypad.png build/Debug-iphonesimulator/TelnetApp.app/joypad.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joypad.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"F69C5AE4-8FD2-4673-948C-2649CE552ACB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphonesimulator/TelnetApp.app/joypad-bg.png54fdae918913b641^76c2af918913b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/joypad-bg.png000000000080d041^773"CpResource TelnetApp/Resources/joypad-bg.png build/Debug-iphonesimulator/TelnetApp.app/joypad-bg.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/joypad-bg.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"742538AC-AE6A-4C6B-A43D-AB2923B3C497-
 
 CCpResource TelnetApp/Resources/nav1.png build/Debug-iphonesimulator/TelnetApp.app/nav1.png
-s370377422.172193
-e370377422.174513
+s370379153.690869
+e370379153.693009
 r1
 xCpResource
 xTelnetApp/Resources/nav1.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/nav1.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TelnetApp.app/nav1.png5f282cce8213b641^dead2cce8213b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/nav1.png000000000080d041^758"CpResource TelnetApp/Resources/nav1.png build/Debug-iphonesimulator/TelnetApp.app/nav1.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/nav1.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"BCA219FB-AEF3-433A-805D-2DF6E84DCC16-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TelnetApp.app/nav1.pngc8ecb0918913b641^c269b1918913b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/nav1.png000000000080d041^758"CpResource TelnetApp/Resources/nav1.png build/Debug-iphonesimulator/TelnetApp.app/nav1.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/nav1.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"87C44A5B-7F55-4439-A0AB-C7B15343B316-
 
 CCpResource TelnetApp/Resources/nav2.png build/Debug-iphonesimulator/TelnetApp.app/nav2.png
-s370377422.173761
-e370377422.176008
+s370379153.692412
+e370379153.694601
 r1
 xCpResource
 xTelnetApp/Resources/nav2.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/nav2.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TelnetApp.app/nav2.png978b2cce8213b641^840f2dce8213b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/nav2.png000000000080d041^758"CpResource TelnetApp/Resources/nav2.png build/Debug-iphonesimulator/TelnetApp.app/nav2.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/nav2.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"24F708B3-D457-4F02-96F7-10FEE1C8F293-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TelnetApp.app/nav2.pngd751b1918913b641^edd7b1918913b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/nav2.png000000000080d041^758"CpResource TelnetApp/Resources/nav2.png build/Debug-iphonesimulator/TelnetApp.app/nav2.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/nav2.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"2ADB5AD1-1E9A-442E-8D42-7EB9B9D9C54E-
 
 CCpResource TelnetApp/Resources/nav3.png build/Debug-iphonesimulator/TelnetApp.app/nav3.png
-s370377422.175654
-e370377422.178079
+s370379153.694225
+e370379153.697321
 r1
 xCpResource
 xTelnetApp/Resources/nav3.png
 xbuild/Debug-iphonesimulator/TelnetApp.app/nav3.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TelnetApp.app/nav3.png18092dce8213b641^a2972dce8213b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/nav3.png000000000080d041^758"CpResource TelnetApp/Resources/nav3.png build/Debug-iphonesimulator/TelnetApp.app/nav3.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/nav3.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"7B0448E6-8BF2-46D8-81E1-41B24DCF41B8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/TelnetApp.app/nav3.png75ccb1918913b641^2e8eb2918913b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/nav3.png000000000080d041^758"CpResource TelnetApp/Resources/nav3.png build/Debug-iphonesimulator/TelnetApp.app/nav3.png    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/Resources/nav3.png /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"32DB2AB9-850C-462A-AA7D-E00CABED349E-
 
 CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp
-s370377496.934321
-e370377497.000578
+s370379153.630331
+e370379153.653435
 r1
 xGenerateDSYMFile
 x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM
 x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generating /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYMbb46ef188313b641^572600198313b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM/0000000000000000^706"GenerateDSYMFile build/Debug-iphonesimulator/TelnetApp.app.dSYM build/Debug-iphonesimulator/TelnetApp.app/TelnetApp    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM36"A906B95A-E909-4DFB-8FC3-55ABC796B288-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Generating /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYMc47ca1918913b641^c747a7918913b641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM000000000080d041^706"GenerateDSYMFile build/Debug-iphonesimulator/TelnetApp.app.dSYM build/Debug-iphonesimulator/TelnetApp.app/TelnetApp    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM36"B302B0E1-BE10-4A5A-A28A-728B901D3771-
 
 CLd /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp normal i386
-s370377496.889969
-e370377496.927529
+s370379153.520467
+e370379153.623109
 r1
 xLd
 x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetAppd9e9e3188313b641^897aed188313b641^---0#0#0#--1264"Ld build/Debug-iphonesimulator/TelnetApp.app/TelnetApp normal i386    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -filelist /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/TelnetApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp36"AC7D3FBA-A146-4305-B8AE-B760F56BE819-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp9b5785918913b641^f1839f918913b641^---0#0#0#--1264"Ld build/Debug-iphonesimulator/TelnetApp.app/TelnetApp normal i386    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -filelist /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/TelnetApp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp36"7276615B-A02C-4CDE-BC3A-3975148B3AD3-
 
 CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist TelnetApp/TelnetApp-Info.plist
-s370378614.047275
-e370378614.057844
+s370379150.632572
+e370379150.649729
 r1
 xProcessInfoPlistFile
 x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist
 xTelnetApp/TelnetApp-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process TelnetApp/TelnetApp-Info.plist282d0c768713b641^eece0e768713b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Info.plist0000000000000000^724"ProcessInfoPlistFile build/Debug-iphonesimulator/TelnetApp.app/Info.plist TelnetApp/TelnetApp-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TelnetApp/TelnetApp-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist36"9F59972E-B6B3-4134-A345-EE9BA474D254-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process TelnetApp/TelnetApp-Info.plist1900a28e8913b641^f854a68e8913b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Info.plist0000000000000000^724"ProcessInfoPlistFile build/Debug-iphonesimulator/TelnetApp.app/Info.plist TelnetApp/TelnetApp-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TelnetApp/TelnetApp-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist36"FBE301D5-BCAA-4231-AFD5-DA505ED00AA5-
 
 CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/TelnetApp-hjateglavzirpebziulnaqlsqzlc/Index/PrecompiledHeaders/TelnetApp-Prefix-gkhvtfgpbxkgrdblfmysmsgnnzyn_ast/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/TelnetApp-hjateglavzirpebziulnaqlsqzlc/Index/PrecompiledHeaders/TelnetApp-Prefix-haxfacvfmjmwtxgrbupmtsiaskag_ast/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s369632774.154424
-e369632774.457829
-r1
-xProcessPCH
-x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth
-xTelnetApp/TelnetApp-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile TelnetApp/TelnetApp-Prefix.pch20d227062608b641^593475062608b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Prefix.pch0000000000000000^3507"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.d36"5F3BF6C3-04FC-427F-AE87-EBDCA22CEEEE-
-
 CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s369943608.947371
-e369943609.265691
+s370379150.658382
+e370379153.386379
 r1
 xProcessPCH
 x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.pth
@@ -696,13 +564,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile TelnetApp/TelnetApp-Prefix.pche99df238e40cb641^58034439e40cb641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Prefix.pch0000000000000000^3496"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.d36"435CB676-1E65-4B7C-A4D7-1B1188566B9D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile TelnetApp/TelnetApp-Prefix.pch21aea88e8913b641^eaea62918913b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Prefix.pch0000000000000000^3496"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-gjdvfkdtblftihezcakfqwimohpu/TelnetApp-Prefix.pch.d36"BFA283F0-2F80-49AC-9E98-E393A4CBD14C-
 
 CTouch /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app
-s370378614.114785
-e370378614.118777
+s370379154.659102
+e370379154.663960
 r1
 xTouch
 x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Touch /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app226f1d768713b641^c2681e768713b641^---0#0#0#--432"Touch build/Debug-iphonesimulator/TelnetApp.app    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"7E04E03D-B42B-42D4-BEE1-FE872E568403-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Touch /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app75cda8928913b641^6af9a9928913b641^---0#0#0#--432"Touch build/Debug-iphonesimulator/TelnetApp.app    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app36"A22A2C15-FBD3-4009-8497-8CD0A52E765F-
 

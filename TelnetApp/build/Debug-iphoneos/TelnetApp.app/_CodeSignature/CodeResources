@@ -8,6 +8,10 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>Splash.png</key>
+		<data>
+		Q3epeUYHcQecaOC+dneH00Lgzww=
+		</data>
 		<key>console-btn.png</key>
 		<data>
 		KKnqtU6WgxjGCVxO6Ie3n8j6wRY=
@@ -30,23 +34,19 @@
 		</data>
 		<key>en.lproj/MainStoryboard_iPad.storyboardc/2-view-5.nib</key>
 		<data>
-		jh6ol19IaGfQJ6tQ3PQBcsALexs=
+		9xZbeAc8Lh+3Jp+WAdsKhjUr84Y=
 		</data>
 		<key>en.lproj/MainStoryboard_iPad.storyboardc/UIViewController-2.nib</key>
 		<data>
-		i03eTMpXtVEk1ThaqyXsdvzbWQc=
+		XXTMsFwuZc5WB3agqKNz+mLHCPw=
 		</data>
 		<key>en.lproj/MainStoryboard_iPhone.storyboardc/2-view-3.nib</key>
 		<data>
-		HZgVwd2dIJv46bS48y4b6GCNJ/Y=
+		KqXptJAxdpSUX+jmb1HZzAEdQog=
 		</data>
 		<key>en.lproj/MainStoryboard_iPhone.storyboardc/UIViewController-2.nib</key>
 		<data>
-		CyDRdPDIXx2UieW+17jKlsQsvfw=
-		</data>
-		<key>header.png</key>
-		<data>
-		fm67MBt9pFk+NRj7UkCLl0Qp7k0=
+		Vb+0XfIog3+ndAT9T9R0WWVW6Bs=
 		</data>
 		<key>icon-connect.png</key>
 		<data>
@@ -76,17 +76,9 @@
 		<data>
 		qGHjYdNw2VP+BKY96Ql5WqhPMvY=
 		</data>
-		<key>joybutton.png</key>
-		<data>
-		aCH2uNVOAhT2jZyrf5oRZSDZjw0=
-		</data>
 		<key>joypad-bg.png</key>
 		<data>
 		BikoEZbRNlcTZ2yIlKT4pikz3us=
-		</data>
-		<key>joypad.png</key>
-		<data>
-		g0ACzYbfC3NpYQwdxShcAy/08so=
 		</data>
 		<key>nav1.png</key>
 		<data>
