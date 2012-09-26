@@ -15,6 +15,7 @@
                                 
     //nav
     IBOutlet UITabBar *tabBar;
+    IBOutlet UIImageView *tabImage;
     BOOL timerValid;
                                 
     //settings variables

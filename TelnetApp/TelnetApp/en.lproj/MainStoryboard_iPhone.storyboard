@@ -15,56 +15,6 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="3o1-1S-Lo6">
-                                <rect key="frame" x="0.0" y="49" width="320" height="411"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" id="u91-27-Kxb">
-                                        <rect key="frame" x="0.0" y="145" width="320" height="266"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=">" minimumFontSize="17" id="FQj-Ze-TKD">
-                                                <rect key="frame" x="12" y="11" width="13" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="n=iPhoneApp" placeholder="Insert console message" minimumFontSize="17" id="xQu-uU-JJU">
-                                        <rect key="frame" x="26" y="145" width="190" height="51"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZRL-Zk-MZJ">
-                                        <rect key="frame" x="216" y="152" width="100" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
-                                        <state key="normal" title="Send" backgroundImage="console-btn.png">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="sendMessage:" destination="2" eventType="touchDown" id="bfJ-ax-i3K"/>
-                                        </connections>
-                                    </button>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wlU-vy-BlL">
-                                        <rect key="frame" x="0.0" y="0.0" width="325" height="145"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <color key="separatorColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </tableView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <view contentMode="scaleToFill" id="FIr-cE-U7r">
                                 <rect key="frame" x="0.0" y="49" width="320" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -88,7 +38,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="326" height="411"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="128.122.151.164" placeholder="Insert Host Name" textAlignment="center" id="yfI-rd-Mbl">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Insert Host Name" textAlignment="center" id="yfI-rd-Mbl">
                                         <rect key="frame" x="31" y="58" width="186" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
@@ -110,7 +60,7 @@
                                             <action selector="joinHost:" destination="2" eventType="touchDown" id="kzf-Ca-Xrq"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="8080" placeholder="Port" textAlignment="center" id="ieO-tS-anI">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Port" textAlignment="center" id="ieO-tS-anI">
                                         <rect key="frame" x="219" y="60" width="66" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
@@ -119,13 +69,58 @@
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                             </view>
-                            <tabBar contentMode="scaleToFill" id="ImR-mc-9eq">
+                            <view contentMode="scaleToFill" id="3o1-1S-Lo6">
+                                <rect key="frame" x="0.0" y="49" width="320" height="411"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="consoleView-bg.png" id="SCv-MS-DLF">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="411"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Insert console message" minimumFontSize="17" id="xQu-uU-JJU">
+                                        <rect key="frame" x="26" y="145" width="190" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZRL-Zk-MZJ">
+                                        <rect key="frame" x="216" y="152" width="100" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                        <state key="normal" title="Send" backgroundImage="console-btn.png">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sendMessage:" destination="2" eventType="touchDown" id="bfJ-ax-i3K"/>
+                                        </connections>
+                                    </button>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="wlU-vy-BlL">
+                                        <rect key="frame" x="0.0" y="6" width="325" height="139"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="nav1.png" id="qbh-EC-FIf">
+                                <rect key="frame" x="0.0" y="0.0" width="326" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tabBar alpha="0.10000000000000001" contentMode="scaleToFill" id="kzc-X6-20a">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <items>
-                                    <tabBarItem title="Connection" image="icon-connect.png" id="Euz-4p-cc2"/>
-                                    <tabBarItem tag="1" title="JoyPad" image="icon-joypad.png" id="Csx-ve-MP1"/>
-                                    <tabBarItem tag="2" title="Console" image="icon-console.png" id="wi1-HZ-3gE"/>
+                                    <tabBarItem id="DXI-G9-ifP"/>
+                                    <tabBarItem tag="1" id="Ncy-5c-F6u"/>
+                                    <tabBarItem tag="2" id="w72-eE-u3I"/>
                                 </items>
                             </tabBar>
                         </subviews>
@@ -142,7 +137,8 @@
                         <outlet property="joypadView" destination="FIr-cE-U7r" id="3yP-O0-RN7"/>
                         <outlet property="sendMessage" destination="ZRL-Zk-MZJ" id="76n-uC-hEV"/>
                         <outlet property="tView" destination="wlU-vy-BlL" id="nwa-eb-8ec"/>
-                        <outlet property="tabBar" destination="ImR-mc-9eq" id="cZy-gj-lN0"/>
+                        <outlet property="tabBar" destination="kzc-X6-20a" id="Vlc-L5-fqn"/>
+                        <outlet property="tabImage" destination="qbh-EC-FIf" id="33L-2F-6mI"/>
                     </connections>
                 </viewController>
             </objects>
@@ -150,13 +146,12 @@
     </scenes>
     <resources>
         <image name="console-btn.png" width="100" height="35"/>
-        <image name="icon-connect.png" width="30" height="30"/>
-        <image name="icon-console.png" width="30" height="30"/>
-        <image name="icon-joypad.png" width="30" height="30"/>
+        <image name="consoleView-bg.png" width="320" height="410"/>
         <image name="joinHost-btn.png" width="160" height="35"/>
         <image name="joinView-bg.png" width="320" height="411"/>
         <image name="joybtn.png" width="160" height="160"/>
         <image name="joypad-bg.png" width="320" height="411"/>
+        <image name="nav1.png" width="320" height="50"/>
     </resources>
     <classes>
         <class className="DragImage" superclassName="UIImageView">
@@ -181,6 +176,7 @@
                 <relationship kind="outlet" name="sendMessage" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="tView" candidateClass="UITableView"/>
                 <relationship kind="outlet" name="tabBar" candidateClass="UITabBar"/>
+                <relationship kind="outlet" name="tabImage" candidateClass="UIImageView"/>
             </relationships>
         </class>
     </classes>

@@ -299,7 +299,7 @@
     // Add text to rows
     NSString *s = (NSString *) [serverResponses objectAtIndex:indexPath.row];
     cell.textLabel.text = s;
-        
+    cell.textLabel.textColor = [UIColor greenColor];
 	return cell;
 }
 
@@ -316,6 +316,10 @@
 //tab navigation controller - tells which view to appear
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item{  
     if(item.tag == 0){
+        UIImage *tabImageHolder = [UIImage imageNamed:@"nav1.png"];
+        [tabImage setImage:tabImageHolder];
+        [tabImageHolder release];
+        
         [self.view bringSubviewToFront:joinView];
         [self.view endEditing:YES];
         [inputHostField becomeFirstResponder]; //make input field active
@@ -325,6 +329,10 @@
         }
     }
     if(item.tag == 1){
+        UIImage *tabImageHolder = [UIImage imageNamed:@"nav2.png"];
+        [tabImage setImage:tabImageHolder];
+        [tabImageHolder release];
+        
         [self.view bringSubviewToFront:joypadView];
         [self.view endEditing:YES];
         //create a looping timer that calls showActivity
@@ -332,6 +340,10 @@
         timerValid = FALSE;
     }
     if(item.tag == 2){
+        UIImage *tabImageHolder = [UIImage imageNamed:@"nav3.png"];
+        [tabImage setImage:tabImageHolder];
+        [tabImageHolder release];
+        
         [self.view bringSubviewToFront:consoleView];
         [self.view endEditing:YES];
         [inputMessageField becomeFirstResponder]; //make input field active

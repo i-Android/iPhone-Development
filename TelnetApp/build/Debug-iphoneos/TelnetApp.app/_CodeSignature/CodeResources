@@ -12,6 +12,10 @@
 		<data>
 		KKnqtU6WgxjGCVxO6Ie3n8j6wRY=
 		</data>
+		<key>consoleView-bg.png</key>
+		<data>
+		WQWnaAymedt17ekp+2oF4FpNlnk=
+		</data>
 		<key>default.png</key>
 		<data>
 		fQ/2PJukp4F3IWV44tJw+IaUfpg=
@@ -34,11 +38,11 @@
 		</data>
 		<key>en.lproj/MainStoryboard_iPhone.storyboardc/2-view-3.nib</key>
 		<data>
-		4GxaDJ5fjFdJqoYQTKbD6wQJOIY=
+		zQIwds64+PAyahZb4mm46gN0RpA=
 		</data>
 		<key>en.lproj/MainStoryboard_iPhone.storyboardc/UIViewController-2.nib</key>
 		<data>
-		N/MwPzy6APdqTPjx+Q7+fqUmgt8=
+		2RO4eeIaUOesM3VVBkynmFX8SZ8=
 		</data>
 		<key>header.png</key>
 		<data>
@@ -83,6 +87,18 @@
 		<key>joypad.png</key>
 		<data>
 		g0ACzYbfC3NpYQwdxShcAy/08so=
+		</data>
+		<key>nav1.png</key>
+		<data>
+		xDehZ13iHIxdZCbhdf1GJkslCdo=
+		</data>
+		<key>nav2.png</key>
+		<data>
+		uvO8TXv4CC77WcutV5mGYuD1UQg=
+		</data>
+		<key>nav3.png</key>
+		<data>
+		WUu38hv6HXawkJxiUTVGTLa5uRU=
 		</data>
 	</dict>
 	<key>rules</key>
