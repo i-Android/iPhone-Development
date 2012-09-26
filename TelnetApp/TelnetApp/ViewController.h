@@ -43,16 +43,15 @@
     IBOutlet UIView *joypadView;
     IBOutlet DragImage *joybtn;
     NSTimer *timer;
-//    CGPoint startPoint; 
-//    BOOL touching;
-    //IBOutlet UIImageView* joypad;
-//    CGPoint touchPos;
-//    float joybtnDistSquared,joybtnAngle;
-//    BOOL isMovingJoybtn;
+    IBOutlet UIButton *infoButton;
+    IBOutlet UIView *settingsView;
+    IBOutlet UIButton *saveSetButton;
+    IBOutlet UITextField *upField, *rightField, *downField, *leftField, *secondsField;
 }
 
 
-
+- (IBAction)infoButton:(id)sender; //edit joypad variables
+- (IBAction)saveSetButton:(id)sender; //edit joypad variables
 - (IBAction)joinHost:(id)sender; //connect to host button action
 - (IBAction)addName:(id)sender; //add name button action
 -(void)joyPadSend:(NSString *)moveAmount; //send left right up down commands

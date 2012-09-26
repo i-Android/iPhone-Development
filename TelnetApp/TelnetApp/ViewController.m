@@ -71,23 +71,23 @@
         
         if(degree > -45 && degree < 45){
             //send paddle down
-            [self joyPadSend:@"dd"];
+            [self joyPadSend: downField.text];
         }
         if(degree > 45 && degree < 135){
             //send paddle right
-            [self joyPadSend:@"r"];
+            [self joyPadSend: rightField.text];
         }
         if(degree > 135){
             //send paddle up
-            [self joyPadSend:@"uu"];
+            [self joyPadSend: upField.text];
         }
         if(degree < -135){
             //send paddle up
-            [self joyPadSend:@"uu"];
+            [self joyPadSend: upField.text];
         }
         if(degree > -135 && degree < -45){
             //send paddle left
-            [self joyPadSend:@"l"];
+            [self joyPadSend: leftField.text];
         }
    
     }
@@ -336,7 +336,7 @@
         [self.view bringSubviewToFront:joypadView];
         [self.view endEditing:YES];
         //create a looping timer that calls showActivity
-        timer = [NSTimer scheduledTimerWithTimeInterval:0.3 target:self selector:@selector(showActivity) userInfo:nil repeats:YES];
+        timer = [NSTimer scheduledTimerWithTimeInterval:[secondsField.text intValue] target:self selector:@selector(showActivity) userInfo:nil repeats:YES];
         timerValid = FALSE;
     }
     if(item.tag == 2){
@@ -381,6 +381,21 @@
     }
 }
 
+- (IBAction)infoButton:(id)sender{
+//    [settingsView removeFromSuperview];
+//    [UIView beginAnimations:nil context:NULL];
+//    [UIView setAnimationDuration:1.0];
+//    [UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:joypadView cache:YES];
+//    [UIView setAnimationDuration:1.0];
+//    [UIView commitAnimations];
+//    [joypadView addSubview:settingsView];
+    [self.view bringSubviewToFront:settingsView];
+    [upField becomeFirstResponder];
+}
 
+- (IBAction)saveSetButton:(id)sender{
+    [self.view endEditing:YES];
+    [self.view bringSubviewToFront:joypadView];
+}
 
 @end
