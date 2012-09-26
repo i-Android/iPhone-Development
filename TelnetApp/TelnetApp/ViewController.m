@@ -14,7 +14,9 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad{
+    //sleep(5);
     [super viewDidLoad];
     
     //call function to autoconnect to server

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21FBC891613894000A877B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B21FBC881613894000A877B3 /* Default.png */; };
 		B241DD6D16081CFE0039F1CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B241DD6C16081CFE0039F1CB /* UIKit.framework */; };
 		B241DD6F16081CFE0039F1CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B241DD6E16081CFE0039F1CB /* Foundation.framework */; };
 		B241DD7116081CFE0039F1CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B241DD7016081CFE0039F1CB /* CoreGraphics.framework */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B21FBC881613894000A877B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B241DD6816081CFE0039F1CB /* TelnetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelnetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B241DD6C16081CFE0039F1CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B241DD6E16081CFE0039F1CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -194,6 +196,7 @@
 		B2C8B6EB160BF45700062CBB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B21FBC881613894000A877B3 /* Default.png */,
 				B2761EA0160FDB2400167324 /* icon-connect.png */,
 				B2761EA2160FDBAE00167324 /* icon-joypad.png */,
 				B2761EA4160FDC2100167324 /* icon-console.png */,
@@ -297,6 +300,7 @@
 				B29159581612B03C00E91537 /* nav2.png in Resources */,
 				B29159591612B03C00E91537 /* nav3.png in Resources */,
 				B29159601612B52E00E91537 /* consoleView-bg.png in Resources */,
+				B21FBC891613894000A877B3 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
