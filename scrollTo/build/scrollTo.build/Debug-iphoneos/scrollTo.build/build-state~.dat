@@ -1,0 +1,510 @@
+TscrollTo
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Info.plist scrollTo/scrollTo-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/scrollTo.app/ResourceRules.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch.pth scrollTo/scrollTo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch.pth scrollTo/scrollTo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/main.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/ViewController.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTo normal armv7
+cLd /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo normal armv7s
+cCreateUniversalBinary /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo normal "armv7 armv7s"
+cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app.dSYM /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo
+cCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/en.lproj/InfoPlist.strings scrollTo/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default.png scrollTo/Default.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default@2x.png scrollTo/Default@2x.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default-568h@2x.png scrollTo/Default-568h@2x.png
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPhone.storyboard
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPad.storyboard
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo.xcent
+cCodeSign /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506757ED0000000000000094
+t1348949997
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506757ED0000000000000096
+t1348949997
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506757EF0000000000322740
+t1348949999
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506757F00000000000629C80
+t1348950000
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000506757EF00000000000015F7
+t1348949999
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000506757F00000000000000E8D
+t1348950000
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506757F300000000011BA850
+t1348950003
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c00000000506757F50000000000001B54
+t1348950005
+s6996
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app.dSYM
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default@2x.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Info.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/PkgInfo
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/ResourceRules.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTo
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTo.LinkFileList
+c0000000050F1C08E00000000000001AC
+t1358020750
+s428
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo.LinkFileList
+c0000000050F1C08E00000000000001AF
+t1358020750
+s431
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo.xcent
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m
+c00000000506F214D00000000000007DC
+t1349460301
+s2012
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m
+c00000000506F2E6B0000000000000338
+t1349463659
+s824
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/InfoPlist.strings
+c00000000506F214D000000000000002D
+t1349460301
+s45
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPad.storyboard
+c00000000506F214D000000000000061D
+t1349460301
+s1565
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPhone.storyboard
+c0000000050F1C06E0000000000002084
+t1358020718
+s8324
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m
+c00000000506F214D0000000000000155
+t1349460301
+s341
+
+N/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/scrollTo-Prefix.pch
+c00000000506F214D000000000000013F
+t1349460301
+s319
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+c0000000050C77F470000000000001D3A
+t1355251527
+s7482
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch.pth
+t2
+s0
+
+NscrollTo/scrollTo-Info.plist
+c00000000506F214D000000000000063E
+t1349460301
+s1598
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd044680ef8a1b641^df337a0ef8a1b641^---0#1#0#--18"Check dependencies36"01C09206-FE04-43B5-AB04-89C4364FA826-
+
+CCodeSign /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app
+s379713554.318945
+e379713554.611477
+r1
+xCodeSign
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"CodeSign build/Debug-iphoneos/scrollTo.app29785212f8a1b641^8b8a9c12f8a1b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/0000000000000000^870"CodeSign build/Debug-iphoneos/scrollTo.app    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a4703e0e8312df06f97b588089b0376a2ea07345 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo.xcent /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app36"81BA43DB-90D8-40CF-A9BB-EF43820F2F44-
+
+CCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379713552.019928
+e379713552.263839
+r1
+xCompileC
+xbuild/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m91460510f8a1b641^158f4310f8a1b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m0000000000000000^3623"CompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/AppDelegate.o scrollTo/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/AppDelegate.o36"3420DC4B-4780-4B29-A9C7-C13EC4DBD63B-
+
+CCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379713552.019985
+e379713552.263355
+r1
+xCompileC
+xbuild/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/ViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m25400510f8a1b641^e17b4310f8a1b641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m0000000000000000^3641"CompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/ViewController.o scrollTo/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/ViewController.o36"1FAD0B46-94DA-4F41-8DD2-D68D643A3CE6-
+
+CCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379713552.019909
+e379713552.264779
+r1
+xCompileC
+xbuild/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m813e0510f8a1b641^fad24310f8a1b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m0000000000000000^3581"CompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/main.o scrollTo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/main.o36"BFFDD6B7-23A4-4919-B91F-9AF117102B38-
+
+CCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379713552.264644
+e379713552.338447
+r1
+xCompileC
+xbuild/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.mdee44310f8a1b641^b1a65610f8a1b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m0000000000000000^3630"CompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/AppDelegate.o scrollTo/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/AppDelegate.o36"FF3E45DC-FCBD-4D6A-B61C-F5A98D5971B4-
+
+CCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/ViewController.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379713552.264876
+e379713552.331454
+r1
+xCompileC
+xbuild/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/ViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.maeef4310f8a1b641^d3da5410f8a1b641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m0000000000000000^3648"CompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/ViewController.o scrollTo/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/ViewController.o36"410C446F-D77E-4A49-865A-053FAB2B6B0A-
+
+CCompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/main.o /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379713552.026347
+e379713552.264811
+r1
+xCompileC
+xbuild/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/main.o
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.ma3e70610f8a1b641^edd54310f8a1b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m0000000000000000^3588"CompileC build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/main.o scrollTo/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/main.dia -c /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/main.m -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/main.o36"C8D6BE11-4AAC-4526-94F6-8628150769FB-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPad.storyboard
+s379713553.403267
+e379713554.232283
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard scrollTo/en.lproj/MainStoryboard_iPad.storyboard00526711f8a1b641^7d773b12f8a1b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^946"CompileStoryboard scrollTo/en.lproj/MainStoryboard_iPad.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/en.lproj/MainStoryboard_iPad.storyboardc /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPad.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"1662161E-7F55-4744-B21A-6F8B4A4DD31A-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPhone.storyboard
+s379713553.308153
+e379713553.442137
+r1
+xCompileStoryboard
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CompileStoryboard scrollTo/en.lproj/MainStoryboard_iPhone.storyboardb6f24e11f8a1b641^1d597111f8a1b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^952"CompileStoryboard scrollTo/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"0918ABD4-6A6C-4109-BF0E-59190B645076-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default-568h@2x.png scrollTo/Default-568h@2x.png
+s379713553.258212
+e379713553.481109
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default-568h@2x.png
+xscrollTo/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile build/Debug-iphoneos/scrollTo.app/Default-568h@2x.png scrollTo/Default-568h@2x.pngf12b4211f8a1b641^062a7b11f8a1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/Default-568h@2x.png0000000000000000^669"CopyPNGFile "build/Debug-iphoneos/scrollTo.app/Default-568h@2x.png" "scrollTo/Default-568h@2x.png"    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/Default-568h@2x.png" "/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default-568h@2x.png"36"2F7A721A-1786-4BFA-9B6E-812B1A9C9462-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default.png scrollTo/Default.png
+s379713553.257137
+e379713553.401992
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default.png
+xscrollTo/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"CopyPNGFile build/Debug-iphoneos/scrollTo.app/Default.png scrollTo/Default.pnga8df4111f8a1b641^79e96611f8a1b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/Default.png0000000000000000^629"CopyPNGFile build/Debug-iphoneos/scrollTo.app/Default.png scrollTo/Default.png    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/Default.png /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default.png36"7E727125-D032-40BC-AFEF-286D744753B2-
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default@2x.png scrollTo/Default@2x.png
+s379713553.258194
+e379713553.464980
+r1
+xCopyPNGFile
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default@2x.png
+xscrollTo/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CopyPNGFile build/Debug-iphoneos/scrollTo.app/Default@2x.png scrollTo/Default@2x.pnga9304211f8a1b641^c2167711f8a1b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/Default@2x.png0000000000000000^649"CopyPNGFile "build/Debug-iphoneos/scrollTo.app/Default@2x.png" "scrollTo/Default@2x.png"    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/Default@2x.png" "/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Default@2x.png"36"774711BF-54C2-4C82-B90A-125CC55B4A5D-
+
+CCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/en.lproj/InfoPlist.strings scrollTo/en.lproj/InfoPlist.strings
+s379713553.256704
+e379713553.306686
+r1
+xCopyStringsFile
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/en.lproj/InfoPlist.strings
+xscrollTo/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy scrollTo/en.lproj/InfoPlist.stringse2ca4111f8a1b641^e4834e11f8a1b641^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/en.lproj/InfoPlist.strings0000000000000000^596"CopyStringsFile build/Debug-iphoneos/scrollTo.app/en.lproj/InfoPlist.strings scrollTo/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/en.lproj -- scrollTo/en.lproj/InfoPlist.strings36"7227365A-16E6-451D-8216-A11819CDEDC9-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/scrollTo.app/ResourceRules.plist
+s379713550.484096
+e379713550.486575
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/scrollTo.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/scrollTo.app/ResourceRules.plistb8047c0ef8a1b641^fab67c0ef8a1b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/ResourceRules.plist000000000080d041^766"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/scrollTo.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app36"2F3A0615-00BD-4C51-96B6-599EBA847CD0-
+
+CCreateUniversalBinary /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo normal "armv7 armv7s"
+s379713553.130786
+e379713553.175125
+r1
+xCreateUniversalBinary
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Create universal binary /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo2fc12511f8a1b641^fed42c11f8a1b641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo000000000080d041^745"CreateUniversalBinary build/Debug-iphoneos/scrollTo.app/scrollTo normal "armv7 armv7s"    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTo /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo -output /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo36"66F5C761-58A8-4428-A888-390F24A84839-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app.dSYM /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo
+s379713553.182282
+e379713553.248659
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app.dSYM
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generating /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app.dSYM0fd32e11f8a1b641^72a83f11f8a1b641^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app.dSYM000000000080d041^653"GenerateDSYMFile build/Debug-iphoneos/scrollTo.app.dSYM build/Debug-iphoneos/scrollTo.app/scrollTo    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/scrollTo -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app.dSYM36"B6FFFE4F-FB4E-47A5-AC5B-16F2D9297FFE-
+
+CLd /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTo normal armv7
+s379713552.271186
+e379713553.123140
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTo
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Link /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTof9834510f8a1b641^5c8e1f11f8a1b641^---0#0#0#--1212"Ld build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTo normal armv7    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTo.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7/scrollTo36"04D1737D-89F8-4997-9AB2-D3529E960638-
+
+CLd /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo normal armv7s
+s379713552.345220
+e379713553.123128
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Link /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo85785810f8a1b641^c2861f11f8a1b641^---0#0#0#--1217"Ld build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo normal armv7s    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/Objects-normal/armv7s/scrollTo36"D5597EF2-6741-462B-BD28-1D54763F1E8F-
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Info.plist scrollTo/scrollTo-Info.plist
+s379713550.484085
+e379713550.499173
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Info.plist
+xscrollTo/scrollTo-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process scrollTo/scrollTo-Info.plist75047c0ef8a1b641^21ca7f0ef8a1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/scrollTo-Info.plist0000000000000000^810"ProcessInfoPlistFile build/Debug-iphoneos/scrollTo.app/Info.plist scrollTo/scrollTo-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility scrollTo/scrollTo-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/Info.plist36"E7508C85-7D6D-4A0B-B616-F8382761720E-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/scrollTo-ggkypfzpagbwcbezulhxmvtwuscr/Index/PrecompiledHeaders/scrollTo-Prefix-ejybangxhnpsuegddsxkpapdpkhp_ast/scrollTo-Prefix.pch.pth scrollTo/scrollTo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/scrollTo-ggkypfzpagbwcbezulhxmvtwuscr/Index/PrecompiledHeaders/scrollTo-Prefix-esssiljystlcefcewplirjeitrte_ast/scrollTo-Prefix.pch.pth scrollTo/scrollTo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch.pth scrollTo/scrollTo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379713550.507205
+e379713552.004492
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch.pth
+xscrollTo/scrollTo-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile scrollTo/scrollTo-Prefix.pch34f2810ef8a1b641^c8260110f8a1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/scrollTo-Prefix.pch0000000000000000^3606"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch.pth scrollTo/scrollTo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/scrollTo-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-brpdfkwzpptlonggatpuyfcaqodg/scrollTo-Prefix.pch.d36"44CA7069-64CA-44C8-8AB1-4A9BBD108EAB-
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch.pth scrollTo/scrollTo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s379713550.507209
+e379713552.019649
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch.pth
+xscrollTo/scrollTo-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile scrollTo/scrollTo-Prefix.pchfdfa810ef8a1b641^f3050510f8a1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/scrollTo-Prefix.pch0000000000000000^3609"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch.pth scrollTo/scrollTo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/scrollTo/scrollTo/scrollTo-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/scrollTo-Prefix-eidsairdxdyxfefaibnftdsfeplz/scrollTo-Prefix.pch.d36"D809C84D-49FC-43DA-9F69-29DC8B9557C4-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/embedded.mobileprovision
+s379713554.260056
+e379713554.267508
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection200"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/scrollTo.app/embedded.mobileprovision47af4212f8a1b641^61884412f8a1b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/embedded.mobileprovision0000000000000000^728"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/scrollTo.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app/embedded.mobileprovision36"D3024A9A-4E6F-4176-9FAB-8E049EAF3283-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo.xcent
+s379713554.298955
+e379713554.307263
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection210"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo.xcent779e4c12f8a1b641^57b34e12f8a1b641^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo.xcent000000000080d041^774"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo.xcent    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/scrollTo.build/Debug-iphoneos/scrollTo.build/scrollTo.xcent36"D6B0870F-746E-4A64-9603-D87041166AAF-
+
+CTouch /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app
+s379713554.279003
+e379713554.289262
+r1
+xTouch
+x/Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app5a834712f8a1b641^d61a4a12f8a1b641^---0#0#0#--407"Touch build/Debug-iphoneos/scrollTo.app    cd /Users/roberttilton/Documents/iPhone-Development/scrollTo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/scrollTo/build/Debug-iphoneos/scrollTo.app36"236FC32D-CFB2-452F-84DF-634F836B2069-
+

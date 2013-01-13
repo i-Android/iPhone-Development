@@ -1,0 +1,421 @@
+TcameraApp
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/cameraApp.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Info.plist cameraApp/cameraApp-Info.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-hbzrpyiiswxiorfudvihvrqrwods/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/main.o /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/ViewController.o /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506757ED0000000000000094
+t1348949997
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506757ED0000000000000096
+t1348949997
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506757EF0000000000322740
+t1348949999
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506757F00000000000629C80
+t1348950000
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000506757EF00000000000015F7
+t1348949999
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000506757F00000000000000E8D
+t1348950000
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506757F300000000011BA850
+t1348950003
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c00000000506757F50000000000001B54
+t1348950005
+s6996
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app.dSYM
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Default.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Default@2x.png
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Info.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/PkgInfo
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/ResourceRules.plist
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/cameraApp
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7/ViewController.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7/cameraApp
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7/cameraApp.LinkFileList
+c0000000050C7856F00000000000001B5
+t1355253103
+s437
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/AppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/ViewController.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/cameraApp
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/cameraApp.LinkFileList
+c0000000050C7856F00000000000001B8
+t1355253103
+s440
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp.xcent
+t2
+s0
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/AppDelegate.m
+c0000000050C7845E00000000000007DE
+t1355252830
+s2014
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m
+c0000000050C7856F0000000000000D5A
+t1355253103
+s3418
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/cameraApp-Prefix.pch
+c0000000050C7845E0000000000000141
+t1355252830
+s321
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/en.lproj/InfoPlist.strings
+c0000000050C7845E000000000000002D
+t1355252830
+s45
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/en.lproj/MainStoryboard_iPad.storyboard
+c0000000050C7845E000000000000061D
+t1355252830
+s1565
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/en.lproj/MainStoryboard_iPhone.storyboard
+c0000000050C7845E0000000000000603
+t1355252830
+s1539
+
+N/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/main.m
+c0000000050C7845E0000000000000157
+t1355252830
+s343
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+c0000000050C77F470000000000001D3A
+t1355251527
+s7482
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-cwrjjpxfqjaanwhdxfxmynvoknzp/cameraApp-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-fatlfwukzfwtubewxacmninogdba/cameraApp-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-hbzrpyiiswxiorfudvihvrqrwods/cameraApp-Prefix.pch.pth
+t2
+s0
+
+NcameraApp/cameraApp-Info.plist
+c0000000050C7845E000000000000063E
+t1355252830
+s1598
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/AppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies350893efbc77b641^db52b3efbc77b641^---0#1#0#--18"Check dependencies36"4996298E-5B38-4AB1-9D4A-C7A64BE5A942-
+
+CCodeSign /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app
+r0
+
+CCompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376945904.079150
+e376945904.231998
+r1
+xCompileC
+xbuild/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/AppDelegate.md28914f0bc77b641^2a733bf0bc77b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/AppDelegate.m0000000000000000^3660"CompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/AppDelegate.o cameraApp/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/cameraApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/AppDelegate.o36"59002028-D0F3-47B3-B0CD-CDA8DA2FF354-
+
+CCompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/ViewController.o /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376945904.079885
+e376945904.119959
+r0
+xCompileC
+xbuild/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/ViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m:26:6: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o    [self presentModalViewController:imagePickController animated:YES];
+o     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:237:1: note: method 'presentModalViewController:animated:' declared here
+o- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m:68:47: error: use of undeclared identifier 'image'
+o    NSLog(@"OriginalImage width:%f height:%f",image.size.width,image.size.height);
+o                                              ^
+o/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m:71:6: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o    [self dismissModalViewControllerAnimated:YES];
+o     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here
+o- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m:77:6: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o    [picker dismissModalViewControllerAnimated:YES];
+o     ^
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here
+o- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);
+o^
+o3 warnings and 1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.mddb114f0bc77b641^0cb11ef0bc77b641^-2168"/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m:26:6: warning: 'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [self presentModalViewController:imagePickController animated:YES];     ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:237:1: note: method 'presentModalViewController:animated:' declared here- (void)presentModalViewController:(UIViewController *)modalViewController animated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m:68:47: error: use of undeclared identifier 'image'    NSLog(@"OriginalImage width:%f height:%f",image.size.width,image.size.height);                                              ^/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m:71:6: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [self dismissModalViewControllerAnimated:YES];     ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m:77:6: warning: 'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    [picker dismissModalViewControllerAnimated:YES];     ^/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:240:1: note: method 'dismissModalViewControllerAnimated:' declared here- (void)dismissModalViewControllerAnimated:(BOOL)animated NS_DEPRECATED_IOS(2_0, 6_0);^3 warnings and 1 error generated.4(36%IDEClangDiagnosticActivityLogMessage2@81"'presentModalViewController:animated:' is deprecated: first deprecated in iOS 6.0-376945904#18446744073709551615#0#1(2@59"Method 'presentModalViewController:animated:' declared here-376945904#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@186"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^236#0#236#0#12748#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m0000000000000000^25#5#25#5#745#0#12"Deprecations--2@36"Use of undeclared identifier 'image'-376945904#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m0000000000000000^67#46#67#46#2349#0#14"Semantic Issue--2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-376945904#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-376945904#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@186"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^239#0#239#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m0000000000000000^70#5#70#5#2459#0#12"Deprecations--2@80"'dismissModalViewControllerAnimated:' is deprecated: first deprecated in iOS 6.0-376945904#18446744073709551615#0#1(2@58"Method 'dismissModalViewControllerAnimated:' declared here-376945904#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@186"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^239#0#239#0#13034#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m0000000000000000^76#5#76#5#2620#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m0000000000000000^3678"CompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/ViewController.o cameraApp/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/cameraApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/ViewController.o36"3049E9E0-1C7C-4A38-9D4A-13587A2E8D2C-
+
+CCompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/main.o /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376945904.079133
+e376945904.118510
+r1
+xCompileC
+xbuild/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/main.o
+x/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/main.mc59014f0bc77b641^5c591ef0bc77b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/main.m0000000000000000^3618"CompileC build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/main.o cameraApp/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/cameraApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/main.dia -c /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/main.m -o /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/main.o36"82A5BBEF-C0F9-4E7F-80EF-9C1979BE4564-
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/en.lproj/MainStoryboard_iPad.storyboard
+r0
+
+CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/en.lproj/MainStoryboard_iPhone.storyboard
+r0
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Default-568h@2x.png cameraApp/Default-568h@2x.png
+r0
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Default.png cameraApp/Default.png
+r0
+
+CCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Default@2x.png cameraApp/Default@2x.png
+r0
+
+CCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/en.lproj/InfoPlist.strings cameraApp/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/cameraApp.app/ResourceRules.plist
+s376945903.709713
+e376945903.712709
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/cameraApp.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/cameraApp.app/ResourceRules.plist43c8b5efbc77b641^a29ab6efbc77b641^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/ResourceRules.plist000000000080d041^770"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/cameraApp.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone-Development/cameraApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app36"BF291888-8702-4E6C-A732-4413A71B6D9B-
+
+CCreateUniversalBinary /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/cameraApp normal "armv7 armv7s"
+r0
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app.dSYM /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/cameraApp
+r0
+
+CLd /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7/cameraApp normal armv7
+r0
+
+CLd /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/Objects-normal/armv7s/cameraApp normal armv7s
+r0
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Info.plist cameraApp/cameraApp-Info.plist
+s376945903.710312
+e376945903.714767
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Info.plist
+xcameraApp/cameraApp-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process cameraApp/cameraApp-Info.plist9fe5b5efbc77b641^4cfbb6efbc77b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/cameraApp-Info.plist0000000000000000^822"ProcessInfoPlistFile build/Debug-iphoneos/cameraApp.app/Info.plist cameraApp/cameraApp-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/cameraApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility cameraApp/cameraApp-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/Info.plist36"A65B7DA5-90E4-45E2-8CA2-2BB0AEF110B9-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/cameraApp-crjsennynoplrrgynckunhrsplij/Index/PrecompiledHeaders/cameraApp-Prefix-cpliusztnmroqedmxlkekeynhagg_ast/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/cameraApp-crjsennynoplrrgynckunhrsplij/Index/PrecompiledHeaders/cameraApp-Prefix-fgucqhioeqhbusfvdhglzfhsyscg_ast/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/cameraApp-crjsennynoplrrgynckunhrsplij/Index/PrecompiledHeaders/cameraApp-Prefix-frlzxcqrvqfuozhetujnyfvoriqu_ast/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/cameraApp-crjsennynoplrrgynckunhrsplij/Index/PrecompiledHeaders/cameraApp-Prefix-futtmqqtchjlmxgbkhhubfspnmzr_ast/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-cwrjjpxfqjaanwhdxfxmynvoknzp/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376945903.722752
+e376945904.070335
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch.pth
+xcameraApp/cameraApp-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile cameraApp/cameraApp-Prefix.pchfc35b9efbc77b641^1d0312f0bc77b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/cameraApp-Prefix.pch0000000000000000^3636"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/cameraApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/cameraApp-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-exwnsqybnosjjyaofycarennbzym/cameraApp-Prefix.pch.d36"CD18D3F3-C010-4E39-B824-6E58310D9F2B-
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-fatlfwukzfwtubewxacmninogdba/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-hbzrpyiiswxiorfudvihvrqrwods/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376945903.722750
+e376945904.118246
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-hbzrpyiiswxiorfudvihvrqrwods/cameraApp-Prefix.pch.pth
+xcameraApp/cameraApp-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile cameraApp/cameraApp-Prefix.pchb935b9efbc77b641^9d461ef0bc77b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/cameraApp-Prefix.pch0000000000000000^3633"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-hbzrpyiiswxiorfudvihvrqrwods/cameraApp-Prefix.pch.pth cameraApp/cameraApp-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/cameraApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-hbzrpyiiswxiorfudvihvrqrwods/cameraApp-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/cameraApp/cameraApp/cameraApp-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-hbzrpyiiswxiorfudvihvrqrwods/cameraApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraApp-Prefix-hbzrpyiiswxiorfudvihvrqrwods/cameraApp-Prefix.pch.d36"9A8FA941-9193-4A2D-8CB8-762530637BE4-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/cameraApp.build/Debug-iphoneos/cameraApp.build/cameraApp.xcent
+r0
+
+CTouch /Users/roberttilton/Documents/iPhone-Development/cameraApp/build/Debug-iphoneos/cameraApp.app
+r0
+

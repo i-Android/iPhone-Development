@@ -1,0 +1,640 @@
+TColorTracking
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist ColorTracking-Info.plist
+cCpResource Shaders/DirectDisplayShader.fsh build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh
+cCpResource Shaders/DirectDisplayShader.vsh build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh
+cCpResource Shaders/ThresholdShader.vsh build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh
+cCpResource Shaders/ThresholdShader.fsh build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh
+cCpResource Shaders/PositionShader.fsh build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh
+cCpResource Shaders/PositionShader.vsh build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch.pth ColorTracking_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch.pth ColorTracking_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/main.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingViewController.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingAppDelegate.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingCamera.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingGLView.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking normal armv7
+cLd /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTracking normal armv7s
+cCreateUniversalBinary /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking normal "armv7 armv7s"
+cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+cCodeSign /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506757ED0000000000000094
+t1348949997
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506757ED0000000000000096
+t1348949997
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000506757EE000000000036C800
+t1348949998
+s3590144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506757EF0000000000322740
+t1348949999
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000506757EF00000000001692A0
+t1348949999
+s1479328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000506757EF0000000000041310
+t1348949999
+s267024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506757F00000000000629C80
+t1348950000
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000506757EF00000000000015F7
+t1348949999
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000506757F00000000000024190
+t1348950000
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000506757F00000000000359720
+t1348950000
+s3512096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000506757F00000000000000E8D
+t1348950000
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506757F300000000011BA850
+t1348950003
+s18589776
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.h
+c000000004CC1A57A0000000000000245
+t1287759226
+s581
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m
+c000000004CC1A57E0000000000000FDE
+t1287759230
+s4062
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.h
+c000000004CC1A59F0000000000000370
+t1287759263
+s880
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m
+c0000000050C8090E0000000000000C37
+t1355286798
+s3127
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.h
+c000000004CC1A59300000000000003C1
+t1287759251
+s961
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m
+c000000004CC1A59A00000000000014C8
+t1287759258
+s5320
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.h
+c000000004CC1A58C00000000000005F8
+t1287759244
+s1528
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m
+c000000004CC1A5890000000000003EFB
+t1287759241
+s16123
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/ColorTracking_Prefix.pch
+c000000004CAE867400000000000000C3
+t1286506100
+s195
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/DirectDisplayShader.fsh
+c000000004CB2852C0000000000000090
+t1286767916
+s144
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/DirectDisplayShader.vsh
+c000000004CB2852700000000000000BA
+t1286767911
+s186
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/PositionShader.fsh
+c000000004CBB9B930000000000000466
+t1287363475
+s1126
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/PositionShader.vsh
+c000000004CBB9B0600000000000000CA
+t1287363334
+s202
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/ThresholdShader.fsh
+c000000004CBB9B4F0000000000000393
+t1287363407
+s915
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/ThresholdShader.vsh
+c000000004CBB894200000000000000CA
+t1287358786
+s202
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+t1355286799
+s432
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking
+t1355286798
+s60324
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking.LinkFileList
+c0000000050C808FB0000000000000341
+t1355286779
+s833
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o
+t1355286780
+s103516
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o
+t1355286798
+s28936
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o
+t1355286780
+s82428
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o
+t1355286780
+s117476
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o
+t1355286779
+s4276
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTracking
+t1355286798
+s60332
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTracking.LinkFileList
+c0000000050C808FB0000000000000346
+t1355286779
+s838
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingAppDelegate.o
+t1355286779
+s103516
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingCamera.o
+t1355286798
+s28936
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingGLView.o
+t1355286779
+s82428
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingViewController.o
+t1355286779
+s117420
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/main.o
+t1355286779
+s4276
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+t1355286799
+s476
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM
+t1355286799
+s102
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+t1355286799
+s140368
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh
+t1355286779
+s144
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh
+t1355286779
+s186
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist
+t1355286779
+s852
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PkgInfo
+t1355286779
+s8
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh
+t1355286779
+s1126
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh
+t1355286779
+s202
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist
+t1355286779
+s150
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh
+t1355286779
+s915
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh
+t1355286779
+s202
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+t1355286799
+s7482
+
+N/Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m
+c000000004CC1A5AF00000000000001BC
+t1287759279
+s444
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+c0000000050C77F470000000000001D3A
+t1355251527
+s7482
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch.pth
+t1355286779
+s4769452
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch.pth
+t1355286779
+s4769584
+
+NColorTracking-Info.plist
+c000000004CB31D4F0000000000000387
+t1286806863
+s903
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1a86abdd4078b641^0dc6ccdd4078b641^---0#1#0#--18"Check dependencies36"4229FA08-B141-48DB-95E7-E26AA84D7533-
+
+CCodeSign /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+s376979677.919010
+e376979678.154595
+r1
+xCodeSign
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+o/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app: replacing existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"CodeSign build/Debug-iphoneos/ColorTracking.appac55ebdd4078b641^429427de4078b641^-131"/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/0000000000000000^920"CodeSign build/Debug-iphoneos/ColorTracking.app    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a4703e0e8312df06f97b588089b0376a2ea07345 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app36"7A6BD9E4-E3DC-495F-9809-8E31B01487A8-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.840008
+e376979580.020867
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m7e35d77b4078b641^f968057c4078b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m0000000000000000^3880"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o Classes/ColorTrackingAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingAppDelegate.o36"70C60BB4-8267-466A-B7B4-5C2194210164-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979598.764521
+e376979598.866429
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m02d5c38e4078b641^fddbdd8e4078b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m0000000000000000^3850"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o Classes/ColorTrackingCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingCamera.o36"6BCC1CCC-379F-4F68-ACEA-3D82F31C7B99-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.984544
+e376979580.124240
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m2f33fc7b4078b641^e1d41f7c4078b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m0000000000000000^3850"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o Classes/ColorTrackingGLView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingGLView.o36"D6A6881B-2ECD-40C6-A62A-210B8354053F-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.887016
+e376979580.125246
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.mea3fe37b4078b641^2c11207c4078b641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m0000000000000000^3898"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o Classes/ColorTrackingViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTrackingViewController.o36"A04DCDF1-B897-44A9-A5A4-775F7D5C10F8-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.783779
+e376979579.838694
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m68d0c87b4078b641^2db5d67b4078b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m0000000000000000^3744"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/main.o36"9481D040-436B-49D2-97C8-034B4B8232A4-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingAppDelegate.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.720230
+e376979579.983214
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingAppDelegate.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.mdfa5b87b4078b641^1cb4fb7b4078b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m0000000000000000^3887"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingAppDelegate.o Classes/ColorTrackingAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingAppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingAppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingAppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingAppDelegate.o36"4E705065-6F4F-4D34-B871-6ED2F6F8108D-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingCamera.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979598.765945
+e376979598.866423
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingCamera.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m402fc48e4078b641^62d8dd8e4078b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m0000000000000000^3857"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingCamera.o Classes/ColorTrackingCamera.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingCamera.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingCamera.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingCamera.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingCamera.o36"196220F7-4B68-4B21-BBD5-62576AA2D80A-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingGLView.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.720293
+e376979579.885666
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingGLView.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m93a7b87b4078b641^77bbe27b4078b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m0000000000000000^3857"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingGLView.o Classes/ColorTrackingGLView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingGLView.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingGLView.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingGLView.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingGLView.o36"BE021760-EA5E-4D9B-8D59-3CDC409B2688-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingViewController.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.720283
+e376979579.996692
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingViewController.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m2aa8b87b4078b641^dd27ff7b4078b641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m0000000000000000^3905"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingViewController.o Classes/ColorTrackingViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Classes/ColorTrackingViewController.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackingViewController.o36"80A3BB8B-4F71-4727-8E0A-D16042065D4B-
+
+CCompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/main.o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.720212
+e376979579.782356
+r1
+xCompileC
+xbuild/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/main.o
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m22a6b87b4078b641^b24bc87b4078b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m0000000000000000^3751"CompileC build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/main.o main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/main.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/main.m -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/main.o36"65976E44-B27C-47FD-9945-25DF0E6EDCD8-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist
+s376979579.032052
+e376979579.075735
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/ColorTracking.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/ColorTracking.app/ResourceRules.plistae48087b4078b641^a566137b4078b641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist000000000080d041^786"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app36"415DA89B-1D5A-4FB3-BAC1-DF4C4627FB05-
+
+CCpResource Shaders/DirectDisplayShader.fsh build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh
+s376979579.090028
+e376979579.094749
+r1
+xCpResource
+xShaders/DirectDisplayShader.fsh
+xbuild/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh5324177b4078b641^a642187b4078b641^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh000000000080d041^673"CpResource Shaders/DirectDisplayShader.fsh build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.fsh    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/DirectDisplayShader.fsh /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app36"C9298B2F-1F3D-4F30-AAA2-485D5ECC4329-
+
+CCpResource Shaders/DirectDisplayShader.vsh build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh
+s376979579.090033
+e376979579.095777
+r1
+xCpResource
+xShaders/DirectDisplayShader.vsh
+xbuild/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh7923177b4078b641^5e85187b4078b641^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh000000000080d041^673"CpResource Shaders/DirectDisplayShader.vsh build/Debug-iphoneos/ColorTracking.app/DirectDisplayShader.vsh    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/DirectDisplayShader.vsh /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app36"B84D5059-A8E9-4B17-B2B5-BF2B60661E22-
+
+CCpResource Shaders/PositionShader.fsh build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh
+s376979579.094086
+e376979579.097586
+r1
+xCpResource
+xShaders/PositionShader.fsh
+xbuild/Debug-iphoneos/ColorTracking.app/PositionShader.fsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh0b28187b4078b641^1efc187b4078b641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh000000000080d041^658"CpResource Shaders/PositionShader.fsh build/Debug-iphoneos/ColorTracking.app/PositionShader.fsh    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/PositionShader.fsh /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app36"4BC06200-5973-4DDA-B8AC-43A4283F81B5-
+
+CCpResource Shaders/PositionShader.vsh build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh
+s376979579.094108
+e376979579.098717
+r1
+xCpResource
+xShaders/PositionShader.vsh
+xbuild/Debug-iphoneos/ColorTracking.app/PositionShader.vsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh5f28187b4078b641^e945197b4078b641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh000000000080d041^658"CpResource Shaders/PositionShader.vsh build/Debug-iphoneos/ColorTracking.app/PositionShader.vsh    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/PositionShader.vsh /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app36"CD9EEBD9-254D-4103-BEAC-8B1A693F5FC3-
+
+CCpResource Shaders/ThresholdShader.fsh build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh
+s376979579.090038
+e376979579.092922
+r1
+xCpResource
+xShaders/ThresholdShader.fsh
+xbuild/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh0822177b4078b641^86ca177b4078b641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh000000000080d041^661"CpResource Shaders/ThresholdShader.fsh build/Debug-iphoneos/ColorTracking.app/ThresholdShader.fsh    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/ThresholdShader.fsh /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app36"68BE49C7-654C-484D-BFFB-4C1F6F91E07A-
+
+CCpResource Shaders/ThresholdShader.vsh build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh
+s376979579.090091
+e376979579.093974
+r1
+xCpResource
+xShaders/ThresholdShader.vsh
+xbuild/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vshd122177b4078b641^aa0f187b4078b641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh000000000080d041^661"CpResource Shaders/ThresholdShader.vsh build/Debug-iphoneos/ColorTracking.app/ThresholdShader.vsh    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/roberttilton/Documents/iPhone-Development/ColorTracking/Shaders/ThresholdShader.vsh /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app36"C3DFBB0C-EF2D-434C-B00E-7FB4D3C702B0-
+
+CCreateUniversalBinary /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking normal "armv7 armv7s"
+s376979598.963175
+e376979598.969136
+r1
+xCreateUniversalBinary
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Create universal binary /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTrackingd9b4f68e4078b641^b518f88e4078b641^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking000000000080d041^815"CreateUniversalBinary build/Debug-iphoneos/ColorTracking.app/ColorTracking normal "armv7 armv7s"    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTracking -output /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking36"072859B8-7F70-4898-9786-5193F4C75603-
+
+CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+s376979598.976935
+e376979599.028352
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Generating /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYMd829fa8e4078b641^5742078f4078b641^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM000000000080d041^698"GenerateDSYMFile build/Debug-iphoneos/ColorTracking.app.dSYM build/Debug-iphoneos/ColorTracking.app/ColorTracking    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ColorTracking -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app.dSYM36"CC87041E-3B44-4041-BAE5-ED090A306E73-
+
+CLd /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking normal armv7
+s376979598.874184
+e376979598.956465
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Link /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking1ee2df8e4078b641^38dbf48e4078b641^---0#0#0#--1379"Ld build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking normal armv7    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=6.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AVFoundation -framework CoreVideo -framework CoreMedia -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7/ColorTracking36"8AB68A35-99AE-42AD-B5F0-E6219E8EE3C0-
+
+CLd /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTracking normal armv7s
+s376979598.874419
+e376979598.955674
+r1
+xLd
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTracking
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Link /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTrackinga2eedf8e4078b641^04a9f48e4078b641^---0#0#0#--1384"Ld build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTracking normal armv7s    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTracking.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=6.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AVFoundation -framework CoreVideo -framework CoreMedia -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/Objects-normal/armv7s/ColorTracking36"B0337D94-1736-4747-8BD6-F193C6FA1ABA-
+
+CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist ColorTracking-Info.plist
+s376979579.032055
+e376979579.075722
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist
+xColorTracking-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Process ColorTracking-Info.plist4948087b4078b641^836a137b4078b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/ColorTracking-Info.plist0000000000000000^842"ProcessInfoPlistFile build/Debug-iphoneos/ColorTracking.app/Info.plist ColorTracking-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ColorTracking-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/Info.plist36"4F4816BB-D377-427D-A9D4-71DF12A4D33B-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/ColorTracking-eptkeikavmtatnbmkhgitndqzdhk/Index/PrecompiledHeaders/ColorTracking_Prefix-clevrbmcyxvvwgehhlmfktfjohtg_ast/ColorTracking_Prefix.pch.pth ColorTracking_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/ColorTracking-eptkeikavmtatnbmkhgitndqzdhk/Index/PrecompiledHeaders/ColorTracking_Prefix-divtcucwsjndbceidbcwievzjzxu_ast/ColorTracking_Prefix.pch.pth ColorTracking_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch.pth ColorTracking_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.107957
+e376979579.712382
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch.pth
+xColorTracking_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile ColorTracking_Prefix.pch77be1b7b4078b641^bb62b67b4078b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/ColorTracking_Prefix.pch0000000000000000^3754"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch.pth ColorTracking_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/ColorTracking_Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-fiywbgtumlvdovgdscpogaktsgjc/ColorTracking_Prefix.pch.d36"C0153894-0400-4C58-8053-9A9F995E3149-
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch.pth ColorTracking_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979579.107961
+e376979579.711622
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch.pth
+xColorTracking_Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile ColorTracking_Prefix.pch8cbd1b7b4078b641^b22eb67b4078b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/ColorTracking_Prefix.pch0000000000000000^3757"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch.pth ColorTracking_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=6.0 -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources/armv7s -I/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/ColorTracking_Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ColorTracking_Prefix-gqsfjvpimpikcnermjpyjivogltk/ColorTracking_Prefix.pch.d36"D7AAD3E6-E89A-4C57-A8AB-546A002A1E1D-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+s376979599.091757
+e376979599.095342
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection205"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision0393178f4078b641^fd68188f4078b641^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision0000000000000000^748"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app/embedded.mobileprovision36"64C4FD84-0839-40E7-9D55-92BD028BA7E6-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+s376979599.117229
+e376979599.154973
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection225"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent73121e8f4078b641^e6ac278f4078b641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent000000000080d041^814"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/ColorTracking.build/Debug-iphoneos/ColorTracking.build/ColorTracking.xcent36"37691EA3-B0D3-4315-BD21-DA4B197D0305-
+
+CTouch /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+s376979599.103330
+e376979599.108224
+r1
+xTouch
+x/Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Touch /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.appba811a8f4078b641^18b51b8f4078b641^---0#0#0#--427"Touch build/Debug-iphoneos/ColorTracking.app    cd /Users/roberttilton/Documents/iPhone-Development/ColorTracking    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/ColorTracking/build/Debug-iphoneos/ColorTracking.app36"C9C9C110-269C-447F-9AED-4B8ABEC632D6-
+

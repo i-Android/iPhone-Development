@@ -1,0 +1,510 @@
+TCubeExample
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/CubeExample.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/Info.plist CubeExample-Info.plist
+cCpResource Shaders/Shader.fsh build/Debug-iphoneos/CubeExample.app/Shader.fsh
+cCpResource Shaders/Shader.vsh build/Debug-iphoneos/CubeExample.app/Shader.vsh
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch.pth CubeExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch.pth CubeExample_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/ES2Renderer.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExampleAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/DisplayViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExampleAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/ES2Renderer.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/DisplayViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample normal armv7
+cLd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample normal armv7s
+cCreateUniversalBinary /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample normal "armv7 armv7s"
+cGenerateDSYMFile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app.dSYM /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample.xcent
+cCodeSign /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506757ED0000000000000094
+t1348949997
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506757ED0000000000000096
+t1348949997
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000506757EE000000000036C800
+t1348949998
+s3590144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506757EF0000000000322740
+t1348949999
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000506757EF00000000001692A0
+t1348949999
+s1479328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000506757EF0000000000041310
+t1348949999
+s267024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506757F00000000000629C80
+t1348950000
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000506757EF00000000000015F7
+t1348949999
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000506757F00000000000024190
+t1348950000
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000506757F00000000000359720
+t1348950000
+s3512096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000506757F00000000000000E8D
+t1348950000
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506757F300000000011BA850
+t1348950003
+s18589776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/include/Availability.h
+c00000000506757F50000000000001B54
+t1348950005
+s6996
+
+N/Users/roberttilton/Downloads/GPUImage-master/build/Debug-iphoneos/libGPUImage.a
+c0000000050C809F3000000000061FC88
+t1355287027
+s6421640
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m
+c0000000050B381D200000000000003E8
+t1353941458
+s1000
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m
+c0000000050B381D20000000000000B9E
+t1353941458
+s2974
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m
+c0000000050B381D2000000000000352F
+t1353941458
+s13615
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/CubeExample_Prefix.pch
+c0000000050B381D20000000000000140
+t1353941458
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Shaders/Shader.fsh
+c0000000050B381D200000000000000BF
+t1353941458
+s191
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Shaders/Shader.vsh
+c0000000050B381D200000000000000F7
+t1353941458
+s247
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample.xcent
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample.LinkFileList
+c0000000050C80B17000000000000028A
+t1355287319
+s650
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExampleAppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/DisplayViewController.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/ES2Renderer.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample.LinkFileList
+c0000000050C80B17000000000000028E
+t1355287319
+s654
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExampleAppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/DisplayViewController.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/ES2Renderer.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app.dSYM
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/Info.plist
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/PkgInfo
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/ResourceRules.plist
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/Shader.fsh
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/Shader.vsh
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m
+c0000000050B381D20000000000000184
+t1353941458
+s388
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+c0000000050C77F470000000000001D3A
+t1355251527
+s7482
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch.pth
+t2
+s0
+
+NCubeExample-Info.plist
+c0000000050B381D200000000000005D5
+t1353941458
+s1493
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m
+r0
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4b590e974278b641^d63893974278b641^---0#1#0#--18"Check dependencies36"93F6494D-A9D5-4760-8E1A-8D2B3B757C4D-
+
+CCodeSign /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app
+s376980121.706384
+e376980122.807232
+r1
+xCodeSign
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"CodeSign build/Debug-iphoneos/CubeExample.app0ce9b4994278b641^7aa7ce9a4278b641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/0000000000000000^924"CodeSign build/Debug-iphoneos/CubeExample.app    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a4703e0e8312df06f97b588089b0376a2ea07345 --resource-rules=/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/ResourceRules.plist --entitlements /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample.xcent /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app36"6D338F13-6AFE-47B9-AC67-C30E2791ADC3-
+
+CCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExampleAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980120.238029
+e376980121.078267
+r1
+xCompileC
+xbuild/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExampleAppDelegate.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m0b0c3d984278b641^4a0a14994278b641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m0000000000000000^3700"CompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExampleAppDelegate.o Classes/CubeExampleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExampleAppDelegate.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExampleAppDelegate.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExampleAppDelegate.o36"91822F20-B4C1-4EEF-A20C-6283C2479594-
+
+CCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/DisplayViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980120.522638
+e376980121.081156
+r1
+xCompileC
+xbuild/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/DisplayViewController.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m5ff085984278b641^b0c714994278b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m0000000000000000^3694"CompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/DisplayViewController.o Classes/DisplayViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/DisplayViewController.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/DisplayViewController.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/DisplayViewController.o36"C2315FD4-5056-42C5-8D62-ACB28473DAD1-
+
+CCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/ES2Renderer.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980120.238033
+e376980121.027965
+r1
+xCompileC
+xbuild/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/ES2Renderer.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.me0113d984278b641^ef8f07994278b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m0000000000000000^3634"CompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/ES2Renderer.o Classes/ES2Renderer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/ES2Renderer.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/ES2Renderer.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/ES2Renderer.o36"C84DCDE5-0AF3-412D-BC3B-5CFB9C570749-
+
+CCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980120.238016
+e376980120.630447
+r1
+xCompileC
+xbuild/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m80103d984278b641^8065a1984278b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m0000000000000000^3576"CompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/main.o36"CE3261D7-D40F-40FB-AFB6-BBB1C46CBFDE-
+
+CCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExampleAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980120.843970
+e376980121.081168
+r1
+xCompileC
+xbuild/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExampleAppDelegate.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.mab26d8984278b641^47cc14994278b641^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m0000000000000000^3707"CompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExampleAppDelegate.o Classes/CubeExampleAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExampleAppDelegate.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExampleAppDelegate.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/CubeExampleAppDelegate.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExampleAppDelegate.o36"2403D3A6-6690-4920-80C1-14ED4ADA4A90-
+
+CCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/DisplayViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980121.079619
+e376980121.390055
+r1
+xCompileC
+xbuild/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/DisplayViewController.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m8c8614994278b641^38dc63994278b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m0000000000000000^3701"CompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/DisplayViewController.o Classes/DisplayViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/DisplayViewController.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/DisplayViewController.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/DisplayViewController.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/DisplayViewController.o36"714C20EB-E446-489D-BF73-7F8DBE65E812-
+
+CCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/ES2Renderer.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980121.031050
+e376980121.283204
+r1
+xCompileC
+xbuild/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/ES2Renderer.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m49630c994278b641^848048994278b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m0000000000000000^3641"CompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/ES2Renderer.o Classes/ES2Renderer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/ES2Renderer.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/ES2Renderer.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Classes/ES2Renderer.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/ES2Renderer.o36"93A53F6E-82D7-4870-95C6-D683718A738B-
+
+CCompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980120.631831
+e376980120.842487
+r1
+xCompileC
+xbuild/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/main.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.mfe28a2984278b641^3aadd7984278b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m0000000000000000^3583"CompileC build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/main.o main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/main.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/main.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/main.o36"4832B206-F9A9-47DF-87AC-73737977397F-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/CubeExample.app/ResourceRules.plist
+s376980119.434573
+e376980119.465244
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/CubeExample.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphoneos/CubeExample.app/ResourceRules.plist08586f974278b641^a98493974278b641^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/ResourceRules.plist000000000080d041^790"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/CubeExample.app/ResourceRules.plist    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app36"2DA8291D-0312-48D8-851B-AD6CD1A3AD6E-
+
+CCpResource Shaders/Shader.fsh build/Debug-iphoneos/CubeExample.app/Shader.fsh
+s376980119.527414
+e376980119.529782
+r1
+xCpResource
+xShaders/Shader.fsh
+xbuild/Debug-iphoneos/CubeExample.app/Shader.fsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Debug-iphoneos/CubeExample.app/Shader.fsh2e1d87974278b641^e60594974278b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/Shader.fsh000000000080d041^642"CpResource Shaders/Shader.fsh build/Debug-iphoneos/CubeExample.app/Shader.fsh    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Shaders/Shader.fsh /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app36"9A61FABD-FD95-4151-94FA-C47D08C66114-
+
+CCpResource Shaders/Shader.vsh build/Debug-iphoneos/CubeExample.app/Shader.vsh
+s376980119.528019
+e376980119.532418
+r1
+xCpResource
+xShaders/Shader.vsh
+xbuild/Debug-iphoneos/CubeExample.app/Shader.vsh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Debug-iphoneos/CubeExample.app/Shader.vsh473e87974278b641^5b0a94974278b641^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/Shader.vsh000000000080d041^642"CpResource Shaders/Shader.vsh build/Debug-iphoneos/CubeExample.app/Shader.vsh    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/Shaders/Shader.vsh /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app36"0B462E54-8F9E-4B3A-9239-0E511167CBC2-
+
+CCreateUniversalBinary /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample normal "armv7 armv7s"
+s376980121.439994
+e376980121.477927
+r1
+xCreateUniversalBinary
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Create universal binary /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample6fbb70994278b641^1c7b7a994278b641^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample000000000080d041^811"CreateUniversalBinary build/Debug-iphoneos/CubeExample.app/CubeExample normal "armv7 armv7s"    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample -output /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample36"BA666B6F-2C5C-4C27-B5C6-DB7616D0CE16-
+
+CGenerateDSYMFile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app.dSYM /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample
+s376980121.496525
+e376980121.594667
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app.dSYM
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Generating /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app.dSYM0d347f994278b641^8e3c98994278b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app.dSYM000000000080d041^698"GenerateDSYMFile build/Debug-iphoneos/CubeExample.app.dSYM build/Debug-iphoneos/CubeExample.app/CubeExample    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/CubeExample -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app.dSYM36"6735EF1C-D22E-421D-87EB-1A2C9CBA43B1-
+
+CLd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample normal armv7
+s376980121.088057
+e376980121.209899
+r1
+xLd
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Link /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample59a316994278b641^fdbc35994278b641^---0#0#0#--1478"Ld build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample normal armv7    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -filelist /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.1 -framework CoreGraphics /Users/roberttilton/Downloads/GPUImage-master/build/Debug-iphoneos/libGPUImage.a -framework AVFoundation -framework CoreMedia -weak_framework CoreVideo -framework OpenGLES -framework QuartzCore -framework Foundation -framework UIKit -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7/CubeExample36"44D067B1-1E68-4D42-A331-21B26C6E6065-
+
+CLd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample normal armv7s
+s376980121.396856
+e376980121.433136
+r1
+xLd
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Link /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample47b065994278b641^b9e26e994278b641^---0#0#0#--1483"Ld build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample normal armv7s    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos -filelist /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.1 -framework CoreGraphics /Users/roberttilton/Downloads/GPUImage-master/build/Debug-iphoneos/libGPUImage.a -framework AVFoundation -framework CoreMedia -weak_framework CoreVideo -framework OpenGLES -framework QuartzCore -framework Foundation -framework UIKit -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/Objects-normal/armv7s/CubeExample36"031C6D91-2B90-4DCB-B041-3A17F70A8EC6-
+
+CProcessInfoPlistFile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/Info.plist CubeExample-Info.plist
+s376980119.434791
+e376980119.465242
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/Info.plist
+xCubeExample-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process CubeExample-Info.plist7c606f974278b641^848193974278b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/CubeExample-Info.plist0000000000000000^846"ProcessInfoPlistFile build/Debug-iphoneos/CubeExample.app/Info.plist CubeExample-Info.plist    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CubeExample-Info.plist -genpkginfo /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/ResourceRules.plist -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/Info.plist36"7E226440-998F-4BD1-B507-EC3A3D72FC0A-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/CubeExample-erlbvvnmumddjnbhxctugkdmedjr/Index/PrecompiledHeaders/CubeExample_Prefix-aogiovjqcqsubbgsjjgrjneigotz_ast/CubeExample_Prefix.pch.pth CubeExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/CubeExample-erlbvvnmumddjnbhxctugkdmedjr/Index/PrecompiledHeaders/CubeExample_Prefix-godbeaptqampxbdukigvpbhndnyq_ast/CubeExample_Prefix.pch.pth CubeExample_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch.pth CubeExample_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980119.547023
+e376980120.521124
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch.pth
+xCubeExample_Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile CubeExample_Prefix.pcha12c8c974278b641^336b85984278b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/CubeExample_Prefix.pch0000000000000000^3577"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch.pth CubeExample_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/CubeExample_Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-apqicophmdtgwccvpbvooevwbxwa/CubeExample_Prefix.pch.d36"3EBA22C4-4796-4328-8390-2BE2B633888B-
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch.pth CubeExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980119.546548
+e376980120.230480
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch.pth
+xCubeExample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile CubeExample_Prefix.pch632b8c974278b641^ce003b984278b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/CubeExample_Prefix.pch0000000000000000^3574"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch.pth CubeExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.1 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/CubeExample_Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CubeExample_Prefix-gcnblfenzawddpbrvlqffoiezvwz/CubeExample_Prefix.pch.d36"DD1BAE4A-2D56-44D2-AB51-E558D812381D-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/embedded.mobileprovision
+s376980121.626723
+e376980121.630366
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection203"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/CubeExample.app/embedded.mobileprovision6b82a0994278b641^bb5fa1994278b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/embedded.mobileprovision0000000000000000^752"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/CubeExample.app/embedded.mobileprovision    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app/embedded.mobileprovision36"25AE475B-3A13-4A7C-B991-98B31EC08F09-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample.xcent
+s376980121.677558
+e376980121.698638
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection219"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample.xcent4985ad994278b641^c2dcb2994278b641^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample.xcent000000000080d041^810"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample.xcent    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/CubeExample.build/Debug-iphoneos/CubeExample.build/CubeExample.xcent36"BABED11F-BFED-46E0-B74F-949A41B0BA99-
+
+CTouch /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app
+s376980121.639062
+e376980121.668576
+r1
+xTouch
+x/Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Touch /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app72a8a3994278b641^7428ab994278b641^---0#0#0#--431"Touch build/Debug-iphoneos/CubeExample.app    cd /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Downloads/GPUImage-master/examples/CubeExample/build/Debug-iphoneos/CubeExample.app36"CACE2C96-910A-4766-BA54-5767C8EAD8F9-
+

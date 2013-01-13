@@ -1,0 +1,434 @@
+TSimplePhotoFilter
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/Info.plist SimplePhotoFilter/SimplePhotoFilter-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/SimplePhotoFilter.app/ResourceRules.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch.pth SimplePhotoFilter/SimplePhotoFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch.pth SimplePhotoFilter/SimplePhotoFilter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter normal armv7s
+cLd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter normal armv7
+cCreateUniversalBinary /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter normal "armv7 armv7s"
+cGenerateDSYMFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app.dSYM /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter
+cCopyStringsFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/en.lproj/InfoPlist.strings SimplePhotoFilter/en.lproj/InfoPlist.strings
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter.xcent
+cCodeSign /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506757ED0000000000000094
+t1348949997
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506757ED0000000000000096
+t1348949997
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000506757EE000000000036C800
+t1348949998
+s3590144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000506757EE000000000003ACE0
+t1348949998
+s240864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506757EF0000000000322740
+t1348949999
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000506757EF00000000001692A0
+t1348949999
+s1479328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000506757EF0000000000041310
+t1348949999
+s267024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506757F00000000000629C80
+t1348950000
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000506757F00000000000024190
+t1348950000
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000506757F00000000000359720
+t1348950000
+s3512096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506757F300000000011BA850
+t1348950003
+s18589776
+
+N/Users/roberttilton/Downloads/GPUImage-master/build/Debug-iphoneos/libGPUImage.a
+c0000000050C809F3000000000061FC88
+t1355287027
+s6421640
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m
+c0000000050B381D2000000000000091C
+t1353941458
+s2332
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m
+c0000000050B381D200000000000013DA
+t1353941458
+s5082
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/SimplePhotoFilter-Prefix.pch
+c0000000050B381D20000000000000151
+t1353941458
+s337
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/en.lproj/InfoPlist.strings
+c0000000050B381D2000000000000002D
+t1353941458
+s45
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m
+c0000000050B381D200000000000000D9
+t1353941458
+s217
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app.dSYM
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/Info.plist
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/PkgInfo
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/ResourceRules.plist
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoAppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoViewController.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter.LinkFileList
+c0000000050C80A030000000000000219
+t1355287043
+s537
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoAppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoViewController.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter.LinkFileList
+c0000000050C80A03000000000000021C
+t1355287043
+s540
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter.xcent
+t2
+s0
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+c0000000050C77F470000000000001D3A
+t1355251527
+s7482
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch.pth
+t2
+s0
+
+NSimplePhotoFilter/SimplePhotoFilter-Info.plist
+c0000000050B381D200000000000005E7
+t1353941458
+s1511
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4c5017834178b641^42ea22834178b641^---0#1#0#--18"Check dependencies36"050D6153-FAF9-44F0-A076-00EA273EF643-
+
+CCodeSign /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app
+s376979845.313234
+e376979846.515493
+r1
+xCodeSign
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CodeSign build/Debug-iphoneos/SimplePhotoFilter.app6b4450854178b641^f0f783864178b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/0000000000000000^984"CodeSign build/Debug-iphoneos/SimplePhotoFilter.app    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a4703e0e8312df06f97b588089b0376a2ea07345 --resource-rules=/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/ResourceRules.plist --entitlements /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter.xcent /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app36"D1FD5EB9-029F-4E53-8DA2-D8F3F82DACBE-
+
+CCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979843.703378
+e376979844.117780
+r1
+xCompileC
+xbuild/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoAppDelegate.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m1a34b4834178b641^13281e844178b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m0000000000000000^3824"CompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoAppDelegate.o SimplePhotoFilter/PhotoAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/include -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoAppDelegate.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoAppDelegate.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoAppDelegate.o36"CB39C644-90D5-44D9-91E3-5F304A8C25DD-
+
+CCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979843.703550
+e376979844.092049
+r1
+xCompileC
+xbuild/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoViewController.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m0740b4834178b641^c99017844178b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m0000000000000000^3842"CompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoViewController.o SimplePhotoFilter/PhotoViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/include -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoViewController.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoViewController.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/PhotoViewController.o36"EA6A9B92-56D8-47F8-98A7-AD78385D6E08-
+
+CCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979843.702705
+e376979843.746484
+r1
+xCompileC
+xbuild/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m560fb4834178b641^0f28bf834178b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m0000000000000000^3752"CompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/main.o SimplePhotoFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/include -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/main.o36"48BE358B-A1C8-4EBB-B87D-884A3DB30AA0-
+
+CCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979843.747921
+e376979844.114339
+r1
+xCompileC
+xbuild/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoAppDelegate.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.mfd9fbf834178b641^84451d844178b641^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m0000000000000000^3831"CompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoAppDelegate.o SimplePhotoFilter/PhotoAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/include -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoAppDelegate.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoAppDelegate.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoAppDelegate.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoAppDelegate.o36"63CAA2E2-C6A5-4FD5-B323-18A03725EA9E-
+
+CCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979843.762277
+e376979844.113434
+r1
+xCompileC
+xbuild/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoViewController.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.mb64bc3834178b641^460a1d844178b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m0000000000000000^3849"CompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoViewController.o SimplePhotoFilter/PhotoViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/include -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoViewController.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoViewController.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/PhotoViewController.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/PhotoViewController.o36"9592411C-7469-4E5B-B6C7-B2142FB6D97E-
+
+CCompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979843.704066
+e376979843.761010
+r1
+xCompileC
+xbuild/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/main.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m334eb7834178b641^11fdc2834178b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m0000000000000000^3759"CompileC build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/main.o SimplePhotoFilter/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/include -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/main.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/main.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/main.o36"3F32CBD6-888D-4973-8EF7-A21A42D9209D-
+
+CCopyStringsFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/en.lproj/InfoPlist.strings SimplePhotoFilter/en.lproj/InfoPlist.strings
+s376979845.001013
+e376979845.114664
+r1
+xCopyStringsFile
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/en.lproj/InfoPlist.strings
+xSimplePhotoFilter/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy SimplePhotoFilter/en.lproj/InfoPlist.strings105900854178b641^226f1d854178b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/en.lproj/InfoPlist.strings0000000000000000^662"CopyStringsFile build/Debug-iphoneos/SimplePhotoFilter.app/en.lproj/InfoPlist.strings SimplePhotoFilter/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/en.lproj -- SimplePhotoFilter/en.lproj/InfoPlist.strings36"39911F79-0971-4B3B-B94A-0B5C7A4F7049-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/SimplePhotoFilter.app/ResourceRules.plist
+s376979843.145931
+e376979843.178299
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/SimplePhotoFilter.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphoneos/SimplePhotoFilter.app/ResourceRules.plist7d7525834178b641^2f162e834178b641^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/ResourceRules.plist000000000080d041^814"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/SimplePhotoFilter.app/ResourceRules.plist    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app36"522567CA-7FF3-443C-A532-7518DC4F54B8-
+
+CCreateUniversalBinary /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter normal "armv7 armv7s"
+s376979844.653807
+e376979844.669854
+r1
+xCreateUniversalBinary
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Create universal binary /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter2271a7844178b641^d07bab844178b641^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter000000000080d041^895"CreateUniversalBinary build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter normal "armv7 armv7s"    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter -output /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter36"F579F54A-0EFE-47B1-B0AE-0F9375C8EE0B-
+
+CGenerateDSYMFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app.dSYM /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter
+s376979844.676103
+e376979844.982964
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app.dSYM
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Generating /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app.dSYM0724ad844178b641^2fa4fb844178b641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app.dSYM000000000080d041^752"GenerateDSYMFile build/Debug-iphoneos/SimplePhotoFilter.app.dSYM build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/SimplePhotoFilter -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app.dSYM36"95DBD35B-1DC0-41C5-A3B5-B14B05002388-
+
+CLd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter normal armv7
+s376979844.124022
+e376979844.646912
+r1
+xLd
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection185"Link /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter0fd21f844178b641^529ea5844178b641^---0#0#0#--1587"Ld build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter normal armv7    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -filelist /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.0 -framework AssetsLibrary -framework AVFoundation -framework CoreMedia -weak_framework CoreVideo -framework OpenGLES -framework QuartzCore /Users/roberttilton/Downloads/GPUImage-master/build/Debug-iphoneos/libGPUImage.a -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7/SimplePhotoFilter36"FD3A5711-4873-4A0C-8450-887259F01869-
+
+CLd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter normal armv7s
+s376979844.121350
+e376979844.625517
+r1
+xLd
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection186"Link /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter25231f844178b641^8a22a0844178b641^---0#0#0#--1592"Ld build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter normal armv7s    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos -filelist /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.0 -framework AssetsLibrary -framework AVFoundation -framework CoreMedia -weak_framework CoreVideo -framework OpenGLES -framework QuartzCore /Users/roberttilton/Downloads/GPUImage-master/build/Debug-iphoneos/libGPUImage.a -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/Objects-normal/armv7s/SimplePhotoFilter36"DDADE2E4-6F87-4E83-A6B4-0AF0EE188F08-
+
+CProcessInfoPlistFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/Info.plist SimplePhotoFilter/SimplePhotoFilter-Info.plist
+s376979843.145912
+e376979843.149313
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/Info.plist
+xSimplePhotoFilter/SimplePhotoFilter-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Process SimplePhotoFilter/SimplePhotoFilter-Info.plistde7225834178b641^2a3a26834178b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/SimplePhotoFilter-Info.plist0000000000000000^942"ProcessInfoPlistFile build/Debug-iphoneos/SimplePhotoFilter.app/Info.plist SimplePhotoFilter/SimplePhotoFilter-Info.plist    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimplePhotoFilter/SimplePhotoFilter-Info.plist -genpkginfo /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/ResourceRules.plist -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/Info.plist36"1B523CED-FB21-4B9C-8D63-3C3EF6332004-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/SimplePhotoFilter-dblrgrckluerdkfrzfrtblzhjdeh/Index/PrecompiledHeaders/SimplePhotoFilter-Prefix-dlymxnfbhtesusgtlaxypcyvwvhn_ast/SimplePhotoFilter-Prefix.pch.pth SimplePhotoFilter/SimplePhotoFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/SimplePhotoFilter-dblrgrckluerdkfrzfrtblzhjdeh/Index/PrecompiledHeaders/SimplePhotoFilter-Prefix-erlkuyoqzcclukcgpmjjqllolwfi_ast/SimplePhotoFilter-Prefix.pch.pth SimplePhotoFilter/SimplePhotoFilter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch.pth SimplePhotoFilter/SimplePhotoFilter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979843.198875
+e376979843.696876
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch.pth
+xSimplePhotoFilter/SimplePhotoFilter-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile SimplePhotoFilter/SimplePhotoFilter-Prefix.pch10e933834178b641^467db2834178b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/SimplePhotoFilter-Prefix.pch0000000000000000^3735"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch.pth SimplePhotoFilter/SimplePhotoFilter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/include -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/SimplePhotoFilter-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cjkgybrxgsficcbieyjyzeqslten/SimplePhotoFilter-Prefix.pch.d36"3876EE2F-B995-4A7D-A02A-673E5FC45679-
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch.pth SimplePhotoFilter/SimplePhotoFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376979843.198867
+e376979843.695953
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch.pth
+xSimplePhotoFilter/SimplePhotoFilter-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile SimplePhotoFilter/SimplePhotoFilter-Prefix.pch79e833834178b641^d750b2834178b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/SimplePhotoFilter-Prefix.pch0000000000000000^3732"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch.pth SimplePhotoFilter/SimplePhotoFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/include -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/SimplePhotoFilter/SimplePhotoFilter-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimplePhotoFilter-Prefix-cvlqgyxukcysyxhedxqywgggcvyl/SimplePhotoFilter-Prefix.pch.d36"45E3FBD4-8FBC-4EA0-B6F7-E4D98D0A0891-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/embedded.mobileprovision
+s376979845.220239
+e376979845.225124
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection209"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/SimplePhotoFilter.app/embedded.mobileprovisionde7338854178b641^38a439854178b641^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/embedded.mobileprovision0000000000000000^776"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/SimplePhotoFilter.app/embedded.mobileprovision    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app/embedded.mobileprovision36"A5135070-E77F-41F1-AAE8-0956610F0ECA-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter.xcent
+s376979845.268538
+e376979845.305040
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection237"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter.xcent4fce44854178b641^c6164e854178b641^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter.xcent000000000080d041^858"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter.xcent    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/SimplePhotoFilter.build/Debug-iphoneos/SimplePhotoFilter.build/SimplePhotoFilter.xcent36"DBA6F8B4-3A8D-4248-8DC0-FBD5C9552B9A-
+
+CTouch /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app
+s376979845.233022
+e376979845.260534
+r1
+xTouch
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Touch /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app07b53b854178b641^d1b242854178b641^---0#0#0#--455"Touch build/Debug-iphoneos/SimplePhotoFilter.app    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimplePhotoFilter/build/Debug-iphoneos/SimplePhotoFilter.app36"7BC96F1F-FB3D-4A5E-8D62-784E4FCDE002-
+

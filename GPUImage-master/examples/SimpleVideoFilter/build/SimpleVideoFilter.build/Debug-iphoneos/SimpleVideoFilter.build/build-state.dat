@@ -1,0 +1,447 @@
+TSimpleVideoFilter
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleVideoFilter.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/Info.plist SimpleVideoFilter/SimpleVideoFilter-Info.plist
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch.pth SimpleVideoFilter/SimpleVideoFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch.pth SimpleVideoFilter/SimpleVideoFilter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilter normal armv7s
+cLd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter normal armv7
+cCreateUniversalBinary /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter normal "armv7 armv7s"
+cGenerateDSYMFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app.dSYM /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter
+cCompileXIB /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.xib
+cCopyStringsFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/en.lproj/InfoPlist.strings SimpleVideoFilter/en.lproj/InfoPlist.strings
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/embedded.mobileprovision
+cTouch /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter.xcent
+cCodeSign /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+c00000000503C83D40000000000000132
+t1346143188
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+c00000000506757ED0000000000000094
+t1348949997
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+c00000000506757ED0000000000000096
+t1348949997
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000506757EE000000000036C800
+t1348949998
+s3590144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000506757EF0000000000322740
+t1348949999
+s3286848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000506757EF00000000001692A0
+t1348949999
+s1479328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000506757EF0000000000041310
+t1348949999
+s267024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000506757F00000000000629C80
+t1348950000
+s6462592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000506757F00000000000024190
+t1348950000
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000506757F00000000000359720
+t1348950000
+s3512096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000506757F300000000011BA850
+t1348950003
+s18589776
+
+N/Users/roberttilton/Downloads/GPUImage-master/build/Debug-iphoneos/libGPUImage.a
+c0000000050C809F3000000000061FC88
+t1355287027
+s6421640
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilter-Prefix.pch
+c0000000050B381D20000000000000151
+t1353941458
+s337
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m
+c0000000050B381D20000000000000A59
+t1353941458
+s2649
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m
+c0000000050B381D2000000000000165A
+t1353941458
+s5722
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.xib
+c0000000050B381D20000000000001E04
+t1353941458
+s7684
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/en.lproj/InfoPlist.strings
+c0000000050B381D2000000000000002D
+t1353941458
+s45
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m
+c0000000050B381D200000000000000F1
+t1353941458
+s241
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app.dSYM
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/Info.plist
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/PkgInfo
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/ResourceRules.plist
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilterViewController.nib
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter.LinkFileList
+c0000000050C80AB40000000000000231
+t1355287220
+s561
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterAppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterViewController.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilter
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilter.LinkFileList
+c0000000050C80AB40000000000000234
+t1355287220
+s564
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterAppDelegate.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterViewController.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter.xcent
+t2
+s0
+
+N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+c0000000050C77F470000000000001D3A
+t1355251527
+s7482
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch.pth
+t2
+s0
+
+NSimpleVideoFilter/SimpleVideoFilter-Info.plist
+c0000000050B381D2000000000000060B
+t1353941458
+s1547
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m
+r0
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m
+r0
+
+CBuild AST from /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies47937f344278b641^e17be3344278b641^---0#1#0#--18"Check dependencies36"618C0726-F9BB-4180-B7D6-792FA2598584-
+
+CCodeSign /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app
+s376980026.920550
+e376980028.040766
+r1
+xCodeSign
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CodeSign build/Debug-iphoneos/SimpleVideoFilter.app32caeb3a4278b641^2a700a3c4278b641^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/0000000000000000^984"CodeSign build/Debug-iphoneos/SimpleVideoFilter.app    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a4703e0e8312df06f97b588089b0376a2ea07345 --resource-rules=/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/ResourceRules.plist --entitlements /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter.xcent /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app36"9AF045D0-D609-4C96-9A75-2171BBE913E4-
+
+CCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980021.962241
+e376980022.849022
+r1
+xCompileC
+xbuild/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterAppDelegate.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m118df6354278b641^0c59d9364278b641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m0000000000000000^3963"CompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterAppDelegate.o SimpleVideoFilter/SimpleVideoFilterAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterAppDelegate.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterAppDelegate.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterAppDelegate.o36"BAEA4759-4517-4BC5-BAE5-9DF965E5FC1B-
+
+CCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980022.000554
+e376980022.855421
+r1
+xCompileC
+xbuild/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterViewController.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.mec6c00364278b641^fcfdda364278b641^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m0000000000000000^3981"CompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterViewController.o SimpleVideoFilter/SimpleVideoFilterViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterViewController.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterViewController.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilterViewController.o36"77376829-13A5-4906-B1A1-ED7419E090E0-
+
+CCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980021.806724
+e376980021.998798
+r1
+xCompileC
+xbuild/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/main.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.ma1a2ce354278b641^ea0400364278b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m0000000000000000^3819"CompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/main.o SimpleVideoFilter/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/main.o36"DFE1D994-CF39-4CF0-BC80-01007BD6213B-
+
+CCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterAppDelegate.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980021.775213
+e376980022.847676
+r1
+xCompileC
+xbuild/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterAppDelegate.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.mbb98c6354278b641^a033d9364278b641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m0000000000000000^3970"CompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterAppDelegate.o SimpleVideoFilter/SimpleVideoFilterAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterAppDelegate.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterAppDelegate.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterAppDelegate.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterAppDelegate.o36"DA771EB5-B5BC-4573-87A8-420A8B0EFD83-
+
+CCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterViewController.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980021.775221
+e376980022.850644
+r1
+xCompileC
+xbuild/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterViewController.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m6495c6354278b641^44c4d9364278b641^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m0000000000000000^3988"CompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterViewController.o SimpleVideoFilter/SimpleVideoFilterViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterViewController.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterViewController.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterViewController.o36"6553ABFB-34F1-40E0-9CD5-916C9F941FBC-
+
+CCompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/main.o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980021.775015
+e376980021.960921
+r1
+xCompileC
+xbuild/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/main.o
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.mc68ac6354278b641^2a00f6354278b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m0000000000000000^3826"CompileC build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/main.o SimpleVideoFilter/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/main.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/main.m -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/main.o36"FFF3ED59-D219-40D5-95D7-DAB0AF8D06B5-
+
+CCompileXIB /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.xib
+s376980024.418503
+e376980026.799010
+r1
+xCompileXIB
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compiling /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.xibf2416b384278b641^0f9dce3a4278b641^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.xib0000000000000000^997"CompileXIB SimpleVideoFilter/SimpleVideoFilterViewController.xib    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilterViewController.nib /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilterViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk36"38683F19-A9E3-4E51-B136-DF470FBB5B9A-
+
+CCopyStringsFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/en.lproj/InfoPlist.strings SimpleVideoFilter/en.lproj/InfoPlist.strings
+s376980024.418513
+e376980024.454011
+r1
+xCopyStringsFile
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/en.lproj/InfoPlist.strings
+xSimpleVideoFilter/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy SimpleVideoFilter/en.lproj/InfoPlist.strings70406b384278b641^2e3b74384278b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/en.lproj/InfoPlist.strings0000000000000000^662"CopyStringsFile build/Debug-iphoneos/SimpleVideoFilter.app/en.lproj/InfoPlist.strings SimpleVideoFilter/en.lproj/InfoPlist.strings    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/en.lproj -- SimpleVideoFilter/en.lproj/InfoPlist.strings36"B48ACAC9-DDFD-40DC-AD8C-F27B66CCE829-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleVideoFilter.app/ResourceRules.plist
+s376980020.896727
+e376980020.914130
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/SimpleVideoFilter.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphoneos/SimpleVideoFilter.app/ResourceRules.plist1daee5344278b641^5244ea344278b641^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/ResourceRules.plist000000000080d041^814"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist build/Debug-iphoneos/SimpleVideoFilter.app/ResourceRules.plist    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/ResourceRules.plist /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app36"31E5917F-9806-428E-B1B0-D40FF7EA220A-
+
+CCreateUniversalBinary /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter normal "armv7 armv7s"
+s376980023.274127
+e376980023.810651
+r1
+xCreateUniversalBinary
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Create universal binary /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilteraf4246374278b641^a2cfcf374278b641^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter000000000080d041^895"CreateUniversalBinary build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter normal "armv7 armv7s"    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilter -output /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter36"3E761438-9B3A-4355-92A2-A892EDFBDD2B-
+
+CGenerateDSYMFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app.dSYM /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter
+s376980023.829150
+e376980024.409374
+r1
+xGenerateDSYMFile
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app.dSYM
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Generating /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app.dSYMfe9ad4374278b641^31cd68384278b641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app.dSYM000000000080d041^752"GenerateDSYMFile build/Debug-iphoneos/SimpleVideoFilter.app.dSYM build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/SimpleVideoFilter -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app.dSYM36"6CABA801-168E-4804-ADB1-16CC95F46B8D-
+
+CLd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter normal armv7
+s376980022.867332
+e376980023.267027
+r1
+xLd
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection185"Link /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter5a2bde364278b641^685c44374278b641^---0#0#0#--1568"Ld build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter normal armv7    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -filelist /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter.LinkFileList -dead_strip -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.0 /Users/roberttilton/Downloads/GPUImage-master/build/Debug-iphoneos/libGPUImage.a -framework OpenGLES -framework QuartzCore -framework CoreMedia -weak_framework CoreVideo -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7/SimpleVideoFilter36"AA79C932-F399-46EB-8D71-EDD833200709-
+
+CLd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilter normal armv7s
+s376980022.856784
+e376980023.264182
+r1
+xLd
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilter
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection186"Link /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilterfa7ede364278b641^05a243374278b641^---0#0#0#--1573"Ld build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilter normal armv7s    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos -filelist /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilter.LinkFileList -dead_strip -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.0 /Users/roberttilton/Downloads/GPUImage-master/build/Debug-iphoneos/libGPUImage.a -framework OpenGLES -framework QuartzCore -framework CoreMedia -weak_framework CoreVideo -framework AVFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/Objects-normal/armv7s/SimpleVideoFilter36"B9829D63-34A2-4278-AFF4-DC7D1B8F71EE-
+
+CProcessInfoPlistFile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/Info.plist SimpleVideoFilter/SimpleVideoFilter-Info.plist
+s376980020.897424
+e376980020.939769
+r1
+xProcessInfoPlistFile
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/Info.plist
+xSimpleVideoFilter/SimpleVideoFilter-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Process SimpleVideoFilter/SimpleVideoFilter-Info.pliste1cee5344278b641^8e95f0344278b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilter-Info.plist0000000000000000^942"ProcessInfoPlistFile build/Debug-iphoneos/SimpleVideoFilter.app/Info.plist SimpleVideoFilter/SimpleVideoFilter-Info.plist    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimpleVideoFilter/SimpleVideoFilter-Info.plist -genpkginfo /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/ResourceRules.plist -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/Info.plist36"2B0FA89A-28E1-4A4A-ACCD-9A398F417DCF-
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/SimpleVideoFilter-epcdhbgvegysbuegncgdcyhingun/Index/PrecompiledHeaders/SimpleVideoFilter-Prefix-bimkkcwgszzieiglbffdvcdgayvy_ast/SimpleVideoFilter-Prefix.pch.pth SimpleVideoFilter/SimpleVideoFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/SimpleVideoFilter-epcdhbgvegysbuegncgdcyhingun/Index/PrecompiledHeaders/SimpleVideoFilter-Prefix-gzfdkoqcvtcemxgpmfuyaahfsall_ast/SimpleVideoFilter-Prefix.pch.pth SimpleVideoFilter/SimpleVideoFilter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch.pth SimpleVideoFilter/SimpleVideoFilter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980020.948955
+e376980021.768197
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch.pth
+xSimpleVideoFilter/SimpleVideoFilter-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile SimpleVideoFilter/SimpleVideoFilter-Prefix.pchcb14f3344278b641^bff4c6354278b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilter-Prefix.pch0000000000000000^3802"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch.pth SimpleVideoFilter/SimpleVideoFilter-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources/armv7s -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilter-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-elfstzekmpxopwaiopdppmiwcnoy/SimpleVideoFilter-Prefix.pch.d36"61DFACB9-0E0F-4A85-83AE-8518935FE1E8-
+
+CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch.pth SimpleVideoFilter/SimpleVideoFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s376980020.948913
+e376980021.798955
+r1
+xProcessPCH
+x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch.pth
+xSimpleVideoFilter/SimpleVideoFilter-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile SimpleVideoFilter/SimpleVideoFilter-Prefix.pch1613f3344278b641^2a91cc354278b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilter-Prefix.pch0000000000000000^3799"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch.pth SimpleVideoFilter/SimpleVideoFilter-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.0 -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-generated-files.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-own-target-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-all-target-headers.hmap -iquote /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter-project-headers.hmap -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/include -I../../framework -I../../framework/GPUImageTests -I../../framework/Resources -I../../framework/Source -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources/armv7 -I/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/DerivedSources -F/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch.dia -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/SimpleVideoFilter/SimpleVideoFilter-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleVideoFilter-Prefix-eowiutuhvyselgbofcxfniuuulav/SimpleVideoFilter-Prefix.pch.d36"973C952D-477D-4BBA-B020-2AE5A687CF18-
+
+CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/embedded.mobileprovision
+s376980026.849333
+e376980026.852700
+r1
+xProcessProductPackaging
+x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection209"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/SimpleVideoFilter.app/embedded.mobileprovision4486d93a4278b641^f14ada3a4278b641^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/embedded.mobileprovision0000000000000000^776"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/SimpleVideoFilter.app/embedded.mobileprovision    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app/embedded.mobileprovision36"87ED960D-128F-4DCB-BEEF-5EB64864BF4E-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter.xcent
+s376980026.888530
+e376980026.911300
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection237"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter.xcent2288e33a4278b641^f54ae93a4278b641^---0#0#0#-19%DVTDocumentLocation2@181"file://localhost/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter.xcent000000000080d041^858"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter.xcent    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/SimpleVideoFilter.build/Debug-iphoneos/SimpleVideoFilter.build/SimpleVideoFilter.xcent36"D5C696E8-F8E4-436C-89BF-C33E3ACDC63E-
+
+CTouch /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app
+s376980026.860706
+e376980026.879463
+r1
+xTouch
+x/Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Touch /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.appbe6bdc3a4278b641^9a25e13a4278b641^---0#0#0#--455"Touch build/Debug-iphoneos/SimpleVideoFilter.app    cd /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Downloads/GPUImage-master/examples/SimpleVideoFilter/build/Debug-iphoneos/SimpleVideoFilter.app36"2F244D06-C3F2-4CE7-85D6-A648857CFC14-
+

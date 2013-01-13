@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>5AYGWU6ZWQ.rt.TelnetApp</string>
+	<string>3E4X3B9Z9T.rt.TelnetApp</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>5AYGWU6ZWQ.rt.TelnetApp</string>
+		<string>3E4X3B9Z9T.rt.TelnetApp</string>
 	</array>
 </dict>
 </plist>
