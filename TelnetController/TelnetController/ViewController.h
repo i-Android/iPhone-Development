@@ -9,14 +9,17 @@
 
 #import <UIKit/UIKit.h>
 
+
 @interface ViewController : UIViewController
                             <NSStreamDelegate, UITableViewDelegate, UITableViewDataSource>{
+                
     UIScrollView *mainScrollView;
     UIImageView *mainbg, *logo, *tooltipSlider;
     UIButton *connectBtn, *saveBtn, *editBtn, *disconnetBtn;
     UITextField *inputHostField, *inputPortField, *inputNameField,
                 *upField, *rightField, *downField, *leftField;
     UILabel *secondsLabel, *secondsNote;
+    UIView *sliderView;
                                 
     BOOL connected;
     int errorCounter, secondsValue;
@@ -26,6 +29,7 @@
 }
 
 @property (nonatomic, retain) UIScrollView *mainScrollView;
+@property (nonatomic, retain) UIView *sliderView;
 @property (nonatomic, retain) UIImageView *mainbg, *logo, *tooltipSlider;
 @property (nonatomic, retain) UIButton *connectBtn, *saveBtn, *editBtn, *disconnetBtn;
 @property (nonatomic, retain) UITextField *inputHostField, *inputPortField, *inputNameField,

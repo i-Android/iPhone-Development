@@ -10,6 +10,7 @@
 		B242E50916A344BD00DA16CB /* connect-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B242E50816A344BD00DA16CB /* connect-btn.png */; };
 		B242E50C16A3469A00DA16CB /* save-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B242E50B16A3469A00DA16CB /* save-btn.png */; };
 		B242E50E16A34A9B00DA16CB /* tooltip-slider-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B242E50D16A34A9B00DA16CB /* tooltip-slider-btn.png */; };
+		B242E51516A366E600DA16CB /* joystick.png in Resources */ = {isa = PBXBuildFile; fileRef = B242E51416A366E600DA16CB /* joystick.png */; };
 		B2766AA216A226A800012194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA116A226A800012194 /* UIKit.framework */; };
 		B2766AA416A226A800012194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA316A226A800012194 /* Foundation.framework */; };
 		B2766AA616A226A800012194 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA516A226A800012194 /* CoreGraphics.framework */; };
@@ -45,6 +46,7 @@
 		B242E50816A344BD00DA16CB /* connect-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "connect-btn.png"; path = "Resources/connect-btn.png"; sourceTree = SOURCE_ROOT; };
 		B242E50B16A3469A00DA16CB /* save-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "save-btn.png"; path = "Resources/save-btn.png"; sourceTree = SOURCE_ROOT; };
 		B242E50D16A34A9B00DA16CB /* tooltip-slider-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tooltip-slider-btn.png"; path = "Resources/tooltip-slider-btn.png"; sourceTree = SOURCE_ROOT; };
+		B242E51416A366E600DA16CB /* joystick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick.png; path = Resources/joystick.png; sourceTree = SOURCE_ROOT; };
 		B2766A9D16A226A800012194 /* TelnetController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelnetController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2766AA116A226A800012194 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2766AA316A226A800012194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -182,6 +184,7 @@
 				B242E50816A344BD00DA16CB /* connect-btn.png */,
 				B242E50B16A3469A00DA16CB /* save-btn.png */,
 				B242E50D16A34A9B00DA16CB /* tooltip-slider-btn.png */,
+				B242E51416A366E600DA16CB /* joystick.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				B242E50916A344BD00DA16CB /* connect-btn.png in Resources */,
 				B242E50C16A3469A00DA16CB /* save-btn.png in Resources */,
 				B242E50E16A34A9B00DA16CB /* tooltip-slider-btn.png in Resources */,
+				B242E51516A366E600DA16CB /* joystick.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

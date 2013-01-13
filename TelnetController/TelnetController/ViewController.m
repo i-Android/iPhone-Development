@@ -12,7 +12,7 @@
 @end
 
 @implementation ViewController
-@synthesize mainScrollView, mainbg, logo, tooltipSlider,
+@synthesize mainScrollView, sliderView, mainbg, logo, tooltipSlider,
             connectBtn, saveBtn, editBtn, disconnetBtn,
             inputHostField, inputPortField, inputNameField, upField, rightField, downField, leftField, secondsLabel, secondsNote,
             inputStream, outputStream;
@@ -22,21 +22,25 @@
     connected = FALSE; //start connected as false
     errorCounter = 0;
     
+
     //add a UIScroller where all the content will reside
     mainScrollView = [[UIScrollView alloc] initWithFrame: self.view.frame];
     [mainScrollView setContentSize:CGSizeMake(320, 1704)];
     [mainScrollView setFrame:CGRectMake(0, 0, 320, 568)];
     [mainScrollView setScrollEnabled:NO];
-    mainScrollView.delaysContentTouches = FALSE;
-    mainScrollView.canCancelContentTouches = NO;
+//    mainScrollView.delaysContentTouches = FALSE;
+//    mainScrollView.canCancelContentTouches = NO;
     [mainScrollView setBackgroundColor:[UIColor redColor]];
     [self.view addSubview:mainScrollView];
+
+    
     
     //add the main background image
     UIImage * image0 = [UIImage imageNamed:@"main-bg.jpg"];
     mainbg = [[UIImageView alloc] initWithImage:image0];
     mainbg.frame = CGRectMake(0, 0,320,1704);
     [self.mainScrollView addSubview:mainbg];
+
     
     //add logo image
     UIImage * image1 = [UIImage imageNamed:@"logo.png"];
@@ -172,6 +176,14 @@
     saveBtn.frame = CGRectMake(100.0, 840.0, 121.5, 70.0);
     [self.mainScrollView addSubview:saveBtn];
     
+    
+    //UIView to capture touches
+    sliderView = [[UIView alloc] initWithFrame: self.view.frame];
+    [sliderView setFrame:CGRectMake(15, 180, 290, 73)];
+//    [sliderView setBackgroundColor:[UIColor redColor]];
+    
+    
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -190,11 +202,20 @@
 }
 
 - (IBAction) scrollToSection2{
+    //add the touch area on slider
+    [self.view addSubview:sliderView];
+    
     CGPoint bottomOffset = CGPointMake(0, 568);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
 }
 
 - (IBAction) scrollToSection3{
+    [self.view bringSubviewToFront:sliderView];
+    [sliderView removeFromSuperview];
+//    [sliderView setBackgroundColor:[UIColor purpleColor]];
+//    sliderView.hidden = YES;
+    NSLog(@"hide it");
+    
     CGPoint bottomOffset = CGPointMake(0, 1156);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
 }
@@ -202,10 +223,18 @@
 
 
 -(void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
-    NSLog(@"moved");
-    CGPoint touchPoint = [[touches anyObject] locationInView:self.view];
-    [tooltipSlider setCenter:touchPoint];
+    UITouch *touch = [[event allTouches] anyObject];
+    CGPoint location = [touch locationInView:touch.view];
+
+    if(location.x > 37.75 && location.x < 282.25){
+        [tooltipSlider setCenter:CGPointMake(location.x, 789)];
+        [secondsLabel setCenter:CGPointMake(location.x, 761)];
+        NSLog(@"%f", location.x);
+    }
+    
 }
+
+
 
 //this creates a telnet connection to the server
 - (IBAction)connectToHost {
