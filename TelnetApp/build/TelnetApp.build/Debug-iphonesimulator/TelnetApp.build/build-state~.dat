@@ -1,264 +1,0 @@
-TTelnetApp
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist TelnetApp/TelnetApp-Info.plist
-cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
-c000000004F453DF80000000000000110
-t1329937912
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004FCED45A0000000000244490
-t1338954842
-s2376848
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004FCED45B0000000000353830
-t1338954843
-s3487792
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004FCED45F0000000000905E40
-t1338954847
-s9461312
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m
-c000000005057E57E0000000000000800
-t1347937662
-s2048
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Prefix.pch
-c000000005057E57E0000000000000141
-t1347937662
-s321
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m
-c000000005057EE8600000000000007D8
-t1347939974
-s2008
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/InfoPlist.strings
-c000000005057E57E000000000000002D
-t1347937662
-s45
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPad.storyboard
-c000000005057E57E0000000000000645
-t1347937662
-s1605
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard
-c000000005057E57E000000000000061C
-t1347937662
-s1564
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m
-c000000005057E57E000000000000015A
-t1347937662
-s346
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/PkgInfo
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/MainStoryboard_iPad.storyboardc
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/MainStoryboard_iPhone.storyboardc
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/TelnetApp.LinkFileList
-c000000005057EE8600000000000001C7
-t1347939974
-s455
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o
-t2
-s0
-
-N/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth
-t2
-s0
-
-NTelnetApp/TelnetApp-Info.plist
-c000000005057E57E000000000000063E
-t1347937662
-s1598
-
-CBuild AST from /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m
-r0
-
-CBuild AST from /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m
-r0
-
-CBuild AST from /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5d3117062608b641^c26b1f062608b641^---0#1#0#--18"Check dependencies36"22C4CEE3-73FD-4989-B0FF-BC224C3F6731-
-
-CCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s369632774.465933
-e369632774.612189
-r1
-xCompileC
-xbuild/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o
-x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m4e7e77062608b641^56b99c062608b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m0000000000000000^3551"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o TelnetApp/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/AppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/AppDelegate.o36"B9032F62-F438-4F9B-B005-9F8B6E593CFD-
-
-CCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s369632774.465948
-e369632774.510957
-r0
-xCompileC
-xbuild/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o
-x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:45:5: error: no known class method for selector 'getStreamsToHost:port:inputStream:outputStream:'
-o    [NSStream getStreamsToHost:"128.122.151.164" port:8080 inputStream:&inputStream outputStream:&outputStream];
-o    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:47:30: warning: sending 'AppDelegate *const __strong' to parameter of incompatible type 'id<NSStreamDelegate>'
-o    [inputStream setDelegate:self];
-o                             ^~~~
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h:39:44: note: passing argument to parameter 'delegate' here
-o- (void)setDelegate:(id <NSStreamDelegate>)delegate;
-o                                           ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:48:31: warning: sending 'AppDelegate *const __strong' to parameter of incompatible type 'id<NSStreamDelegate>'
-o    [outputStream setDelegate:self];
-o                              ^~~~
-o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h:39:44: note: passing argument to parameter 'delegate' here
-o- (void)setDelegate:(id <NSStreamDelegate>)delegate;
-o                                           ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:63:10: error: no visible @interface for 'AppDelegate' declares the selector 'handleOutputStreamEvent:'
-o        [self handleOutputStreamEvent:eventCode];
-o         ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:70:46: error: no visible @interface for 'AppDelegate' declares the selector 'readBytes'
-o        case NSStreamEventHasBytesAvailable:[self readBytes];
-o                                             ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:41:17: warning: property 'inputStream' requires method 'inputStream' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation
-o@implementation AppDelegate
-o                ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h:21:40: note: property declared here
-o@property (strong, nonatomic)NSStream *inputStream, *outputStream;
-o                                       ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:41:17: warning: property 'inputStream' requires method 'setInputStream:' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation
-o@implementation AppDelegate
-o                ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h:21:40: note: property declared here
-o@property (strong, nonatomic)NSStream *inputStream, *outputStream;
-o                                       ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:41:17: warning: property 'outputStream' requires method 'outputStream' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation
-o@implementation AppDelegate
-o                ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h:21:54: note: property declared here
-o@property (strong, nonatomic)NSStream *inputStream, *outputStream;
-o                                                     ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:41:17: warning: property 'outputStream' requires method 'setOutputStream:' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation
-o@implementation AppDelegate
-o                ^
-o/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h:21:54: note: property declared here
-o@property (strong, nonatomic)NSStream *inputStream, *outputStream;
-o                                                     ^
-o6 warnings and 3 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m327177062608b641^8ec982062608b641^-4379"/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:45:5: error: no known class method for selector 'getStreamsToHost:port:inputStream:outputStream:'    [NSStream getStreamsToHost:"128.122.151.164" port:8080 inputStream:&inputStream outputStream:&outputStream];    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:47:30: warning: sending 'AppDelegate *const __strong' to parameter of incompatible type 'id<NSStreamDelegate>'    [inputStream setDelegate:self];                             ^~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h:39:44: note: passing argument to parameter 'delegate' here- (void)setDelegate:(id <NSStreamDelegate>)delegate;                                           ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:48:31: warning: sending 'AppDelegate *const __strong' to parameter of incompatible type 'id<NSStreamDelegate>'    [outputStream setDelegate:self];                              ^~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h:39:44: note: passing argument to parameter 'delegate' here- (void)setDelegate:(id <NSStreamDelegate>)delegate;                                           ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:63:10: error: no visible @interface for 'AppDelegate' declares the selector 'handleOutputStreamEvent:'        [self handleOutputStreamEvent:eventCode];         ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:70:46: error: no visible @interface for 'AppDelegate' declares the selector 'readBytes'        case NSStreamEventHasBytesAvailable:[self readBytes];                                             ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:41:17: warning: property 'inputStream' requires method 'inputStream' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation@implementation AppDelegate                ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h:21:40: note: property declared here@property (strong, nonatomic)NSStream *inputStream, *outputStream;                                       ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:41:17: warning: property 'inputStream' requires method 'setInputStream:' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation@implementation AppDelegate                ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h:21:40: note: property declared here@property (strong, nonatomic)NSStream *inputStream, *outputStream;                                       ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:41:17: warning: property 'outputStream' requires method 'outputStream' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation@implementation AppDelegate                ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h:21:54: note: property declared here@property (strong, nonatomic)NSStream *inputStream, *outputStream;                                                     ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m:41:17: warning: property 'outputStream' requires method 'setOutputStream:' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation@implementation AppDelegate                ^/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h:21:54: note: property declared here@property (strong, nonatomic)NSStream *inputStream, *outputStream;                                                     ^6 warnings and 3 errors generated.9(36%IDEClangDiagnosticActivityLogMessage2@84"No known class method for selector 'getStreamsToHost:port:inputStream:outputStream:'-369632774#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^44#4#44#4#861#0#9"ARC Issue1(3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^44#4#44#111#861#106#-2@94"Sending 'AppDelegate *const __strong' to parameter of incompatible type 'id<NSStreamDelegate>'-369632774#18446744073709551615#0#1(2@45"Passing argument to parameter 'delegate' here-369632774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@197"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h0000000000000000^38#43#38#43#1153#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^46#29#46#29#1004#0#14"Semantic Issue1(3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^46#29#46#33#1004#0#-2@94"Sending 'AppDelegate *const __strong' to parameter of incompatible type 'id<NSStreamDelegate>'-369632774#18446744073709551615#0#1(2@45"Passing argument to parameter 'delegate' here-369632774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@197"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSStream.h0000000000000000^38#43#38#43#1153#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^47#30#47#30#1041#0#14"Semantic Issue1(3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^47#30#47#34#1041#0#-2@88"No visible @interface for 'AppDelegate' declares the selector 'handleOutputStreamEvent:'-369632774#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^62#9#62#9#1550#0#9"ARC Issue--2@73"No visible @interface for 'AppDelegate' declares the selector 'readBytes'-369632774#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^69#45#69#45#1728#0#9"ARC Issue--2@158"Property 'inputStream' requires method 'inputStream' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation-369632774#18446744073709551615#0#1(2@22"Property declared here-369632774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h0000000000000000^20#39#20#39#357#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^40#16#40#16#806#0#14"Semantic Issue--2@162"Property 'inputStream' requires method 'setInputStream:' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation-369632774#18446744073709551615#0#1(2@22"Property declared here-369632774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h0000000000000000^20#39#20#39#357#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^40#16#40#16#806#0#14"Semantic Issue--2@160"Property 'outputStream' requires method 'outputStream' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation-369632774#18446744073709551615#0#1(2@22"Property declared here-369632774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h0000000000000000^20#53#20#53#371#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^40#16#40#16#806#0#14"Semantic Issue--2@164"Property 'outputStream' requires method 'setOutputStream:' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation-369632774#18446744073709551615#0#1(2@22"Property declared here-369632774#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.h0000000000000000^20#53#20#53#371#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^40#16#40#16#806#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@101"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m0000000000000000^3569"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o TelnetApp/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/ViewController.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/ViewController.o36"1D12D882-905B-41D0-8D47-9FED309A575A-
-
-CCompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s369632774.465707
-e369632774.494206
-r1
-xCompileC
-xbuild/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o
-x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.ma77977062608b641^6a847e062608b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m0000000000000000^3509"CompileC build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o TelnetApp/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/main.m -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/Objects-normal/i386/main.o36"C1F4E4D1-8425-4D31-B666-C28557F8BFD8-
-
-CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPad.storyboard
-r0
-
-CCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/en.lproj/MainStoryboard_iPhone.storyboard
-r0
-
-CCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/en.lproj/InfoPlist.strings TelnetApp/en.lproj/InfoPlist.strings
-r0
-
-CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app.dSYM /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp
-r0
-
-CLd /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/TelnetApp normal i386
-r0
-
-CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist TelnetApp/TelnetApp-Info.plist
-s369632774.139847
-e369632774.144819
-r1
-xProcessInfoPlistFile
-x/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist
-xTelnetApp/TelnetApp-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process TelnetApp/TelnetApp-Info.plistf9da23062608b641^0e1325062608b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Info.plist0000000000000000^724"ProcessInfoPlistFile build/Debug-iphonesimulator/TelnetApp.app/Info.plist TelnetApp/TelnetApp-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TelnetApp/TelnetApp-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app/Info.plist36"B35D3053-1B16-4F42-8C72-9DCE2ABC6C19-
-
-CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/TelnetApp-hjateglavzirpebziulnaqlsqzlc/Index/PrecompiledHeaders/TelnetApp-Prefix-haxfacvfmjmwtxgrbupmtsiaskag_ast/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s369632774.154424
-e369632774.457829
-r1
-xProcessPCH
-x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth
-xTelnetApp/TelnetApp-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile TelnetApp/TelnetApp-Prefix.pch20d227062608b641^593475062608b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Prefix.pch0000000000000000^3507"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth TelnetApp/TelnetApp-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/TelnetApp    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/TelnetApp-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/include -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources/i386 -I/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/TelnetApp.build/Debug-iphonesimulator/TelnetApp.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/TelnetApp/TelnetApp/TelnetApp-Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetApp-Prefix-cmxdfaxmqnlzovccbgrhjowgsevy/TelnetApp-Prefix.pch.d36"5F3BF6C3-04FC-427F-AE87-EBDCA22CEEEE-
-
-CTouch /Users/roberttilton/Documents/iPhone-Development/TelnetApp/build/Debug-iphonesimulator/TelnetApp.app
-r0
-

@@ -1,329 +1,0 @@
-TPageControlExample
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/Info.plist PageControlExample-Info.plist
-cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/PageControlExample.app/ResourceRules.plist
-cCompileXIB /Users/roberttilton/Documents/iPhone-Development/PageControlExample/MainWindow.xib
-cCompileXIB /Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControllerExample.xib
-cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch.pth PageControlExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleAppDelegate.o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleViewControl.o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleViewControl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample normal armv7
-cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app.dSYM /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample
-cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/embedded.mobileprovision
-cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/embedded.mobileprovision
-cTouch /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample.xcent
-cCodeSign /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
-c000000004F453DF20000000000000110
-t1329937906
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
-c000000004FCED44600000000000001A7
-t1338954822
-s423
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
-c000000004FCED44600000000000001E5
-t1338954822
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004FCED44800000000003AE430
-t1338954824
-s3859504
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004FCED448000000000052C940
-t1338954824
-s5425472
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004FCED4480000000000001534
-t1338954824
-s5428
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004FCED4480000000000000BF5
-t1338954824
-s3061
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004FCED4490000000000798EA0
-t1338954825
-s7966368
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleAppDelegate.h
-c000000004BC2D1A900000000000002DB
-t1271058857
-s731
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleAppDelegate.m
-c000000004BC2D1A700000000000011F6
-t1271058855
-s4598
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleViewControl.h
-c000000004BC2D1A0000000000000019E
-t1271058848
-s414
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleViewControl.m
-c000000004BC2D19A0000000000000616
-t1271058842
-s1558
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/MainWindow.xib
-c000000004FD278FD0000000000003319
-t1339193597
-s13081
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControlExample_Prefix.pch
-c000000004B875C9700000000000000CD
-t1267162263
-s205
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControllerExample.xib
-c000000004B8766B10000000000001EBA
-t1267164849
-s7866
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app
-t1339193567
-s340
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app.dSYM
-t1339185961
-s102
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/Info.plist
-t1339185959
-s883
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/MainWindow.nib
-t1339185959
-s1344
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample
-t1339193567
-s30480
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControllerExample.nib
-t1339185959
-s1327
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PkgInfo
-t1339185959
-s8
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/ResourceRules.plist
-t1339185959
-s485
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/embedded.mobileprovision
-t1339185961
-s31163
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExample.LinkFileList
-c000000004FD25B270000000000000227
-t1339185959
-s551
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleAppDelegate.o
-t1339185960
-s70320
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleViewControl.o
-t1339185960
-s50224
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/main.o
-t1339185960
-s3928
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample.xcent
-t1339185961
-s442
-
-N/Users/roberttilton/Documents/iPhone-Development/PageControlExample/main.m
-c000000004BC2D1C2000000000000016F
-t1271058882
-s367
-
-N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
-c000000004FCE820400000000000079BB
-t1338933764
-s31163
-
-N/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch.pth
-t1339185960
-s3966416
-
-NPageControlExample-Info.plist
-c000000004B875C97000000000000038D
-t1267162263
-s909
-
-CBuild AST from /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleAppDelegate.m
-r0
-
-CBuild AST from /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleViewControl.m
-r0
-
-CBuild AST from /Users/roberttilton/Documents/iPhone-Development/PageControlExample/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies43fe797db082b541^76537a7db082b541^---0#1#0#--18"Check dependencies36"DDC6E761-50EA-4929-A95B-9266667D4A30-
-
-CCodeSign /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app
-s360886399.170553
-e360886399.348908
-r1
-xCodeSign
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app
-o/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app: replacing existing signature
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CodeSign build/Debug-iphoneos/PageControlExample.appd3bc2b7fb082b541^e352597fb082b541^-142"/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/0000000000000000^970"CodeSign build/Debug-iphoneos/PageControlExample.app    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign 7344011f784bbee72fe0ecf6fab7216b10ae2b89 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample.xcent /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app36"3690F31E-7E62-43EC-B476-A0729B719DF4-
-
-CCompileC build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleAppDelegate.o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s360878760.402805
-e360878760.696209
-r1
-xCompileC
-xbuild/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleAppDelegate.o
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleAppDelegate.mf26067a89282b541^2a3ab2a89282b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleAppDelegate.m0000000000000000^3806"CompileC build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleAppDelegate.o Classes/PageControlExampleAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleAppDelegate.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleAppDelegate.dia -c /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleAppDelegate.m -o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleAppDelegate.o36"49CB01E1-EFA7-4D8C-BFE4-5BFF7355BA71-
-
-CCompileC build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleViewControl.o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleViewControl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s360878760.403397
-e360878760.693647
-r1
-xCompileC
-xbuild/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleViewControl.o
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleViewControl.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleViewControl.mf9a067a89282b541^6093b1a89282b541^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleViewControl.m0000000000000000^3806"CompileC build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleViewControl.o Classes/PageControlExampleViewControl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleViewControl.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleViewControl.dia -c /Users/roberttilton/Documents/iPhone-Development/PageControlExample/Classes/PageControlExampleViewControl.m -o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExampleViewControl.o36"34E3B5B8-92B8-489C-8DF0-C1A16F68B3A1-
-
-CCompileC build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s360878760.402794
-e360878760.687725
-r1
-xCompileC
-xbuild/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/main.o
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/main.m206267a89282b541^a708b0a89282b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/main.m0000000000000000^3640"CompileC build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos -include /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch -MMD -MT dependencies -MF /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/main.dia -c /Users/roberttilton/Documents/iPhone-Development/PageControlExample/main.m -o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/main.o36"AB9E5502-BE50-4657-8A4D-A9E86F8972CE-
-
-CCompileXIB /Users/roberttilton/Documents/iPhone-Development/PageControlExample/MainWindow.xib
-s360886397.490717
-e360886399.034764
-r1
-xCompileXIB
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/MainWindow.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/roberttilton/Documents/iPhone-Development/PageControlExample/MainWindow.xib18b37d7db082b541^d1ea087fb082b541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/MainWindow.xib0000000000000000^884"CompileXIB MainWindow.xib    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/MainWindow.nib /Users/roberttilton/Documents/iPhone-Development/PageControlExample/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"8275EC40-7985-4BC0-A255-FC38BF165092-
-
-CCompileXIB /Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControllerExample.xib
-s360878759.587853
-e360878759.951351
-r1
-xCompileXIB
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControllerExample.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compiling /Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControllerExample.xibe69296a79282b541^e196f3a79282b541^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControllerExample.xib0000000000000000^917"CompileXIB PageControllerExample.xib    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControllerExample.nib /Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControllerExample.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"882C64D3-653F-49DA-8BE1-D71C36DD0B9E-
-
-CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/PageControlExample.app/ResourceRules.plist
-s360878759.570070
-e360878759.573055
-r1
-xCpResource
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
-xbuild/Debug-iphoneos/PageControlExample.app/ResourceRules.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Debug-iphoneos/PageControlExample.app/ResourceRules.plist3b0092a79282b541^dcd692a79282b541^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/ResourceRules.plist000000000080d041^911"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/PageControlExample.app/ResourceRules.plist    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app36"3804A6F3-FAA2-4FF8-9F1B-4A2A73D1EEB0-
-
-CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app.dSYM /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample
-s360886399.063695
-e360886399.106598
-r1
-xGenerateDSYMFile
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app.dSYM
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Generating /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app.dSYMe15f107fb082b541^884a1b7fb082b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app.dSYM/0000000000000000^707"GenerateDSYMFile build/Debug-iphoneos/PageControlExample.app.dSYM build/Debug-iphoneos/PageControlExample.app/PageControlExample    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample -o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app.dSYM36"B1B53BCD-B656-4F99-8F60-9987B27F92A1-
-
-CLd /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample normal armv7
-s360878760.703259
-e360878761.141996
-r1
-xLd
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample
-xnormal
-xarmv7
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Link /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample0d1cb4a89282b541^f75a24a99282b541^---0#0#0#--1225"Ld build/Debug-iphoneos/PageControlExample.app/PageControlExample normal armv7    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/Objects-normal/armv7/PageControlExample.LinkFileList -dead_strip -miphoneos-version-min=5.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PageControlExample36"3EB320A4-0CE2-4892-8B26-37877B223C1A-
-
-CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/Info.plist PageControlExample-Info.plist
-s360878759.570457
-e360878759.575406
-r1
-xProcessInfoPlistFile
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/Info.plist
-xPageControlExample-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Process PageControlExample-Info.plist591492a79282b541^014e93a79282b541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControlExample-Info.plist0000000000000000^892"ProcessInfoPlistFile build/Debug-iphoneos/PageControlExample.app/Info.plist PageControlExample-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PageControlExample-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/Info.plist36"E94C2D4E-8D3C-46D0-A5AB-2B5A4DBF8323-
-
-CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/PageControlExample-fjfsrclpuoywyxgbuidshyvuqvox/Index/PrecompiledHeaders/PageControlExample_Prefix-gqddmexnvjdgtxdofwytwxlpzzuo_ast/PageControlExample_Prefix.pch.pth PageControlExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch.pth PageControlExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s360878759.959942
-e360878760.395667
-r1
-xProcessPCH
-x/var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch.pth
-xPageControlExample_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Precompile PageControlExample_Prefix.pch82e4f5a79282b541^3c4a65a89282b541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControlExample_Prefix.pch0000000000000000^3635"ProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch.pth PageControlExample_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-generated-files.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-own-target-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-all-target-headers.hmap -iquote /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample-project-headers.hmap -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/include -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/DerivedSources/armv7 -I/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/DerivedSources -F/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos --serialize-diagnostics /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch.dia -c /Users/roberttilton/Documents/iPhone-Development/PageControlExample/PageControlExample_Prefix.pch -o /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PageControlExample_Prefix-csyvxhtqomxurxajfitvusbrzimh/PageControlExample_Prefix.pch.d36"476709D8-AA71-485A-9718-1FCED9D66681-
-
-CProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/embedded.mobileprovision
-s360878761.247253
-e360878761.252119
-r1
-xProcessProductPackaging
-x/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/embedded.mobileprovision
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection210"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/PageControlExample.app/embedded.mobileprovisiona86d3fa99282b541^488a40a99282b541^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/embedded.mobileprovision0000000000000000^768"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" build/Debug-iphoneos/PageControlExample.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/A8F5D950-66B4-4A83-895E-3E1BA6D5D2D6.mobileprovision" -o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app/embedded.mobileprovision36"91983A37-5740-4981-80FB-C64C9736AFCB-
-
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample.xcent
-s360878761.282319
-e360878761.285975
-r1
-xProcessProductPackaging
-x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection240"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample.xcent3f5648a99282b541^ca3549a99282b541^---0#0#0#-19%DVTDocumentLocation2@179"file://localhost/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample.xcent000000000080d041^854"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample.xcent    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/PageControlExample.build/Debug-iphoneos/PageControlExample.build/PageControlExample.xcent36"2FB50BB9-50D5-474F-80E0-82CAAAE11292-
-
-CTouch /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app
-s360886399.132538
-e360886399.148077
-r1
-xTouch
-x/Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Touch /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app730e227fb082b541^eae7257fb082b541^---0#0#0#--447"Touch build/Debug-iphoneos/PageControlExample.app    cd /Users/roberttilton/Documents/iPhone-Development/PageControlExample    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/PageControlExample/build/Debug-iphoneos/PageControlExample.app36"2D118FEF-97A0-4B45-9BD0-AACBEA74F462-
-
