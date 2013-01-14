@@ -18,6 +18,8 @@
 		B24505DA16A4AE0F0083E043 /* EHSMB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = B24505D816A4AE0F0083E043 /* EHSMB.TTF */; };
 		B24505DC16A4B9E10083E043 /* console.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505DB16A4B9E10083E043 /* console.png */; };
 		B24505DD16A4B9E10083E043 /* console.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505DB16A4B9E10083E043 /* console.png */; };
+		B24505DF16A4C0510083E043 /* send-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505DE16A4C0510083E043 /* send-btn.png */; };
+		B24505E016A4C0510083E043 /* send-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505DE16A4C0510083E043 /* send-btn.png */; };
 		B2766AA216A226A800012194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA116A226A800012194 /* UIKit.framework */; };
 		B2766AA416A226A800012194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA316A226A800012194 /* Foundation.framework */; };
 		B2766AA616A226A800012194 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA516A226A800012194 /* CoreGraphics.framework */; };
@@ -59,6 +61,7 @@
 		B242E52316A3837E00DA16CB /* reflection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reflection.png; path = Resources/reflection.png; sourceTree = SOURCE_ROOT; };
 		B24505D816A4AE0F0083E043 /* EHSMB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = EHSMB.TTF; path = Resources/EHSMB.TTF; sourceTree = SOURCE_ROOT; };
 		B24505DB16A4B9E10083E043 /* console.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = console.png; path = Resources/console.png; sourceTree = SOURCE_ROOT; };
+		B24505DE16A4C0510083E043 /* send-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "send-btn.png"; path = "Resources/send-btn.png"; sourceTree = SOURCE_ROOT; };
 		B2766A9D16A226A800012194 /* TelnetController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelnetController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2766AA116A226A800012194 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2766AA316A226A800012194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -198,10 +201,11 @@
 				B242E50D16A34A9B00DA16CB /* tooltip-slider-btn.png */,
 				B242E51416A366E600DA16CB /* joystick.png */,
 				B242E51F16A37FCA00DA16CB /* edit-btn.png */,
+				B24505DE16A4C0510083E043 /* send-btn.png */,
 				B242E52116A3824000DA16CB /* serverstatus.png */,
+				B24505DB16A4B9E10083E043 /* console.png */,
 				B242E52316A3837E00DA16CB /* reflection.png */,
 				B24505D816A4AE0F0083E043 /* EHSMB.TTF */,
-				B24505DB16A4B9E10083E043 /* console.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -294,6 +298,7 @@
 				B242E52416A3837E00DA16CB /* reflection.png in Resources */,
 				B24505D916A4AE0F0083E043 /* EHSMB.TTF in Resources */,
 				B24505DC16A4B9E10083E043 /* console.png in Resources */,
+				B24505DF16A4C0510083E043 /* send-btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +309,7 @@
 				B2766AD316A226A800012194 /* InfoPlist.strings in Resources */,
 				B24505DA16A4AE0F0083E043 /* EHSMB.TTF in Resources */,
 				B24505DD16A4B9E10083E043 /* console.png in Resources */,
+				B24505E016A4C0510083E043 /* send-btn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,14 +12,16 @@
 @end
 
 @implementation ViewController
-@synthesize mainScrollView, sliderView, mainbg, logo, tooltipSlider, statusImage, statusReflecImg, consoleImage,
-            connectBtn, saveBtn, editBtn, disconnetBtn,
-            inputHostField, inputPortField, inputNameField, upField, rightField, downField, leftField, secondsLabel, secondsNote, statusLabel,
-            inputStream, outputStream,
-            consoleFont;
+@synthesize mainScrollView, sliderView, mainbg, logo, tooltipSlider, statusImage, statusReflecImg, consoleImage, consoleReflecImg,
+            connectBtn, saveBtn, editBtn, disconnetBtn, sendBtn,
+            inputHostField, inputPortField, inputNameField, upField, rightField, downField, leftField, inputConsoleField, secondsLabel, secondsNote, statusLabel,
+            inputStream, outputStream, serverResponses,
+            consoleFont, tableView;
 
 - (void)viewDidLoad{
 
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:YES];
+    
     connected = FALSE; //start connected as false
     errorCounter = 0;
 
@@ -179,16 +181,16 @@
     //add status window
     UIImage * serverStatusImg = [UIImage imageNamed:@"serverstatus.png"];
     statusImage = [[UIImageView alloc] initWithImage:serverStatusImg];
-    statusImage.frame = CGRectMake(27, 1175,264,83);
+    statusImage.frame = CGRectMake(28, 1150,264,83);
     [self.mainScrollView addSubview:statusImage];
     
     //add console font
-    NSLog(@"%@", [UIFont familyNames]);
+    //NSLog(@"%@", [UIFont familyNames]);
     consoleFont = [UIFont fontWithName:@"Electronic Highway Sign" size:15];
 
 
     //add status label
-    statusLabel = [[UILabel alloc] initWithFrame:CGRectMake(42, 1206.5, 242, 40)];
+    statusLabel = [[UILabel alloc] initWithFrame:CGRectMake(43, 1181.5, 242, 40)];
     statusLabel.font = consoleFont;
     statusLabel.text = [NSString stringWithFormat:@"SERVER CONNECTED\r%@", inputHostField.text];
     statusLabel.numberOfLines = 2;
@@ -199,21 +201,52 @@
     //add reflection to status window
     UIImage * statusReflectionImg = [UIImage imageNamed:@"reflection.png"];
     statusReflecImg = [[UIImageView alloc] initWithImage:statusReflectionImg];
-    statusReflecImg.frame = CGRectMake(27, 1175,264,83);
+    statusReflecImg.frame = CGRectMake(28, 1150,264,83);
     [self.mainScrollView addSubview:statusReflecImg];
     
     //add disconnect button
     disconnetBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [disconnetBtn addTarget:self action:@selector(scrollToSection1) forControlEvents:UIControlEventTouchDown];
-    disconnetBtn.frame = CGRectMake(27, 1175, 264, 83);
+    disconnetBtn.frame = CGRectMake(28, 1150, 264, 83);
     disconnetBtn.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
     [self.mainScrollView addSubview:disconnetBtn];
     
-    //add status window
-    UIImage * serverConsoleImg = [UIImage imageNamed:@"serverstatus.png"];
+    //add console window
+    UIImage * serverConsoleImg = [UIImage imageNamed:@"console.png"];
     consoleImage = [[UIImageView alloc] initWithImage:serverConsoleImg];
-    consoleImage.frame = CGRectMake(27, 1175,264,83);
-    [self.mainScrollView addSubview:statusImage];
+    consoleImage.frame = CGRectMake(28, 1240,264,158);
+    [self.mainScrollView addSubview:consoleImage];
+    
+    //add table view where console messages will be placed
+    tableView = [[UITableView alloc] initWithFrame:CGRectMake(38, 1271, 243, 86) style:UITableViewStyleGrouped];
+    //self->tableView.delegate = self;
+    //self->tableView.dataSource = self;
+    [self.mainScrollView addSubview:tableView];
+    
+    //add reflection to console window
+    consoleReflecImg = [[UIImageView alloc] initWithImage:statusReflectionImg];
+    consoleReflecImg.frame = CGRectMake(28, 1240,264,83);
+    [self.mainScrollView addSubview:consoleReflecImg];
+
+    //add send button
+    sendBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [sendBtn addTarget:self action:@selector(connectToHost) forControlEvents:UIControlEventTouchDown];
+    UIImage *sendBtnImg = [UIImage imageNamed:@"send-btn.png"];
+    [sendBtn setBackgroundImage:sendBtnImg forState:UIControlStateNormal];
+    sendBtn.frame = CGRectMake(208, 1353, 81.5, 43.5);
+    [self.mainScrollView addSubview:sendBtn];
+    
+    //add text field for console
+    inputConsoleField = [[UITextField alloc] initWithFrame:CGRectMake(46, 1358, 160, 33)];
+    inputConsoleField.font = [UIFont fontWithName:@"Helvetica Neue" size:12];
+    inputConsoleField.placeholder = @"Insert console message";
+    inputConsoleField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    inputConsoleField.autocorrectionType = UITextAutocorrectionTypeNo;
+    inputConsoleField.keyboardType = UIKeyboardTypeDefault;
+    inputConsoleField.returnKeyType = UIReturnKeyDone;
+    //inputConsoleField.backgroundColor = [UIColor purpleColor];
+    inputConsoleField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    [self.mainScrollView addSubview:inputConsoleField];
     
     
     [super viewDidLoad];
@@ -249,7 +282,7 @@
     [sliderView removeFromSuperview];
     [self.view endEditing:YES];//hide keyboard
     
-    CGPoint bottomOffset = CGPointMake(0, 1156);
+    CGPoint bottomOffset = CGPointMake(0, 1136);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
 }
 
@@ -388,5 +421,44 @@
         [self connectToHost];
     }
 }
+
+
+////console send message function
+//- (IBAction)sendMessage:(id)sender {
+//    //[self.view endEditing:YES];//hide keyboard if open
+//    
+//    if([inputConsoleField.text length] > 0){
+//        NSString *response  = [NSString stringWithFormat: @"%@\n", inputConsoleField.text];
+//        NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+//        [outputStream write:[data bytes] maxLength:[data length]];
+//        [self messageSent:response]; //add resposne to array
+//    }
+//}
+//
+//
+////store the string response in array and place it into table
+//- (void) messageReceived:(NSString *)message {
+//	[serverResponses addObject:message];
+//	[self->tableView reloadData];
+//    
+//    //add scrolling to table
+//    NSIndexPath *topIndexPath =
+//    [NSIndexPath indexPathForRow:serverResponses.count-1
+//                       inSection:0];
+//    [self->tableView scrollToRowAtIndexPath:topIndexPath
+//                       atScrollPosition:UITableViewScrollPositionMiddle
+//                               animated:YES];
+//    
+//    [tableView setContentOffset:CGPointMake(0, self->tableView.contentSize.height- self->tableView.frame.size.height)]; //autoscrolls table
+//}
+//
+//- (void) messageSent:(NSString *)message {
+//    NSMutableString *userMessage = [NSMutableString stringWithString: @"> "];
+//    [userMessage appendString: message];
+//    
+//	[serverResponses addObject:userMessage];
+//	[self->tableView reloadData];
+//    [tableView setContentOffset:CGPointMake(0, self->tableView.contentSize.height- self->tableView.frame.size.height)]; //autoscrolls table
+//}
 
 @end
