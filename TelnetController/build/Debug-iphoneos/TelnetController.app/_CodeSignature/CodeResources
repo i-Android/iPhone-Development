@@ -16,6 +16,10 @@
 		<data>
 		f+chbalD/cg0G6RzsOPbpHUYQAg=
 		</data>
+		<key>EHSMB.TTF</key>
+		<data>
+		Cr5n31fc2p7OI1NGj7tnkXN4DNg=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
@@ -23,6 +27,10 @@
 		<key>connect-btn.png</key>
 		<data>
 		k/XpLJKpn+uNEMwqUBWo4JAjPe8=
+		</data>
+		<key>edit-btn.png</key>
+		<data>
+		7U9NCEFZiTttnUlX17BlgeVc/Rg=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -42,11 +50,11 @@
 		</data>
 		<key>en.lproj/MainStoryboard_iPhone.storyboardc/2-view-3.nib</key>
 		<data>
-		5pPg3yPzlr1ygf7ccShgw3c545I=
+		VYCurDTi7jyDLk0vf8IhY8jZL64=
 		</data>
 		<key>en.lproj/MainStoryboard_iPhone.storyboardc/UIViewController-2.nib</key>
 		<data>
-		+NGmjoUHJEHNu1FgMdWyqmFnwXI=
+		KS900Oa+VISkg3m268xbneCOO7w=
 		</data>
 		<key>joystick.png</key>
 		<data>
@@ -60,9 +68,17 @@
 		<data>
 		1GdMqXU2Xyxz4GWsqdPpoi/wzZI=
 		</data>
+		<key>reflection.png</key>
+		<data>
+		fAaGveJ+a/dNX4ahKIdPPQBd7z0=
+		</data>
 		<key>save-btn.png</key>
 		<data>
 		TtfjPT2tJ2G0y9QpUihjSoC1GpM=
+		</data>
+		<key>serverstatus.png</key>
+		<data>
+		hYKMItNQn40FDeGSAa6NYF0R0HA=
 		</data>
 		<key>tooltip-slider-btn.png</key>
 		<data>

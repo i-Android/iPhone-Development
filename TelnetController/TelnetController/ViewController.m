@@ -12,15 +12,17 @@
 @end
 
 @implementation ViewController
-@synthesize mainScrollView, sliderView, mainbg, logo, tooltipSlider,
+@synthesize mainScrollView, sliderView, mainbg, logo, tooltipSlider, statusImage, statusReflecImg, consoleImage,
             connectBtn, saveBtn, editBtn, disconnetBtn,
-            inputHostField, inputPortField, inputNameField, upField, rightField, downField, leftField, secondsLabel, secondsNote,
-            inputStream, outputStream;
+            inputHostField, inputPortField, inputNameField, upField, rightField, downField, leftField, secondsLabel, secondsNote, statusLabel,
+            inputStream, outputStream,
+            consoleFont;
 
 - (void)viewDidLoad{
-    
+
     connected = FALSE; //start connected as false
     errorCounter = 0;
+
     
 
     //add a UIScroller where all the content will reside
@@ -28,8 +30,6 @@
     [mainScrollView setContentSize:CGSizeMake(320, 1704)];
     [mainScrollView setFrame:CGRectMake(0, 0, 320, 568)];
     [mainScrollView setScrollEnabled:NO];
-//    mainScrollView.delaysContentTouches = FALSE;
-//    mainScrollView.canCancelContentTouches = NO;
     [mainScrollView setBackgroundColor:[UIColor redColor]];
     [self.view addSubview:mainScrollView];
 
@@ -59,15 +59,9 @@
     //add save button
     editBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [editBtn addTarget:self action:@selector(scrollToSection2) forControlEvents:UIControlEventTouchDown];
-    [editBtn setTitle:@"Edit" forState:UIControlStateNormal];
-    editBtn.frame = CGRectMake(80.0, 1450.0, 40.0, 40.0);
-    [self.mainScrollView addSubview:editBtn];
-    
-    //add disconnect button
-    editBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [editBtn addTarget:self action:@selector(scrollToSection1) forControlEvents:UIControlEventTouchDown];
-    [editBtn setTitle:@"Disconnect" forState:UIControlStateNormal];
-    editBtn.frame = CGRectMake(10.0, 1250.0, 240.0, 140.0);
+    UIImage *editBtnImg = [UIImage imageNamed:@"edit-btn.png"];
+    [editBtn setBackgroundImage:editBtnImg forState:UIControlStateNormal];
+    editBtn.frame = CGRectMake(265.0, 1415, 32, 51.5);
     [self.mainScrollView addSubview:editBtn];
     
     
@@ -142,7 +136,7 @@
     //the text under the slider
     secondsNote = [[UILabel alloc] initWithFrame:CGRectMake(25, 798, 270, 36)];
     secondsNote.font = [UIFont fontWithName:@"Helvetica Neue" size:11];
-    secondsNote.text = @"The joypad will send the server data every 0.3 seconds";
+    secondsNote.text = @"The joypad will send the server data every 0.1 seconds";
     secondsNote.textColor = [UIColor colorWithRed:(109.0/255.f) green:(111.0/255.f) blue:(114.0/255.f) alpha:1.0];
     secondsNote.shadowColor = [UIColor whiteColor];
     secondsNote.shadowOffset = CGSizeMake(0.0, 1.0);
@@ -160,7 +154,7 @@
     secondsLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 743, 36, 36)];
     secondsLabel.font = [UIFont fontWithName:@"Helvetica Neue" size:14];
     //secondsLabel.backgroundColor = [UIColor purpleColor];
-    secondsLabel.text = @"0.3";
+    secondsLabel.text = @"0.1";
     secondsLabel.textColor = [UIColor colorWithRed:(109.0/255.f) green:(111.0/255.f) blue:(114.0/255.f) alpha:1.0];
     secondsLabel.shadowColor = [UIColor whiteColor];
     secondsLabel.shadowOffset = CGSizeMake(0.0, 1.0);
@@ -177,11 +171,49 @@
     [self.mainScrollView addSubview:saveBtn];
     
     
-    //UIView to capture touches
+    //UIView to capture touches on edit screen
     sliderView = [[UIView alloc] initWithFrame: self.view.frame];
     [sliderView setFrame:CGRectMake(15, 180, 290, 73)];
-//    [sliderView setBackgroundColor:[UIColor redColor]];
+    //[sliderView setBackgroundColor:[UIColor redColor]];
     
+    //add status window
+    UIImage * serverStatusImg = [UIImage imageNamed:@"serverstatus.png"];
+    statusImage = [[UIImageView alloc] initWithImage:serverStatusImg];
+    statusImage.frame = CGRectMake(27, 1175,264,83);
+    [self.mainScrollView addSubview:statusImage];
+    
+    //add console font
+    NSLog(@"%@", [UIFont familyNames]);
+    consoleFont = [UIFont fontWithName:@"Electronic Highway Sign" size:15];
+
+
+    //add status label
+    statusLabel = [[UILabel alloc] initWithFrame:CGRectMake(42, 1206.5, 242, 40)];
+    statusLabel.font = consoleFont;
+    statusLabel.text = [NSString stringWithFormat:@"SERVER CONNECTED\r%@", inputHostField.text];
+    statusLabel.numberOfLines = 2;
+    statusLabel.textColor = [UIColor colorWithRed:(0.0/255.f) green:(186.0/255.f) blue:(255.0/255.f) alpha:1.0];
+    statusLabel.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
+    [self.mainScrollView addSubview:statusLabel];
+    
+    //add reflection to status window
+    UIImage * statusReflectionImg = [UIImage imageNamed:@"reflection.png"];
+    statusReflecImg = [[UIImageView alloc] initWithImage:statusReflectionImg];
+    statusReflecImg.frame = CGRectMake(27, 1175,264,83);
+    [self.mainScrollView addSubview:statusReflecImg];
+    
+    //add disconnect button
+    disconnetBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [disconnetBtn addTarget:self action:@selector(scrollToSection1) forControlEvents:UIControlEventTouchDown];
+    disconnetBtn.frame = CGRectMake(27, 1175, 264, 83);
+    disconnetBtn.backgroundColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
+    [self.mainScrollView addSubview:disconnetBtn];
+    
+    //add status window
+    UIImage * serverConsoleImg = [UIImage imageNamed:@"serverstatus.png"];
+    consoleImage = [[UIImageView alloc] initWithImage:serverConsoleImg];
+    consoleImage.frame = CGRectMake(27, 1175,264,83);
+    [self.mainScrollView addSubview:statusImage];
     
     
     [super viewDidLoad];
@@ -196,6 +228,7 @@
 
 
 - (IBAction) scrollToSection1{
+    [inputHostField becomeFirstResponder]; //make this field immediately editable
     CGPoint bottomOffset = CGPointMake(0, 0);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
     //NSLog(@"%f",[mainScrollView contentSize].height);
@@ -205,6 +238,8 @@
     //add the touch area on slider
     [self.view addSubview:sliderView];
     
+    [upField becomeFirstResponder]; //make this field immediately editable
+    
     CGPoint bottomOffset = CGPointMake(0, 568);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
 }
@@ -212,9 +247,7 @@
 - (IBAction) scrollToSection3{
     [self.view bringSubviewToFront:sliderView];
     [sliderView removeFromSuperview];
-//    [sliderView setBackgroundColor:[UIColor purpleColor]];
-//    sliderView.hidden = YES;
-    NSLog(@"hide it");
+    [self.view endEditing:YES];//hide keyboard
     
     CGPoint bottomOffset = CGPointMake(0, 1156);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
@@ -223,17 +256,35 @@
 
 
 -(void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+    
     UITouch *touch = [[event allTouches] anyObject];
     CGPoint location = [touch locationInView:touch.view];
+    
+    //map x position between 0.1 and 1.0
+    float outVal, value, inputMin, inputMax, outputMin, outputMax;
+    value = location.x;
+    inputMin = 15;
+    inputMax = 282;
+    outputMin = 0.0;
+    outputMax = 1.0;
+    
+	outVal = ((value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin);
+	if(outVal >  outputMax){
+		outVal = outputMax;
+	}
+	if(outVal <  outputMin){
+		outVal = outputMin;
+	}
 
+    //move tooltip and adjust numbers accordingly
     if(location.x > 37.75 && location.x < 282.25){
         [tooltipSlider setCenter:CGPointMake(location.x, 789)];
         [secondsLabel setCenter:CGPointMake(location.x, 761)];
-        NSLog(@"%f", location.x);
+        secondsLabel.text = [NSString stringWithFormat:@"%0.1f", outVal];
+        secondsNote.text = [NSString stringWithFormat:@"The joypad will send the server data every %0.1f seconds", outVal];
     }
     
 }
-
 
 
 //this creates a telnet connection to the server
