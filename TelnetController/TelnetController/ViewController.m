@@ -144,7 +144,7 @@
     //the text under the slider
     secondsNote = [[UILabel alloc] initWithFrame:CGRectMake(25, 798, 270, 36)];
     secondsNote.font = [UIFont fontWithName:@"Helvetica Neue" size:11];
-    secondsNote.text = @"The joypad will send the server data every 0.2 seconds";
+    secondsNote.text = @"The joypad will send the server data every 0.1 seconds";
     secondsNote.textColor = [UIColor colorWithRed:(109.0/255.f) green:(111.0/255.f) blue:(114.0/255.f) alpha:1.0];
     secondsNote.shadowColor = [UIColor whiteColor];
     secondsNote.shadowOffset = CGSizeMake(0.0, 1.0);
@@ -162,7 +162,7 @@
     secondsLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 743, 36, 36)];
     secondsLabel.font = [UIFont fontWithName:@"Helvetica Neue" size:14];
     //secondsLabel.backgroundColor = [UIColor purpleColor];
-    secondsLabel.text = @"0.2";
+    secondsLabel.text = @"0.1";
     secondsLabel.textColor = [UIColor colorWithRed:(109.0/255.f) green:(111.0/255.f) blue:(114.0/255.f) alpha:1.0];
     secondsLabel.shadowColor = [UIColor whiteColor];
     secondsLabel.shadowOffset = CGSizeMake(0.0, 1.0);
@@ -428,7 +428,7 @@
         value = location.x;
         inputMin = 15;
         inputMax = 282;
-        outputMin = 0.1;
+        outputMin = 0.0;
         outputMax = 1.0;
         
         outVal = ((value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin);
