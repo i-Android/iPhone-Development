@@ -16,7 +16,8 @@
             connectBtn, saveBtn, editBtn, disconnetBtn, sendBtn,
             inputHostField, inputPortField, inputNameField, upField, rightField, downField, leftField, inputConsoleField, secondsLabel, secondsNote, statusLabel,
             inputStream, outputStream, serverResponses,
-            consoleFont, tView;
+            consoleFont, tView,
+            joystick;
 
 - (void)viewDidLoad{
 
@@ -254,7 +255,15 @@
     inputConsoleField.returnKeyType = UIReturnKeyDone;
     //inputConsoleField.backgroundColor = [UIColor purpleColor];
     inputConsoleField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    [inputConsoleField setDelegate:self];
     [self.mainScrollView addSubview:inputConsoleField];
+    
+    
+    //add joystick
+    UIImage * joystickImg = [UIImage imageNamed:@"joystick.png"];
+    joystick = [[DragImage alloc] initWithImage:joystickImg];
+    joystick.frame = CGRectMake(71, 1465,175.5,185);
+    [self.mainScrollView addSubview:joystick];
     
     
     [super viewDidLoad];
@@ -273,6 +282,7 @@
     CGPoint bottomOffset = CGPointMake(0, 0);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
     //NSLog(@"%f",[mainScrollView contentSize].height);
+    [self disconnectToHost];
 }
 
 - (IBAction) scrollToSection2{
@@ -292,6 +302,12 @@
     
     CGPoint bottomOffset = CGPointMake(0, 1136);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
+}
+
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textfield{
+    [inputConsoleField resignFirstResponder];
+    return YES;
 }
 
 
@@ -391,6 +407,17 @@
     
 }
 
+-(IBAction)disconnectToHost{
+    if(connected){
+        //close connection by sending an x
+        NSString *response  = [NSString stringWithFormat:@"exit"];
+        NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+        [outputStream write:[data bytes] maxLength:[data length]];
+        printf("%s", [response UTF8String]);
+
+        connected = FALSE;
+    }
+}
 
 - (void)stream:(NSStream *)theStream handleEvent:(NSStreamEvent)streamEvent {
     NSLog(@"stream event %i", streamEvent);
@@ -420,7 +447,7 @@
                         
                         if (nil != output) {
                             NSLog(@"server said: %@", output);
-                            //[self messageReceived:output]; //call function
+                            [self messageReceived:output]; //call function
                         }
                     }
                 }
@@ -481,21 +508,21 @@
 }
 
 
-////store the string response in array and place it into table
-//- (void) messageReceived:(NSString *)message {
-//	[serverResponses addObject:message];
-//	[self->tableView reloadData];
-//    
-//    //add scrolling to table
-//    NSIndexPath *topIndexPath =
-//    [NSIndexPath indexPathForRow:serverResponses.count-1
-//                       inSection:0];
-//    [self->tableView scrollToRowAtIndexPath:topIndexPath
-//                       atScrollPosition:UITableViewScrollPositionMiddle
-//                               animated:YES];
-//    
-//    [tableView setContentOffset:CGPointMake(0, self->tableView.contentSize.height- self->tableView.frame.size.height)]; //autoscrolls table
-//}
+//store the string response in array and place it into table
+- (void) messageReceived:(NSString *)message {
+	[serverResponses addObject:message];
+	[self->tView reloadData];
+    
+    //add scrolling to table
+    NSIndexPath *topIndexPath =
+    [NSIndexPath indexPathForRow:serverResponses.count-1
+                       inSection:0];
+    [self->tView scrollToRowAtIndexPath:topIndexPath
+                       atScrollPosition:UITableViewScrollPositionMiddle
+                               animated:YES];
+    
+    [tView setContentOffset:CGPointMake(0, self->tView.contentSize.height- self->tView.frame.size.height)]; //autoscrolls table
+}
 
 - (void) messageSent:(NSString *)message {
     NSMutableString *userMessage = [NSMutableString stringWithString: @"> "];

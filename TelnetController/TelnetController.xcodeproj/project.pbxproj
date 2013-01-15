@@ -20,6 +20,8 @@
 		B24505DD16A4B9E10083E043 /* console.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505DB16A4B9E10083E043 /* console.png */; };
 		B24505DF16A4C0510083E043 /* send-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505DE16A4C0510083E043 /* send-btn.png */; };
 		B24505E016A4C0510083E043 /* send-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505DE16A4C0510083E043 /* send-btn.png */; };
+		B24505F316A5CC810083E043 /* DragImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B24505F216A5CC810083E043 /* DragImage.m */; };
+		B24505F416A5CC810083E043 /* DragImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B24505F216A5CC810083E043 /* DragImage.m */; };
 		B2766AA216A226A800012194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA116A226A800012194 /* UIKit.framework */; };
 		B2766AA416A226A800012194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA316A226A800012194 /* Foundation.framework */; };
 		B2766AA616A226A800012194 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA516A226A800012194 /* CoreGraphics.framework */; };
@@ -62,6 +64,8 @@
 		B24505D816A4AE0F0083E043 /* EHSMB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = EHSMB.TTF; path = Resources/EHSMB.TTF; sourceTree = SOURCE_ROOT; };
 		B24505DB16A4B9E10083E043 /* console.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = console.png; path = Resources/console.png; sourceTree = SOURCE_ROOT; };
 		B24505DE16A4C0510083E043 /* send-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "send-btn.png"; path = "Resources/send-btn.png"; sourceTree = SOURCE_ROOT; };
+		B24505F116A5CC810083E043 /* DragImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragImage.h; sourceTree = "<group>"; };
+		B24505F216A5CC810083E043 /* DragImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragImage.m; sourceTree = "<group>"; };
 		B2766A9D16A226A800012194 /* TelnetController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelnetController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2766AA116A226A800012194 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2766AA316A226A800012194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -153,6 +157,8 @@
 				B2766ABC16A226A800012194 /* MainStoryboard_iPad.storyboard */,
 				B2766ABF16A226A800012194 /* ViewController.h */,
 				B2766AC016A226A800012194 /* ViewController.m */,
+				B24505F116A5CC810083E043 /* DragImage.h */,
+				B24505F216A5CC810083E043 /* DragImage.m */,
 				B2766AA816A226A800012194 /* Supporting Files */,
 			);
 			path = TelnetController;
@@ -339,6 +345,7 @@
 				B2766AAE16A226A800012194 /* main.m in Sources */,
 				B2766AB216A226A800012194 /* AppDelegate.m in Sources */,
 				B2766AC116A226A800012194 /* ViewController.m in Sources */,
+				B24505F316A5CC810083E043 /* DragImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2766AD616A226A800012194 /* TelnetControllerTests.m in Sources */,
+				B24505F416A5CC810083E043 /* DragImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,10 +8,10 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import "DragImage.h"
 
 @interface ViewController : UIViewController
-                            <NSStreamDelegate, UITableViewDelegate, UITableViewDataSource>{
+                            <NSStreamDelegate, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate>{
                 
     UIScrollView *mainScrollView;
     UIImageView *mainbg, *logo, *tooltipSlider, *statusImage, *statusReflecImg, *consoleImage, *consoleReflecImg;
@@ -30,6 +30,8 @@
                                 
     UIFont *consoleFont;
     UITableView * tView;
+                                
+    DragImage *joystick;
 }
 
 @property (nonatomic, retain) UIScrollView *mainScrollView;
@@ -48,12 +50,16 @@
 @property (nonatomic, retain) UIFont *consoleFont;
 @property (nonatomic, retain) UITableView * tView;
 
+@property (nonatomic, retain) DragImage *joystick;
+
+
 -(IBAction) scrollToSection1;
 -(IBAction) scrollToSection2;
 -(IBAction) scrollToSection3;
 -(IBAction)connectToHost;
+-(IBAction)disconnectToHost;
 
 - (IBAction)sendMessage; //send message in console
-//- (void) messageReceived:(NSString *)message; //messages received in console
+- (void) messageReceived:(NSString *)message; //messages received in console
 - (void) messageSent:(NSString *)message; //messages sent in console
 @end
