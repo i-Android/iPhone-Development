@@ -9,7 +9,6 @@
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-#import "DragImage.h"
 
 @interface ViewController : UIViewController
                             <NSStreamDelegate, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate>{
@@ -22,9 +21,9 @@
     UILabel *secondsLabel, *secondsNote, *statusLabel;
     UIView *sliderView, *joystickView;
                                 
-    BOOL connected;
+    BOOL connected, timerActive;
     int errorCounter, secondsValue, section;
-    float degree;
+    float degree, touchLength;
     
     NSInputStream *inputStream;
     NSOutputStream *outputStream;
@@ -34,7 +33,7 @@
     UIFont *consoleFont;
     UITableView * tView;
                                 
-    DragImage *joystick;
+    UIImageView *joystick;
                                 
     CGPoint startPoint;
 }
@@ -56,7 +55,7 @@
 @property (nonatomic, retain) UIFont *consoleFont;
 @property (nonatomic, retain) UITableView * tView;
 
-@property (nonatomic, retain) DragImage *joystick;
+@property (nonatomic, retain) UIImageView *joystick;
 
 
 -(IBAction) scrollToSection1;
@@ -66,7 +65,9 @@
 -(IBAction)disconnectToHost;
 -(void) sendAngleItr;
 
+
 - (IBAction)sendMessage; //send message in console
 - (void) messageReceived:(NSString *)message; //messages received in console
 - (void) messageSent:(NSString *)message; //messages sent in console
+-(void)joystickSend:(NSString *)moveAmount; //send data from joystick
 @end

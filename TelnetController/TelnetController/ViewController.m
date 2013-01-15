@@ -24,6 +24,8 @@
     [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:YES];
     
     connected = FALSE; //start connected as false
+    timerActive = FALSE;
+    touchLength = 0; //start touch length at 0
     errorCounter = 0;
     section = 1; //keeps track of which section the page is in
 
@@ -271,7 +273,7 @@
     
     //add joystick
     UIImage * joystickImg = [UIImage imageNamed:@"joystick.png"];
-    joystick = [[DragImage alloc] initWithImage:joystickImg];
+    joystick = [[UIImageView alloc] initWithImage:joystickImg];
     joystick.frame = CGRectMake(71, 1465,175.5,185);
     [self.mainScrollView addSubview:joystick];
     
@@ -304,6 +306,10 @@
     [self disconnectToHost];
     
     section = 1;
+    
+    if(timerActive){
+        [timer invalidate];
+    }
 }
 
 - (IBAction) scrollToSection2{
@@ -324,6 +330,10 @@
     [mainScrollView setContentOffset:bottomOffset animated:YES];
     
     section = 2;
+
+    if(timerActive){
+        [timer invalidate];
+    }
 }
 
 - (IBAction) scrollToSection3{
@@ -343,6 +353,11 @@
     [mainScrollView setContentOffset:bottomOffset animated:YES];
     
     section = 3;
+    
+    if(!timerActive){
+        timer = [NSTimer scheduledTimerWithTimeInterval:[secondsLabel.text intValue] target:self selector:@selector(sendAngleItr) userInfo:nil repeats:YES];
+        timerActive = TRUE;
+    }
 }
 
 
@@ -441,7 +456,7 @@
         
         //set that reads your fingure distance from center
         CGPoint touchFromCenter = CGPointMake(frameOrigin.x-70, frameOrigin.y-1464);
-        float touchLength = sqrt( touchFromCenter.x * touchFromCenter.x + touchFromCenter.y * touchFromCenter.y);
+        touchLength = sqrt( touchFromCenter.x * touchFromCenter.x + touchFromCenter.y * touchFromCenter.y);
         //NSLog(@"length: %f", touchLength);
         
         //calculate normal of distance
@@ -452,7 +467,7 @@
         //calculate angle
         float angle = atan2(normal.x, normal.y);
         degree = angle*(180/3.141592653589793238);
-        NSLog(@"degree: %f", degree);
+        //NSLog(@"degree: %f", degree);
         
         
         
@@ -464,39 +479,6 @@
         }
         
         
-//        //calculate angle send appropriate value
-//        if(length > 35){
-//            CGPoint normal;
-//            normal.x = touchPoint.x/length;
-//            normal.y = touchPoint.y/length;
-//            
-//            //calculate angle
-//            float angle = atan2(normal.x, normal.y);
-//            float degree = angle*(180/3.141592653589793238);
-//            NSLog(@"degree: %f", degree);
-//            
-//            if(degree > -45 && degree < 45){
-//                //send paddle down
-//                [self joyPadSend: downField.text];
-//            }
-//            if(degree > 45 && degree < 135){
-//                //send paddle right
-//                [self joyPadSend: rightField.text];
-//            }
-//            if(degree > 135){
-//                //send paddle up
-//                [self joyPadSend: upField.text];
-//            }
-//            if(degree < -135){
-//                //send paddle up
-//                [self joyPadSend: upField.text];
-//            }
-//            if(degree > -135 && degree < -45){
-//                //send paddle left
-//                [self joyPadSend: leftField.text];
-//            }
-//            
-//        }
     }
 
     
@@ -511,25 +493,28 @@
 
 
 -(void) sendAngleItr{
-    if(degree > -45 && degree < 45){
-        //send paddle down
-        [self sendMessage: downField.text];
-    }
-    if(degree > 45 && degree < 135){
-        //send paddle right
-        [self sendMessage: rightField.text];
-    }
-    if(degree > 135){
-        //send paddle up
-        [self sendMessage: upField.text];
-    }
-    if(degree < -135){
-        //send paddle up
-        [self sendMessage: upField.text];
-    }
-    if(degree > -135 && degree < -45){
-        //send paddle left
-        [self sendMessage: leftField.text];
+
+    if(touchLength > 35){
+        if(degree > -45 && degree < 45){
+            //send paddle down
+            [self joystickSend: downField.text];
+        }
+        if(degree > 45 && degree < 135){
+            //send paddle right
+            [self joystickSend: rightField.text];
+        }
+        if(degree > 135){
+            //send paddle up
+            [self joystickSend: upField.text];
+        }
+        if(degree < -135){
+            //send paddle up
+            [self joystickSend: upField.text];
+        }
+        if(degree > -135 && degree < -45){
+            //send paddle left
+            [self joystickSend: leftField.text];
+        }
     }
     
 }
@@ -685,6 +670,14 @@
 	[serverResponses addObject:userMessage];
 	[self->tView reloadData];
     [tView setContentOffset:CGPointMake(0, self->tView.contentSize.height- self->tView.frame.size.height)]; //autoscrolls table
+}
+
+//sending directions from joystick
+-(void)joystickSend:(NSString *)moveAmount{
+    NSString *response  = [NSString stringWithFormat: @"%@\n", moveAmount];
+    NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+    [outputStream write:[data bytes] maxLength:[data length]];
+    [self messageSent:response]; //add resposne to array
 }
 
 @end
