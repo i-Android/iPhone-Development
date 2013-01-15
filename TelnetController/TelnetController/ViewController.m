@@ -25,7 +25,7 @@
     
     connected = FALSE; //start connected as false
     timerActive = FALSE;
-    touchLength = 0; //start touch length at 0
+    touchLength = 0.0; //start touch length at 0
     errorCounter = 0;
     section = 1; //keeps track of which section the page is in
 
@@ -144,7 +144,7 @@
     //the text under the slider
     secondsNote = [[UILabel alloc] initWithFrame:CGRectMake(25, 798, 270, 36)];
     secondsNote.font = [UIFont fontWithName:@"Helvetica Neue" size:11];
-    secondsNote.text = @"The joypad will send the server data every 0.1 seconds";
+    secondsNote.text = @"The joypad will send the server data every 0.2 seconds";
     secondsNote.textColor = [UIColor colorWithRed:(109.0/255.f) green:(111.0/255.f) blue:(114.0/255.f) alpha:1.0];
     secondsNote.shadowColor = [UIColor whiteColor];
     secondsNote.shadowOffset = CGSizeMake(0.0, 1.0);
@@ -162,7 +162,7 @@
     secondsLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 743, 36, 36)];
     secondsLabel.font = [UIFont fontWithName:@"Helvetica Neue" size:14];
     //secondsLabel.backgroundColor = [UIColor purpleColor];
-    secondsLabel.text = @"0.1";
+    secondsLabel.text = @"0.2";
     secondsLabel.textColor = [UIColor colorWithRed:(109.0/255.f) green:(111.0/255.f) blue:(114.0/255.f) alpha:1.0];
     secondsLabel.shadowColor = [UIColor whiteColor];
     secondsLabel.shadowOffset = CGSizeMake(0.0, 1.0);
@@ -309,6 +309,7 @@
     
     if(timerActive){
         [timer invalidate];
+        timerActive = FALSE;
     }
 }
 
@@ -333,6 +334,7 @@
 
     if(timerActive){
         [timer invalidate];
+        timerActive = FALSE;
     }
 }
 
@@ -355,7 +357,7 @@
     section = 3;
     
     if(!timerActive){
-        timer = [NSTimer scheduledTimerWithTimeInterval:[secondsLabel.text intValue] target:self selector:@selector(sendAngleItr) userInfo:nil repeats:YES];
+        timer = [NSTimer scheduledTimerWithTimeInterval:[secondsLabel.text floatValue] target:self selector:@selector(sendAngleItr) userInfo:nil repeats:YES];
         timerActive = TRUE;
     }
 }
@@ -426,7 +428,7 @@
         value = location.x;
         inputMin = 15;
         inputMax = 282;
-        outputMin = 0.0;
+        outputMin = 0.1;
         outputMax = 1.0;
         
         outVal = ((value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin);
@@ -489,6 +491,7 @@
     if(section == 3){
         [joystick setCenter:CGPointMake(87.75+71, 92.5+1465)];
     }
+    touchLength = 0.0;
 }
 
 
@@ -516,6 +519,7 @@
             [self joystickSend: leftField.text];
         }
     }
+    NSLog(@"%f", touchLength);
     
 }
 
@@ -524,7 +528,7 @@
 - (IBAction)connectToHost {
 
     if(!connected){
-        NSLog(@"%@", inputHostField.text);
+        //NSLog(@"%@", inputHostField.text);
         CFReadStreamRef readStream;
         CFWriteStreamRef writeStream;
         CFStreamCreatePairWithSocketToHost(NULL, (__bridge CFStringRef)inputHostField.text, [inputPortField.text intValue], &readStream, &writeStream);
@@ -559,7 +563,7 @@
 }
 
 - (void)stream:(NSStream *)theStream handleEvent:(NSStreamEvent)streamEvent {
-    NSLog(@"stream event %i", streamEvent);
+    //NSLog(@"stream event %i", streamEvent);
     //error logging if connection has issues
     //NSError* error = [theStream streamError];
     //NSString* errorMessage = [NSString stringWithFormat:@"%@ (Code = %d)", [error localizedDescription], [error code]];
@@ -567,7 +571,7 @@
 	switch (streamEvent) {
             
 		case NSStreamEventOpenCompleted:
-			NSLog(@"Stream opened");
+			//NSLog(@"Stream opened");
             [self scrollToSection2];
 			break;
             
@@ -585,7 +589,7 @@
                         NSString *output = [[NSString alloc] initWithBytes:buffer length:len encoding:NSASCIIStringEncoding];
                         
                         if (nil != output) {
-                            NSLog(@"server said: %@", output);
+                            //NSLog(@"server said: %@", output);
                             [self messageReceived:output]; //call function
                         }
                     }
@@ -594,7 +598,7 @@
 			break;
             
 		case NSStreamEventErrorOccurred:
-			NSLog(@"Can not connect to the host!");
+			//NSLog(@"Can not connect to the host!");
             
             //pop-up alert view - using 'errorCounter as a workaround to fix double alert bug
             errorCounter++;
