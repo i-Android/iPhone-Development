@@ -24,10 +24,12 @@
                                 
     BOOL connected;
     int errorCounter, secondsValue, section;
+    float degree;
     
     NSInputStream *inputStream;
     NSOutputStream *outputStream;
     NSMutableArray * serverResponses;
+    NSTimer *timer;
                                 
     UIFont *consoleFont;
     UITableView * tView;
@@ -49,6 +51,7 @@
 @property (nonatomic, retain) NSInputStream *inputStream;
 @property (nonatomic, retain) NSOutputStream *outputStream;
 @property (nonatomic, retain) NSMutableArray * serverResponses;
+@property (nonatomic, retain) NSTimer *timer;
 
 @property (nonatomic, retain) UIFont *consoleFont;
 @property (nonatomic, retain) UITableView * tView;
@@ -61,6 +64,7 @@
 -(IBAction) scrollToSection3;
 -(IBAction)connectToHost;
 -(IBAction)disconnectToHost;
+-(void) sendAngleItr;
 
 - (IBAction)sendMessage; //send message in console
 - (void) messageReceived:(NSString *)message; //messages received in console
