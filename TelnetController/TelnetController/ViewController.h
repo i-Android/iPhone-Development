@@ -29,7 +29,7 @@
     NSMutableArray * serverResponses;
                                 
     UIFont *consoleFont;
-    UITableView * tableView;
+    UITableView * tView;
 }
 
 @property (nonatomic, retain) UIScrollView *mainScrollView;
@@ -46,14 +46,14 @@
 @property (nonatomic, retain) NSMutableArray * serverResponses;
 
 @property (nonatomic, retain) UIFont *consoleFont;
-@property (nonatomic, retain) UITableView * tableView;
+@property (nonatomic, retain) UITableView * tView;
 
 -(IBAction) scrollToSection1;
 -(IBAction) scrollToSection2;
 -(IBAction) scrollToSection3;
 -(IBAction)connectToHost;
 
-//- (IBAction)sendMessage:(id)sender; //send message in console
+- (IBAction)sendMessage; //send message in console
 //- (void) messageReceived:(NSString *)message; //messages received in console
-//- (void) messageSent:(NSString *)message; //messages sent in console
+- (void) messageSent:(NSString *)message; //messages sent in console
 @end

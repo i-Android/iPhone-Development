@@ -16,7 +16,7 @@
             connectBtn, saveBtn, editBtn, disconnetBtn, sendBtn,
             inputHostField, inputPortField, inputNameField, upField, rightField, downField, leftField, inputConsoleField, secondsLabel, secondsNote, statusLabel,
             inputStream, outputStream, serverResponses,
-            consoleFont, tableView;
+            consoleFont, tView;
 
 - (void)viewDidLoad{
 
@@ -25,6 +25,8 @@
     connected = FALSE; //start connected as false
     errorCounter = 0;
 
+    //allocate array for response messages from server
+    serverResponses = [[NSMutableArray alloc] init];
     
 
     //add a UIScroller where all the content will reside
@@ -218,10 +220,14 @@
     [self.mainScrollView addSubview:consoleImage];
     
     //add table view where console messages will be placed
-    tableView = [[UITableView alloc] initWithFrame:CGRectMake(38, 1271, 243, 86) style:UITableViewStyleGrouped];
-    //self->tableView.delegate = self;
-    //self->tableView.dataSource = self;
-    [self.mainScrollView addSubview:tableView];
+    tView = [[UITableView alloc] initWithFrame:CGRectMake(38, 1271, 243, 86) style:UITableViewStyleGrouped];
+    self->tView.delegate = self;
+    self->tView.dataSource = self;
+    tView.separatorColor = [UIColor clearColor];
+//    tView.sectionIndexColor = [UIColor clearColor];
+    UIView *clearView = [[UIView alloc] initWithFrame:[tView bounds]];
+    tView.backgroundView = clearView;
+    [self.mainScrollView addSubview:tView];
     
     //add reflection to console window
     consoleReflecImg = [[UIImageView alloc] initWithImage:statusReflectionImg];
@@ -230,7 +236,7 @@
 
     //add send button
     sendBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [sendBtn addTarget:self action:@selector(connectToHost) forControlEvents:UIControlEventTouchDown];
+    [sendBtn addTarget:self action:@selector(sendMessage) forControlEvents:UIControlEventTouchDown];
     UIImage *sendBtnImg = [UIImage imageNamed:@"send-btn.png"];
     [sendBtn setBackgroundImage:sendBtnImg forState:UIControlStateNormal];
     sendBtn.frame = CGRectMake(208, 1353, 81.5, 43.5);
@@ -284,6 +290,38 @@
     
     CGPoint bottomOffset = CGPointMake(0, 1136);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
+}
+
+
+//console table code
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    static NSString *CellIdentifier = @"ChatCellIdentifier";
+    
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    
+    
+    // Add text to rows
+    NSString *s = (NSString *) [serverResponses objectAtIndex:indexPath.row];
+    cell.textLabel.text = s;
+    cell.textLabel.font = consoleFont;
+    cell.textLabel.textColor = [UIColor colorWithRed:(0.0/255.f) green:(186.0/255.f) blue:(255.0/255.f) alpha:1.0];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.backgroundColor = [UIColor clearColor];
+
+	return cell;
+}
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return serverResponses.count;
 }
 
 
@@ -423,19 +461,19 @@
 }
 
 
-////console send message function
-//- (IBAction)sendMessage:(id)sender {
-//    //[self.view endEditing:YES];//hide keyboard if open
-//    
-//    if([inputConsoleField.text length] > 0){
-//        NSString *response  = [NSString stringWithFormat: @"%@\n", inputConsoleField.text];
-//        NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
-//        [outputStream write:[data bytes] maxLength:[data length]];
-//        [self messageSent:response]; //add resposne to array
-//    }
-//}
-//
-//
+//console send message function
+- (IBAction)sendMessage {
+    //[self.view endEditing:YES];//hide keyboard if open
+    
+    if([inputConsoleField.text length] > 0){
+        NSString *response  = [NSString stringWithFormat: @"%@\n", inputConsoleField.text];
+        NSData *data = [[NSData alloc] initWithData:[response dataUsingEncoding:NSASCIIStringEncoding]];
+        [outputStream write:[data bytes] maxLength:[data length]];
+        [self messageSent:response]; //add resposne to array
+    }
+}
+
+
 ////store the string response in array and place it into table
 //- (void) messageReceived:(NSString *)message {
 //	[serverResponses addObject:message];
@@ -451,14 +489,14 @@
 //    
 //    [tableView setContentOffset:CGPointMake(0, self->tableView.contentSize.height- self->tableView.frame.size.height)]; //autoscrolls table
 //}
-//
-//- (void) messageSent:(NSString *)message {
-//    NSMutableString *userMessage = [NSMutableString stringWithString: @"> "];
-//    [userMessage appendString: message];
-//    
-//	[serverResponses addObject:userMessage];
-//	[self->tableView reloadData];
-//    [tableView setContentOffset:CGPointMake(0, self->tableView.contentSize.height- self->tableView.frame.size.height)]; //autoscrolls table
-//}
+
+- (void) messageSent:(NSString *)message {
+    NSMutableString *userMessage = [NSMutableString stringWithString: @"> "];
+    [userMessage appendString: message];
+    
+	[serverResponses addObject:userMessage];
+	[self->tView reloadData];
+    [tView setContentOffset:CGPointMake(0, self->tView.contentSize.height- self->tView.frame.size.height)]; //autoscrolls table
+}
 
 @end
