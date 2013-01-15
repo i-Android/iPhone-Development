@@ -220,13 +220,15 @@
     [self.mainScrollView addSubview:consoleImage];
     
     //add table view where console messages will be placed
-    tView = [[UITableView alloc] initWithFrame:CGRectMake(38, 1271, 243, 86) style:UITableViewStyleGrouped];
+    tView = [[UITableView alloc] initWithFrame:CGRectMake(38, 1271, 243, 86) style:UITableViewStylePlain];
     self->tView.delegate = self;
     self->tView.dataSource = self;
     tView.separatorColor = [UIColor clearColor];
-//    tView.sectionIndexColor = [UIColor clearColor];
+    tView.backgroundColor = [UIColor clearColor];
+    tView.scrollEnabled = NO;
+    //tView.sectionIndexColor = [UIColor clearColor];
     UIView *clearView = [[UIView alloc] initWithFrame:[tView bounds]];
-    tView.backgroundView = clearView;
+    tView.backgroundView = clearView; //this clears the default bg image
     [self.mainScrollView addSubview:tView];
     
     //add reflection to console window
@@ -310,9 +312,14 @@
     cell.textLabel.font = consoleFont;
     cell.textLabel.textColor = [UIColor colorWithRed:(0.0/255.f) green:(186.0/255.f) blue:(255.0/255.f) alpha:1.0];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.backgroundColor = [UIColor clearColor];
-
+    //cell.backgroundColor = [UIColor purpleColor];
+    
 	return cell;
+}
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 21.8f;
 }
 
 
