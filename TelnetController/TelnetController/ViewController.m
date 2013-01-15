@@ -12,11 +12,11 @@
 @end
 
 @implementation ViewController
-@synthesize mainScrollView, sliderView, mainbg, logo, tooltipSlider, statusImage, statusReflecImg, consoleImage, consoleReflecImg,
-            connectBtn, saveBtn, editBtn, disconnetBtn, sendBtn,
+@synthesize mainScrollView, sliderView, joystickView, mainbg, logo, tooltipSlider, statusImage, statusReflecImg, consoleImage, consoleReflecImg,
+            connectBtn, saveBtn, editBtn, editBtn2, disconnetBtn, sendBtn,
             inputHostField, inputPortField, inputNameField, upField, rightField, downField, leftField, inputConsoleField, secondsLabel, secondsNote, statusLabel,
             inputStream, outputStream, serverResponses,
-            consoleFont, tView,
+            consoleFont, tView, 
             joystick;
 
 - (void)viewDidLoad{
@@ -25,6 +25,7 @@
     
     connected = FALSE; //start connected as false
     errorCounter = 0;
+    section = 1; //keeps track of which section the page is in
 
     //allocate array for response messages from server
     serverResponses = [[NSMutableArray alloc] init];
@@ -61,7 +62,7 @@
     connectBtn.frame = CGRectMake(100.0, 246.0, 121.5, 70.0);
     [self.mainScrollView addSubview:connectBtn];
     
-    //add save button
+    //add edit button
     editBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [editBtn addTarget:self action:@selector(scrollToSection2) forControlEvents:UIControlEventTouchDown];
     UIImage *editBtnImg = [UIImage imageNamed:@"edit-btn.png"];
@@ -259,11 +260,28 @@
     [self.mainScrollView addSubview:inputConsoleField];
     
     
+    //UIView to capture touches on edit screen
+    joystickView = [[UIView alloc] initWithFrame: self.view.frame];
+    [joystickView setFrame:CGRectMake(15, 270, 290, 290)];
+    //[joystickView setBackgroundColor:[UIColor redColor]];
+    joystickView.layer.cornerRadius = 145;
+    [joystickView setUserInteractionEnabled:YES];
+//    joystickView.clipsToBounds = YES;
+//    joystickView.layer.masksToBounds = YES;
+    
     //add joystick
     UIImage * joystickImg = [UIImage imageNamed:@"joystick.png"];
     joystick = [[DragImage alloc] initWithImage:joystickImg];
     joystick.frame = CGRectMake(71, 1465,175.5,185);
     [self.mainScrollView addSubview:joystick];
+    
+
+    //add invisible edit button ontop of mouseable view to allow for it to work
+    editBtn2 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [editBtn2 addTarget:self action:@selector(scrollToSection2) forControlEvents:UIControlEventTouchDown];
+    UIImage *editBtn2Img = [UIImage imageNamed:@"transparent.png"];
+    [editBtn2 setBackgroundImage:editBtn2Img forState:UIControlStateNormal];
+    editBtn2.frame = CGRectMake(240.0, 0, 45, 51.5);
     
     
     [super viewDidLoad];
@@ -281,27 +299,50 @@
     [inputHostField becomeFirstResponder]; //make this field immediately editable
     CGPoint bottomOffset = CGPointMake(0, 0);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
-    //NSLog(@"%f",[mainScrollView contentSize].height);
+
+    //disconnect from server
     [self disconnectToHost];
+    
+    section = 1;
 }
 
 - (IBAction) scrollToSection2{
     //add the touch area on slider
     [self.view addSubview:sliderView];
     
+    //remove joystick view
+    [self.view bringSubviewToFront:joystickView];
+    [joystickView removeFromSuperview];
+    
+    //remove edit button
+    [self.view bringSubviewToFront:joystickView];
+    [joystickView removeFromSuperview];
+    
     [upField becomeFirstResponder]; //make this field immediately editable
     
     CGPoint bottomOffset = CGPointMake(0, 568);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
+    
+    section = 2;
 }
 
 - (IBAction) scrollToSection3{
+    //remove slider view
     [self.view bringSubviewToFront:sliderView];
     [sliderView removeFromSuperview];
+    
+    //add joystick view
+    [self.view addSubview:joystickView];
+    //add edit button in joystick view
+    [self.joystickView addSubview:editBtn2];
+    
     [self.view endEditing:YES];//hide keyboard
+    
     
     CGPoint bottomOffset = CGPointMake(0, 1136);
     [mainScrollView setContentOffset:bottomOffset animated:YES];
+    
+    section = 3;
 }
 
 
@@ -349,35 +390,58 @@
 
 
 
+- (void) touchesBegan:(NSSet*)touches withEvent:(UIEvent*)event {
+    // Retrieve the touch point
+    CGPoint pt = [[touches anyObject] locationInView:joystickView.self];
+    startPoint = pt;
+    NSLog(@"%f, %f", pt.x, pt.y);
+}
+
 -(void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
     
     UITouch *touch = [[event allTouches] anyObject];
     CGPoint location = [touch locationInView:touch.view];
+    //NSLog(@"%f", location.x);
     
-    //map x position between 0.1 and 1.0
-    float outVal, value, inputMin, inputMax, outputMin, outputMax;
-    value = location.x;
-    inputMin = 15;
-    inputMax = 282;
-    outputMin = 0.0;
-    outputMax = 1.0;
     
-	outVal = ((value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin);
-	if(outVal >  outputMax){
-		outVal = outputMax;
-	}
-	if(outVal <  outputMin){
-		outVal = outputMin;
-	}
-
-    //move tooltip and adjust numbers accordingly
-    if(location.x > 37.75 && location.x < 282.25){
-        [tooltipSlider setCenter:CGPointMake(location.x, 789)];
-        [secondsLabel setCenter:CGPointMake(location.x, 761)];
-        secondsLabel.text = [NSString stringWithFormat:@"%0.1f", outVal];
-        secondsNote.text = [NSString stringWithFormat:@"The joypad will send the server data every %0.1f seconds", outVal];
+    if(section == 2){
+        
+        //map x position between 0.1 and 1.0
+        float outVal, value, inputMin, inputMax, outputMin, outputMax;
+        value = location.x;
+        inputMin = 15;
+        inputMax = 282;
+        outputMin = 0.0;
+        outputMax = 1.0;
+        
+        outVal = ((value - inputMin) / (inputMax - inputMin) * (outputMax - outputMin) + outputMin);
+        if(outVal >  outputMax){
+            outVal = outputMax;
+        }
+        if(outVal <  outputMin){
+            outVal = outputMin;
+        }
+        
+        //move tooltip and adjust numbers accordingly
+        if(location.x > 37.75 && location.x < 282.25){
+            [tooltipSlider setCenter:CGPointMake(location.x, 789)];
+            [secondsLabel setCenter:CGPointMake(location.x, 761)];
+            secondsLabel.text = [NSString stringWithFormat:@"%0.1f", outVal];
+            secondsNote.text = [NSString stringWithFormat:@"The joypad will send the server data every %0.1f seconds", outVal];
+        }
+    }else if(section == 3){
+//            joystick.frame = CGRectMake(71, 1465,175.5,185);
+        [joystick setCenter:CGPointMake(location.x-65+71, location.y-51+1465)];
     }
+
     
+}
+
+- (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+    
+    if(section == 3){
+        [joystick setCenter:CGPointMake(87.75+71, 92.5+1465)];
+    }
 }
 
 

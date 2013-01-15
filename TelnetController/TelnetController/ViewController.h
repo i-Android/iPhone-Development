@@ -8,6 +8,7 @@
 
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 #import "DragImage.h"
 
 @interface ViewController : UIViewController
@@ -15,14 +16,14 @@
                 
     UIScrollView *mainScrollView;
     UIImageView *mainbg, *logo, *tooltipSlider, *statusImage, *statusReflecImg, *consoleImage, *consoleReflecImg;
-    UIButton *connectBtn, *saveBtn, *editBtn, *disconnetBtn, *sendBtn;
+    UIButton *connectBtn, *saveBtn, *editBtn, *editBtn2, *disconnetBtn, *sendBtn;
     UITextField *inputHostField, *inputPortField, *inputNameField,
                 *upField, *rightField, *downField, *leftField, *inputConsoleField;
     UILabel *secondsLabel, *secondsNote, *statusLabel;
-    UIView *sliderView;
+    UIView *sliderView, *joystickView;
                                 
     BOOL connected;
-    int errorCounter, secondsValue;
+    int errorCounter, secondsValue, section;
     
     NSInputStream *inputStream;
     NSOutputStream *outputStream;
@@ -32,13 +33,15 @@
     UITableView * tView;
                                 
     DragImage *joystick;
+                                
+    CGPoint startPoint;
 }
 
 @property (nonatomic, retain) UIScrollView *mainScrollView;
-@property (nonatomic, retain) UIView *sliderView;
+@property (nonatomic, retain) UIView *sliderView, *joystickView;
 @property (nonatomic, retain) UIImageView *mainbg, *logo, *tooltipSlider, *statusImage,
                                 *statusReflecImg, *consoleImage, *consoleReflecImg;
-@property (nonatomic, retain) UIButton *connectBtn, *saveBtn, *editBtn, *disconnetBtn, *sendBtn;
+@property (nonatomic, retain) UIButton *connectBtn, *saveBtn, *editBtn, *editBtn2, *disconnetBtn, *sendBtn;
 @property (nonatomic, retain) UITextField *inputHostField, *inputPortField, *inputNameField,
                                 *upField, *rightField, *downField, *leftField, *inputConsoleField;
 @property (nonatomic, retain) UILabel *secondsLabel, *secondsNote, *statusLabel;

@@ -27,7 +27,7 @@
     [[self superview] bringSubviewToFront:self];
     
     touching = TRUE;
-    //NSLog(@"%@", (touching ? @"YES" : @"NO"));
+    NSLog(@"%@", (touching ? @"YES" : @"NO"));
 }
 
 - (void) touchesMoved:(NSSet*)touches withEvent:(UIEvent*)event {
