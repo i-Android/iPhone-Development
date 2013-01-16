@@ -53,7 +53,7 @@
     //add logo image
     UIImage * image1 = [UIImage imageNamed:@"logo.png"];
     logo = [[UIImageView alloc] initWithImage:image1];
-    logo.frame = CGRectMake(70, 79,180.5,28.0);
+    logo.frame = CGRectMake(97, 85,126.5,26.5);
     [self.mainScrollView addSubview:logo];
     
     //add connect button
