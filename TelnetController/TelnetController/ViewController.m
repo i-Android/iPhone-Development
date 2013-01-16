@@ -83,7 +83,7 @@
     inputHostField.keyboardType = UIKeyboardTypeDefault;
     inputHostField.returnKeyType = UIReturnKeyDone;
     inputHostField.clearButtonMode = UITextFieldViewModeWhileEditing;
-    inputHostField.text = @"128.122.151.169";
+    //inputHostField.text = @"128.122.151.169";
     [self.mainScrollView addSubview:inputHostField];
     [inputHostField becomeFirstResponder]; //make this field immediately editable
     
@@ -97,7 +97,7 @@
     inputPortField.keyboardType = UIKeyboardTypeDefault;
     inputPortField.returnKeyType = UIReturnKeyDone;
     inputPortField.clearButtonMode = UITextFieldViewModeWhileEditing;
-    inputPortField.text = @"8080";
+    //inputPortField.text = @"8080";
     [self.mainScrollView addSubview:inputPortField];
     
     //text fields for arrow controls
@@ -336,6 +336,8 @@
         [timer invalidate];
         timerActive = FALSE;
     }
+    
+    statusLabel.text = [NSString stringWithFormat:@"SERVER CONNECTED\r%@", inputHostField.text];
 }
 
 - (IBAction) scrollToSection3{
@@ -563,7 +565,7 @@
 }
 
 - (void)stream:(NSStream *)theStream handleEvent:(NSStreamEvent)streamEvent {
-    //NSLog(@"stream event %i", streamEvent);
+    NSLog(@"stream event %i", streamEvent);
     //error logging if connection has issues
     //NSError* error = [theStream streamError];
     //NSString* errorMessage = [NSString stringWithFormat:@"%@ (Code = %d)", [error localizedDescription], [error code]];

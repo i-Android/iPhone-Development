@@ -23,8 +23,12 @@
 		B24505F616A5D38E0083E043 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B24505F516A5D38E0083E043 /* QuartzCore.framework */; };
 		B24505F816A5DC870083E043 /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505F716A5DC870083E043 /* transparent.png */; };
 		B24505F916A5DC870083E043 /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505F716A5DC870083E043 /* transparent.png */; };
-		B24505FF16A6FA000083E043 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505FE16A6FA000083E043 /* icon.png */; };
-		B245060016A6FA000083E043 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B24505FE16A6FA000083E043 /* icon.png */; };
+		B245061316A717020083E043 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B245061016A717020083E043 /* icon-72.png */; };
+		B245061416A717020083E043 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B245061016A717020083E043 /* icon-72.png */; };
+		B245061516A717020083E043 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B245061116A717020083E043 /* icon.png */; };
+		B245061616A717020083E043 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B245061116A717020083E043 /* icon.png */; };
+		B245061716A717020083E043 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B245061216A717020083E043 /* icon@2x.png */; };
+		B245061816A717020083E043 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B245061216A717020083E043 /* icon@2x.png */; };
 		B2766AA216A226A800012194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA116A226A800012194 /* UIKit.framework */; };
 		B2766AA416A226A800012194 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA316A226A800012194 /* Foundation.framework */; };
 		B2766AA616A226A800012194 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2766AA516A226A800012194 /* CoreGraphics.framework */; };
@@ -69,7 +73,9 @@
 		B24505DE16A4C0510083E043 /* send-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "send-btn.png"; path = "Resources/send-btn.png"; sourceTree = SOURCE_ROOT; };
 		B24505F516A5D38E0083E043 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B24505F716A5DC870083E043 /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transparent.png; path = Resources/transparent.png; sourceTree = SOURCE_ROOT; };
-		B24505FE16A6FA000083E043 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = SOURCE_ROOT; };
+		B245061016A717020083E043 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icon-72.png"; sourceTree = SOURCE_ROOT; };
+		B245061116A717020083E043 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = SOURCE_ROOT; };
+		B245061216A717020083E043 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		B2766A9D16A226A800012194 /* TelnetController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelnetController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2766AA116A226A800012194 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2766AA316A226A800012194 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -217,7 +223,9 @@
 				B242E52316A3837E00DA16CB /* reflection.png */,
 				B24505F716A5DC870083E043 /* transparent.png */,
 				B24505D816A4AE0F0083E043 /* EHSMB.TTF */,
-				B24505FE16A6FA000083E043 /* icon.png */,
+				B245061016A717020083E043 /* icon-72.png */,
+				B245061116A717020083E043 /* icon.png */,
+				B245061216A717020083E043 /* icon@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -312,7 +320,9 @@
 				B24505DC16A4B9E10083E043 /* console.png in Resources */,
 				B24505DF16A4C0510083E043 /* send-btn.png in Resources */,
 				B24505F816A5DC870083E043 /* transparent.png in Resources */,
-				B24505FF16A6FA000083E043 /* icon.png in Resources */,
+				B245061316A717020083E043 /* icon-72.png in Resources */,
+				B245061516A717020083E043 /* icon.png in Resources */,
+				B245061716A717020083E043 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +335,9 @@
 				B24505DD16A4B9E10083E043 /* console.png in Resources */,
 				B24505E016A4C0510083E043 /* send-btn.png in Resources */,
 				B24505F916A5DC870083E043 /* transparent.png in Resources */,
-				B245060016A6FA000083E043 /* icon.png in Resources */,
+				B245061416A717020083E043 /* icon-72.png in Resources */,
+				B245061616A717020083E043 /* icon.png in Resources */,
+				B245061816A717020083E043 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +433,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -449,7 +462,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Robert Tilton";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Robert Tilton (SKPCTB67FP)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -457,6 +471,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "FC5CCDBB-6FDA-4591-9A4D-9A843A1361A9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "91CC43AD-65DE-43AC-AD42-32248D27CBAC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

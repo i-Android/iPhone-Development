@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>3E4X3B9Z9T.rt.TelnetController</string>
+	<string>3E4X3B9Z9T.netmote</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>3E4X3B9Z9T.rt.TelnetController</string>
+		<string>3E4X3B9Z9T.netmote</string>
 	</array>
 </dict>
 </plist>
