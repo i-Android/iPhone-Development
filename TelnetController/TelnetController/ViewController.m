@@ -337,7 +337,8 @@
         timerActive = FALSE;
     }
     
-    statusLabel.text = [NSString stringWithFormat:@"SERVER CONNECTED\r%@", inputHostField.text];
+    //update the fields with the latest user data
+    statusLabel.text = [NSString stringWithFormat:@"SERVER CONNECTED\r%@ : %@", inputHostField.text, inputPortField.text];
 }
 
 - (IBAction) scrollToSection3{
