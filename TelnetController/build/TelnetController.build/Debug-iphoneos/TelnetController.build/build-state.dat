@@ -6,10 +6,10 @@ cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platfo
 cProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Info.plist TelnetController/TelnetController-Info.plist
 cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetController-Prefix-geknhapbbcbnhhcerjklvnwlzzcq/TelnetController-Prefix.pch.pth TelnetController/TelnetController-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /var/folders/hw/zqky_sx91mx4q2v9krt7zc3c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TelnetController-Prefix-fhadyzriasftdugkzgfqqigsyfbb/TelnetController-Prefix.pch.pth TelnetController/TelnetController-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/main.o /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/main.o /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/ViewController.o /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/main.o /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/ViewController.o /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/TelnetController normal armv7
@@ -17,15 +17,15 @@ cLd /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Teln
 cCreateUniversalBinary /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController normal "armv7 armv7s"
 cGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController
 cCopyStringsFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/en.lproj/InfoPlist.strings TelnetController/en.lproj/InfoPlist.strings
-cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Default.png TelnetController/Default.png
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Default@2x.png TelnetController/Default@2x.png
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Default-568h@2x.png TelnetController/Default-568h@2x.png
-cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/en.lproj/MainStoryboard_iPad.storyboard
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Default.png TelnetController/Default.png
 cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/en.lproj/MainStoryboard_iPhone.storyboard
-cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/logo.png Resources/logo.png
+cCompileStoryboard /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/en.lproj/MainStoryboard_iPad.storyboard
 cCpResource Resources/main-bg.jpg build/Debug-iphoneos/TelnetController.app/main-bg.jpg
-cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/save-btn.png Resources/save-btn.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/logo.png Resources/logo.png
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/connect-btn.png Resources/connect-btn.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/save-btn.png Resources/save-btn.png
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/tooltip-slider-btn.png Resources/tooltip-slider-btn.png
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/joystick.png Resources/joystick.png
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/edit-btn.png Resources/edit-btn.png
@@ -36,8 +36,8 @@ cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/b
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/send-btn.png Resources/send-btn.png
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/icon-72.png Resources/icon-72.png
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/transparent.png Resources/transparent.png
-cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/icon.png Resources/icon.png
 cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/icon@2x.png Resources/icon@2x.png
+cCopyPNGFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/icon.png Resources/icon.png
 cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/embedded.mobileprovision
 cProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/embedded.mobileprovision
 cTouch /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app
@@ -288,11 +288,11 @@ t1358032680
 s349
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app
-t1358379854
+t1359140895
 s952
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM
-t1358379904
+t1358448841
 s102
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Default-568h@2x.png
@@ -324,11 +324,11 @@ t1358355837
 s24845
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Info.plist
-t1358356368
-s1380
+t1359140894
+s1375
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/PkgInfo
-t1358356368
+t1359140894
 s8
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/ResourceRules.plist
@@ -336,7 +336,7 @@ t1358032735
 s150
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController
-t1358379854
+t1359140895
 s174736
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/connect-btn.png
@@ -432,7 +432,7 @@ t2
 s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/TelnetController
-t1358379852
+t1358442388
 s78392
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/TelnetController.LinkFileList
@@ -441,8 +441,8 @@ t1358288840
 s500
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/ViewController.o
-t1358379850
-s188304
+t1358442388
+s188528
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/customScrollView.o
 t2
@@ -469,7 +469,7 @@ t2
 s0
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/TelnetController
-t1358379852
+t1358442388
 s78396
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/TelnetController.LinkFileList
@@ -478,8 +478,8 @@ t1358288840
 s503
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/ViewController.o
-t1358379850
-s188280
+t1358442388
+s188504
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/customScrollView.o
 t2
@@ -490,7 +490,7 @@ t1358032736
 s3380
 
 N/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent
-t1358356368
+t1359140894
 s388
 
 N/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision
@@ -545,15 +545,16 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7d91ec1267a8b641^49490f1367a8b641^---0#1#0#--18"Check dependencies36"D383D430-F0B5-4B43-A5FE-A5746D040409-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies65c8b18d10b3b641^4720b28d10b3b641^---0#1#0#--18"Check dependencies36"52DCD248-7770-4998-B8D4-B47A8AB2B99B-
 
 CCodeSign /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app
-s380135188.666169
-e380135189.256229
+s380833694.926490
+e380833695.809759
 r1
 xCodeSign
 x/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"CodeSign build/Debug-iphoneos/TelnetController.app1aa2aa1467a8b641^af98411567a8b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/0000000000000000^950"CodeSign build/Debug-iphoneos/TelnetController.app    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a4703e0e8312df06f97b588089b0376a2ea07345 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app36"AA93BDC3-478E-4AB8-8970-743DA5737E52-
+o/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app: replacing invalid existing signature
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"CodeSign build/Debug-iphoneos/TelnetController.app2f4ded9e0fb3b641^6a4dcf9f0fb3b641^-145"/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app: replacing invalid existing signature-0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/0000000000000000^950"CodeSign build/Debug-iphoneos/TelnetController.app    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign a4703e0e8312df06f97b588089b0376a2ea07345 --resource-rules=/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/ResourceRules.plist --entitlements /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app36"196C707F-F2B8-4761-AFAF-D866F85FCE54-
 
 CCompileC build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/AppDelegate.o /Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s379725536.055450
@@ -928,13 +929,13 @@ xarmv7 armv7s
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Create universal binary /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController63097f1467a8b641^c426861467a8b641^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController0000000000000000^857"CreateUniversalBinary build/Debug-iphoneos/TelnetController.app/TelnetController normal "armv7 armv7s"    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/TelnetController /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/TelnetController -output /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController36"3402038A-A445-4CCB-B4DE-50B4AEBBE9C0-
 
 CGenerateDSYMFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController
-s380135188.531882
-e380135188.601329
+s380833933.743040
+e380833933.937238
 r1
 xGenerateDSYMFile
 x/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM
 x/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Generating /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM753e881467a8b641^17f1991467a8b641^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM/0000000000000000^725"GenerateDSYMFile build/Debug-iphoneos/TelnetController.app.dSYM build/Debug-iphoneos/TelnetController.app/TelnetController    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController -o /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM36"AA0A61F0-E9B5-4857-9E7A-DFB552D71BD0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Generating /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM5e49be8d10b3b641^17efef8d10b3b641^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM/0000000000000000^725"GenerateDSYMFile build/Debug-iphoneos/TelnetController.app.dSYM build/Debug-iphoneos/TelnetController.app/TelnetController    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/TelnetController -o /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app.dSYM36"24D13FB4-CCE7-4908-BF53-E7D94B14FA6C-
 
 CLd /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7/TelnetController normal armv7
 s380135188.127935
@@ -957,13 +958,13 @@ xarmv7s
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection176"Link /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/TelnetControllerb62e211467a8b641^27bc7c1467a8b641^---0#0#0#--1351"Ld build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/TelnetController normal armv7s    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -L/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos -F/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos -filelist /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/TelnetController.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.0 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/Objects-normal/armv7s/TelnetController36"B9DEEE49-1581-4F95-904C-909A557B80DD-
 
 CProcessInfoPlistFile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Info.plist TelnetController/TelnetController-Info.plist
-s380049168.564829
-e380049168.575741
+s380833694.722861
+e380833694.727013
 r1
 xProcessInfoPlistFile
 x/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Info.plist
 xTelnetController/TelnetController-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Process TelnetController/TelnetController-Info.pliste4bb901017a7b641^d866931017a7b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/TelnetController-Info.plist0000000000000000^906"ProcessInfoPlistFile build/Debug-iphoneos/TelnetController.app/Info.plist TelnetController/TelnetController-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TelnetController/TelnetController-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Info.plist36"1FAF6059-2F2D-448B-B9CF-688E4CACD6EC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Process TelnetController/TelnetController-Info.plist2331b99e0fb3b641^751dba9e0fb3b641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/TelnetController/TelnetController-Info.plist0000000000000000^906"ProcessInfoPlistFile build/Debug-iphoneos/TelnetController.app/Info.plist TelnetController/TelnetController-Info.plist    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TelnetController/TelnetController-Info.plist -genpkginfo /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/ResourceRules.plist -o /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/Info.plist36"6491AE89-015B-42BA-B52A-22137D0F28AF-
 
 CProcessPCH /Users/roberttilton/Library/Developer/Xcode/DerivedData/TelnetController-dvqjbphhragxzvbudpweovlbjwqj/Index/PrecompiledHeaders/TelnetController-Prefix-gmstzwhiagwjjsevwiunanduvoxl_ast/TelnetController-Prefix.pch.pth TelnetController/TelnetController-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
@@ -1019,19 +1020,19 @@ x/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-i
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection208"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/TelnetController.app/embedded.mobileprovision3e2379e026a2b641^3cf479e026a2b641^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/embedded.mobileprovision0000000000000000^760"ProcessProductPackaging "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" build/Debug-iphoneos/TelnetController.app/embedded.mobileprovision    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/roberttilton/Library/MobileDevice/Provisioning Profiles/91CC43AD-65DE-43AC-AD42-32248D27CBAC.mobileprovision" -o /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app/embedded.mobileprovision36"0D2653C1-8761-49E9-91A0-7417A58C2D10-
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent
-s380049168.943511
-e380049168.967337
+s380833694.890641
+e380833694.918187
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist
 x/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection234"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent7c9cf11017a7b641^caa7f71017a7b641^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent0000000000000000^838"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent36"5CA8C359-023C-46B4-8892-C7977FBF5B01-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection234"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcentd714e49e0fb3b641^a20eeb9e0fb3b641^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent0000000000000000^838"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/TelnetController.build/Debug-iphoneos/TelnetController.build/TelnetController.xcent36"538EEF44-D0C3-4BD3-ADA6-103018A1F171-
 
 CTouch /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app
-s380135188.643556
-e380135188.647880
+s380833694.816987
+e380833694.881668
 r1
 xTouch
 x/Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Touch /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app5bcfa41467a8b641^16dea51467a8b641^---0#0#0#--439"Touch build/Debug-iphoneos/TelnetController.app    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app36"5D778ED8-C5E3-4916-A02E-A450B9C9F71A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Touch /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.appef3cd19e0fb3b641^d9b5e19e0fb3b641^---0#0#0#--439"Touch build/Debug-iphoneos/TelnetController.app    cd /Users/roberttilton/Documents/iPhone-Development/TelnetController    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/roberttilton/Documents/iPhone-Development/TelnetController/build/Debug-iphoneos/TelnetController.app36"5A2F3C06-C211-42A3-91DF-06111180E497-
 
